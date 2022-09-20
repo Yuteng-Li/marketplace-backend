@@ -17,7 +17,7 @@ public class CreditCardController {
     @Autowired
     CreditCardService service;
 
-    @GetMapping("/")
+    @GetMapping("/getCards")
     public ResponseEntity<List<CreditCard>> getAllCards () throws Exception {
         return new ResponseEntity<List<CreditCard>>(service.getAll(), HttpStatus.OK);
     }

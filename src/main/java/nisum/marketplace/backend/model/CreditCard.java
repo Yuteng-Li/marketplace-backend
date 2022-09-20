@@ -4,7 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Table
+@Table(name ="creditcards")
 @Entity
 public class CreditCard {
     @Id
@@ -14,7 +14,7 @@ public class CreditCard {
     String CardType;
     String CardNumber;
     String SecurityNumber;
-    String Exp;
+    String Expiration;
 
     public Integer getCreditCardID() {
         return CreditCardID;
@@ -64,12 +64,12 @@ public class CreditCard {
         SecurityNumber = securityNumber;
     }
 
-    public String getExp() {
-        return Exp;
+    public String getExpiration() {
+        return Expiration;
     }
 
-    public void setExp(String exp) {
-        Exp = exp;
+    public void setExpiration(String expiration) {
+        Expiration = expiration;
     }
 
     @Override
@@ -81,7 +81,7 @@ public class CreditCard {
                 ", CardType='" + CardType + '\'' +
                 ", CardNumber='" + CardNumber + '\'' +
                 ", SecurityNumber='" + SecurityNumber + '\'' +
-                ", Exp='" + Exp + '\'' +
+                ", Expiration='" + Expiration + '\'' +
                 '}';
     }
 }
