@@ -5,7 +5,6 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -20,7 +19,6 @@ import org.springframework.web.reactive.function.client.WebClient;
 
 import nisum.marketplace.backend.model.CartItems;
 import nisum.marketplace.backend.service.CartItemsService;
-import reactor.core.publisher.Mono;
 
 @CrossOrigin
 /*localhost:8080/api/cartitems/(the mapping I defined)*/
