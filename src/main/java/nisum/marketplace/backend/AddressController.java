@@ -38,7 +38,7 @@ public class AddressController {
 		try {
 			return new ResponseEntity<Address>(service.getAddressById(id), HttpStatus.OK);
 		}catch (Exception e){
-			return new ResponseEntity<String>("Item " + id + " not found", HttpStatus.NOT_FOUND);
+			return new ResponseEntity<String>("Address " + id + " not found", HttpStatus.NOT_FOUND);
 		}
 	}
 	
@@ -47,7 +47,7 @@ public class AddressController {
 		try {
 			return new ResponseEntity<Boolean>(service.deleteAddressById(id), HttpStatus.OK);
 		}catch(Exception e) {
-			return new ResponseEntity<String>("Item " + id + " not found", HttpStatus.NOT_FOUND);
+			return new ResponseEntity<String>("Address  " + id + " not found", HttpStatus.NOT_FOUND);
 		}
 	}
 	
@@ -56,7 +56,7 @@ public class AddressController {
 		try {
 			return new ResponseEntity<Address>(service.updateAddress(id, address), HttpStatus.OK);
 		}catch(Exception e) {
-			return new ResponseEntity<String>("Item " + id + " not found", HttpStatus.NOT_FOUND);
+			return new ResponseEntity<String>("Address  " + id + " not found", HttpStatus.NOT_FOUND);
 		}
 	}
 	
@@ -65,7 +65,7 @@ public class AddressController {
 		try {
 			return new ResponseEntity<Address>(service.createAddress(address), HttpStatus.CREATED);
 		}catch(Exception e) {
-			return new ResponseEntity<String>("Item " + address.getAddressID() + " not created", HttpStatus.BAD_REQUEST);
+			return new ResponseEntity<String>("Address " + address.getAddressID() + " not created", HttpStatus.BAD_REQUEST);
 		}
 	}
 	
