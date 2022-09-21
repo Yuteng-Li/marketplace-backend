@@ -1,5 +1,8 @@
 package nisum.marketplace.backend;
 
+import java.util.List;
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -31,8 +34,7 @@ public class CartItemsController {
 	@GetMapping("/getcart")
 	public ResponseEntity<Object> getCart(){
 		try {
-			//var  has type CartItems
-			var cartList = cartService.getCart();
+			List<CartItems> cartList = cartService.getCart();
 			//return Ok and the body with cartList
 			return ResponseEntity.status(HttpStatus.OK).body(cartList);
 		}
@@ -49,8 +51,8 @@ public class CartItemsController {
 	@GetMapping("/getcart/{id}")
 	public ResponseEntity<Object> getCartById(@PathVariable Integer id){
 		try {
-			//result is of type Optional<CartItems>
-			var result = cartService.findCartById(id);
+			
+			Optional<CartItems> result = cartService.findCartById(id);
 			//when we have a cart by ID
 			if(result.isPresent()) {
 				return ResponseEntity.status(HttpStatus.OK).body(result);
@@ -69,8 +71,7 @@ public class CartItemsController {
 	@PostMapping("/createcart")
 	public ResponseEntity<Object> createCart(@RequestBody CartItems cartItems){
 		try {
-			//result has type CartItems
-			var result = cartService.createSale(cartItems);
+			CartItems result = cartService.createSale(cartItems);
 			return ResponseEntity.status(HttpStatus.OK).body(result);
 		}
 		//when we fail to create cart
@@ -83,9 +84,8 @@ public class CartItemsController {
 	@PutMapping("/updatecart")
 	public ResponseEntity<Object> updateCart(@RequestBody CartItems cartItems){
 		try {
-			//result has type CartItems
 			//this is basically the same as createCart method
-			var result = cartService.updateCart(cartItems);
+			CartItems result = cartService.updateCart(cartItems);
 			return ResponseEntity.status(HttpStatus.OK).body(result);
 		}
 		catch(Exception e) {
