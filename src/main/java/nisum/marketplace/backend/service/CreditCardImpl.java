@@ -21,6 +21,7 @@ public class CreditCardImpl implements CreditCardService{
     @Override
     public CreditCard getCreditCardByID(Integer creditCardID) throws Exception{
         if(cardRepository.findById(creditCardID).isEmpty()){
+            System.out.println("Card with id:" + creditCardID +" could not be found.");
             throw new Exception();
         }
         else{
@@ -31,6 +32,7 @@ public class CreditCardImpl implements CreditCardService{
     @Override
     public CreditCard createCreditCard(CreditCard creditCard) throws Exception {
         if(cardRepository.existsById(creditCard.getCreditCardID())){
+            System.out.println("Card could not be created. Card already exists.");
             throw new Exception();
         }
         else{
@@ -41,6 +43,7 @@ public class CreditCardImpl implements CreditCardService{
     @Override
     public CreditCard updateCreditCard(Integer creditCardID, CreditCard creditCard) throws Exception{
         if(!cardRepository.existsById(creditCard.getCreditCardID())){
+            System.out.println("Card could not be updated. Card does not exists.");
             throw new Exception();
         }
         else{
@@ -51,6 +54,7 @@ public class CreditCardImpl implements CreditCardService{
     @Override
     public boolean deleteCreditCardByID(Integer creditCardID) throws Exception{
         if(!cardRepository.existsById(creditCardID)){
+            System.out.println("Card could not be deleted. Card does not exists.");
             throw new Exception();
         }
         else{

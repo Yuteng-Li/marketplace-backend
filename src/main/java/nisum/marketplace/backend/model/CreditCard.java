@@ -1,87 +1,95 @@
 package nisum.marketplace.backend.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
-@Table(name ="creditcards")
+@Table(name = "creditcards")
 @Entity
 public class CreditCard {
-    @Id
-    Integer CreditCardID;
-    Integer UserID;
-    String BankName;
-    String CardType;
-    String CardNumber;
-    String SecurityNumber;
-    String Expiration;
+    @Id @GeneratedValue(strategy= GenerationType.IDENTITY)
+    private Integer creditCardID;
+    private Integer userID;
+    private String bankName;
+    private String cardholderName;
+    private String cardType;
+    private String cardNumber;
+    private String securityNumber;
+    private String expiration;
 
     public Integer getCreditCardID() {
-        return CreditCardID;
+        return creditCardID;
     }
 
     public void setCreditCardID(Integer creditCardID) {
-        CreditCardID = creditCardID;
+        this.creditCardID = creditCardID;
     }
 
     public Integer getUserID() {
-        return UserID;
+        return userID;
     }
 
     public void setUserID(Integer userID) {
-        UserID = userID;
+        this.userID = userID;
     }
 
     public String getBankName() {
-        return BankName;
+        return bankName;
     }
 
     public void setBankName(String bankName) {
-        BankName = bankName;
+        this.bankName = bankName;
+    }
+
+    public String getCardholderName() {
+        return cardholderName;
+    }
+
+    public void setCardholderName(String cardholderName) {
+        this.cardholderName = cardholderName;
     }
 
     public String getCardType() {
-        return CardType;
+        return cardType;
     }
 
     public void setCardType(String cardType) {
-        CardType = cardType;
+        this.cardType = cardType;
     }
 
     public String getCardNumber() {
-        return CardNumber;
+        return cardNumber;
     }
 
     public void setCardNumber(String cardNumber) {
-        CardNumber = cardNumber;
+        this.cardNumber = cardNumber;
     }
 
     public String getSecurityNumber() {
-        return SecurityNumber;
+        return securityNumber;
     }
 
     public void setSecurityNumber(String securityNumber) {
-        SecurityNumber = securityNumber;
+        this.securityNumber = securityNumber;
     }
 
     public String getExpiration() {
-        return Expiration;
+        return expiration;
     }
 
     public void setExpiration(String expiration) {
-        Expiration = expiration;
+        this.expiration = expiration;
     }
 
     @Override
     public String toString() {
         return "CreditCard{" +
-                "CreditCardID=" + CreditCardID +
-                ", UserID=" + UserID +
-                ", BankName='" + BankName + '\'' +
-                ", CardType='" + CardType + '\'' +
-                ", CardNumber='" + CardNumber + '\'' +
-                ", SecurityNumber='" + SecurityNumber + '\'' +
-                ", Expiration='" + Expiration + '\'' +
+                "creditCardID=" + creditCardID +
+                ", userID=" + userID +
+                ", bankName='" + bankName + '\'' +
+                ", cardholderName='" + cardholderName + '\'' +
+                ", cardType='" + cardType + '\'' +
+                ", cardNumber='" + cardNumber + '\'' +
+                ", securityNumber='" + securityNumber + '\'' +
+                ", expiration='" + expiration + '\'' +
                 '}';
     }
 }
