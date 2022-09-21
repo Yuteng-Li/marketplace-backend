@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(path = "/creditCard")
+@RequestMapping(path = "/api/creditCard")
 public class CreditCardController {
 
     @Autowired
@@ -27,7 +27,7 @@ public class CreditCardController {
         try{
             return new ResponseEntity<CreditCard>(service.getCreditCardByID(id),HttpStatus.OK);
         } catch (Exception e) {
-            return new ResponseEntity<String>("Card not found", HttpStatus.CONFLICT);
+            return new ResponseEntity<String>("Card not found", HttpStatus.NOT_FOUND);
         }
 
     }
@@ -37,7 +37,7 @@ public class CreditCardController {
         try {
             return new ResponseEntity<CreditCard>(service.createCreditCard(card),HttpStatus.CREATED);
         } catch (Exception e) {
-            return new ResponseEntity<String>("Card could not be created", HttpStatus.CONFLICT);
+            return new ResponseEntity<String>("Card could not be created", HttpStatus.BAD_REQUEST);
         }
     }
 
