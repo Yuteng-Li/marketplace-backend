@@ -11,7 +11,8 @@ import javax.persistence.Table;
 @Entity
 public class CartItems {
 
-	@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Id 
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="cartitemid")
 	Integer cartItemID;
 	@Column(name="userid")
@@ -36,8 +37,8 @@ public class CartItems {
 	public String getUPC() {
 		return UPC;
 	}
-	public void setUPC(String uPC) {
-		UPC = uPC;
+	public void setUPC(String UPC) {
+		this.UPC = UPC;
 	}
 	public Integer getQuantity() {
 		return quantity;
@@ -45,11 +46,11 @@ public class CartItems {
 	public void setQuantity(Integer quantity) {
 		this.quantity = quantity;
 	}
-	public CartItems(Integer cartItemID, Integer userID, String uPC, Integer quantity) {
+	public CartItems(Integer cartItemID, Integer userID, String UPC, Integer quantity) {
 		super();
 		this.cartItemID = cartItemID;
 		this.userID = userID;
-		UPC = uPC;
+		this.UPC = UPC;
 		this.quantity = quantity;
 	}
 
