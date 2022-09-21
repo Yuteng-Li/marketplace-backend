@@ -20,8 +20,8 @@ import nisum.marketplace.backend.model.CartItems;
 import nisum.marketplace.backend.service.CartItemsService;
 
 @CrossOrigin
-/*localhost:8080/api/marketplace/(the mapping I defined)*/
-@RequestMapping("/api/marketplace")
+/*localhost:8080/api/cartitems/(the mapping I defined)*/
+@RequestMapping("/api/cartitems")
 @RestController
 public class CartItemsController {
 	
