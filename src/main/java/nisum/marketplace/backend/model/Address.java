@@ -11,16 +11,16 @@ import javax.persistence.Table;
 public class Address {
 	
 	@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
-	Integer addressID;
-	Integer userID;
-	String recipientName;
-	String street;
-	String street2;
-	String city;
-	String state;
-	String zip;
-	Boolean isShipping;
-	Boolean isBilling;
+	private Integer addressID;
+	private Integer userID;
+	private String recipientName;
+	private String street;
+	private String street2;
+	private String city;
+	private String state;
+	private String zip;
+	private Boolean isShipping;
+	private Boolean isBilling;
 	
 	public Address() {
 		
