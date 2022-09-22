@@ -1,3 +1,4 @@
+/*
 package nisum.marketplace.backend;
 
 import com.aventstack.extentreports.*;
@@ -9,8 +10,11 @@ import org.junit.Rule;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
 import org.springframework.test.context.event.annotation.BeforeTestClass;
+*/
+
 
 public class LoggingTests {
+/*
     static ExtentReports extentReport;
     static ExtentSparkReporter spark;
     static ExtentTest extentTest;
@@ -50,5 +54,5 @@ public class LoggingTests {
     }
     public  void logPass(String logInfo){
         extentTest.log(Status.PASS,logInfo);
-    }
+    }*/
 }

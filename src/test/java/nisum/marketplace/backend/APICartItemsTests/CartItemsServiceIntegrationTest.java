@@ -1,4 +1,4 @@
-package nisum.marketplace.backend;
+package nisum.marketplace.backend.APICartItemsTests;
 
 import nisum.marketplace.backend.model.CartItems;
 import nisum.marketplace.backend.service.CartItemsService;

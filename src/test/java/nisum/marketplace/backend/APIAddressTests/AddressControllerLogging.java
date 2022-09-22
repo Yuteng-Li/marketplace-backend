@@ -1,4 +1,4 @@
-package nisum.marketplace.backend.APIAddressTests;
+/*package nisum.marketplace.backend.APIAddressTests;
 
 import nisum.marketplace.backend.BackendApplication;
 import nisum.marketplace.backend.LoggingTests;
@@ -15,12 +15,16 @@ import org.springframework.boot.test.web.server.LocalServerPort;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.ContextConfiguration;
 
+
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 
 @ContextConfiguration(classes= BackendApplication.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @AutoConfigureMockMvc
+
+ */
 public class AddressControllerLogging {
+    /*
     @LocalServerPort
     private int port;// = 3305;
     //@Autowired
