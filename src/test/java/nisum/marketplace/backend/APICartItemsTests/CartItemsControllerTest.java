@@ -1,10 +1,12 @@
-package nisum.marketplace.backend;
+package nisum.marketplace.backend.APICartItemsTests;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import nisum.marketplace.backend.BackendApplication;
+import nisum.marketplace.backend.CartItemsController;
 import nisum.marketplace.backend.model.CartItems;
 import nisum.marketplace.backend.repository.CartItemsRepo;
 import nisum.marketplace.backend.service.CartItemsService;
