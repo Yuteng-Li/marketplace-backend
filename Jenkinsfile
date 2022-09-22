@@ -1,15 +1,9 @@
 pipeline {
-    agent any
+    agent { dockerfile true }
     stages {
-        stage('Build') {
-            agent {
-                docker {
-                    image 'maven:3.8.6-jdk-11'
-                    args '-v $HOME/.m2:/root/.m2'
-                }
-            }
+        stage('Test') {
             steps {
-                sh 'maven -version'
+                sh 'mvn --version'
             }
         }
     }
