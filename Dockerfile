@@ -12,3 +12,4 @@ ENV ARTIFACT_NAME=marketplace-backend.jar
 COPY --from=build /home/app/target/*.jar ./
 EXPOSE 8080
 ENTRYPOINT exec java -jar ${ARTIFACT_NAME} 
+
