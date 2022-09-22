@@ -5,8 +5,8 @@ import nisum.marketplace.backend.LoggingTests;
 import nisum.marketplace.backend.model.Address;
 import org.junit.AfterClass;
 import org.junit.Assert;
-import org.junit.Before;
-import org.junit.jupiter.api.Test;
+import org.junit.BeforeClass;
+import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -18,11 +18,11 @@ import org.springframework.test.context.ContextConfiguration;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 
 @ContextConfiguration(classes= BackendApplication.class)
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 @AutoConfigureMockMvc
 public class AddressControllerLogging {
     @LocalServerPort
-    private int port;// = 3305;
+    private int port = 3305;
     //@Autowired
     //private MockMvc mock;
     String baseURI = "/address/";
@@ -30,25 +30,27 @@ public class AddressControllerLogging {
     //private UserAddressService service;
     Address mockAddress;
     @Autowired
-    private TestRestTemplate template;
+    private static TestRestTemplate template;
     public static LoggingTests logger;
 
     //@Autowired
     //AddressController controller;
 
-    @Before
-    public void setUpLog(){
+    @BeforeClass
+    public static void setUpLog(){
+        System.err.println("I set up stuff.");
         template = new TestRestTemplate();
         logger = new LoggingTests("Address","Controller Test");
     }
     @AfterClass
-    public void tearDown(){
+    public static void tearDown(){
         logger.tearDown();
     }
 
     @Test
     public void getAddress() throws Exception {
         int id=2;
+        System.err.println("get Address.");
         //Address mockAddress;
         //when(mockAddress = service.getAddressById(id)).thenReturn(mockAddress);
         //logger.logInfo(mockAddress.toString());
