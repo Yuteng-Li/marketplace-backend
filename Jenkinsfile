@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'mvn --version'
+                echo 'Built and packed into docker image!'
             }
         }
     }
