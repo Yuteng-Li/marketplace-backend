@@ -60,8 +60,8 @@ public class CartItemsControllerTest {
 
     @Test
     public void getCartByID_success() throws Exception{
-        this.mockMvc.perform(get("/api/cartitems/getcart/{id}", 1))
-                //.accept(MediaType.APPLICATION_JSON))
+        this.mockMvc.perform(get("/api/cartitems/getcart/{id}", 1)
+                .accept(MediaType.APPLICATION_JSON))
                 .andDo(print())
                 .andExpect(status().isOk());
     }
@@ -93,4 +93,13 @@ public class CartItemsControllerTest {
                 .andDo(print())
                 .andExpect(status().isOk());
     }
+
+    @Test
+    public void getProduct_success() throws Exception{
+        this.mockMvc.perform(get("/api/cartitems/productfrominvent/{upc}", "100000000001")
+                .accept(MediaType.APPLICATION_JSON))
+                .andDo(print())
+                .andExpect(status().isOk());
+    }
+
 }
