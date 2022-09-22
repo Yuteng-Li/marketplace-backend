@@ -1,4 +1,4 @@
-package nisum.marketplace.backend;
+package nisum.marketplace.backend.APIAddressTests;
 
 import nisum.marketplace.backend.model.Address;
 import nisum.marketplace.backend.service.UserAddressService;
@@ -48,6 +48,7 @@ public class AddressServiceIntegrationTest {
         Address newAddress = new Address(null,1,"Mary Jane",
                 "194 The Good Place","Upper unit","San Francisco",
                 "CA","94321",false,true);
-        Assert.assertNotNull(service.createAddress(newAddress));
+        //Assert.assertNotNull(service.createAddress(newAddress));
+        Assert.assertEquals(newAddress,service.createAddress(newAddress));
     }
 }

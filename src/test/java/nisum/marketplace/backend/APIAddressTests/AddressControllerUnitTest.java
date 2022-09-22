@@ -1,13 +1,13 @@
-package nisum.marketplace.backend;
+package nisum.marketplace.backend.APIAddressTests;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import nisum.marketplace.backend.AddressController;
 import nisum.marketplace.backend.model.Address;
 import nisum.marketplace.backend.service.UserAddressService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 
