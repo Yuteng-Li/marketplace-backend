@@ -1,8 +1,9 @@
-package nisum.marketplace.backend;
+package nisum.marketplace.backend.APICreditCardTests;
 
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import nisum.marketplace.backend.BackendApplication;
 import nisum.marketplace.backend.model.CreditCard;
 import nisum.marketplace.backend.service.CreditCardService;
 import org.junit.jupiter.api.Test;
