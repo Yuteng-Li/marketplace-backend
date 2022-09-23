@@ -69,6 +69,8 @@ public class CartItemsControllerTest {
 
     @Test
     public void getCart_success() throws Exception{
+        logger.info("Test GET METHOD WITH ENDPOINT: /api/products/fetchAllItems");
+
         this.mockMvc.perform(get("/api/cartitems/getcart")
                 .accept(MediaType.APPLICATION_JSON))
                 .andDo(print())
