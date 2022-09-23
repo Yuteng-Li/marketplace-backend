@@ -22,3 +22,32 @@
 [INFO ] 2022-09-23 16:05:28.635 [main] CartItemsControllerTest - Started CartItemsControllerTest in 9.845 seconds (JVM running for 11.893)
 [INFO ] 2022-09-23 16:05:29.180 [main] CartItemsControllerTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/productfrominvent/{upc}
 [INFO ] 2022-09-23 16:05:30.323 [main] CartItemsControllerTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-23 16:31:33.366 [main] CartItemsRepoIntegrationTest - Starting CartItemsRepoIntegrationTest using Java 15.0.2 on Alexander-PC with PID 14724 (started by Tigerclaw in C:\Users\Tigerclaw\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-23 16:31:33.370 [main] CartItemsRepoIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-23 16:31:33.370 [main] CartItemsRepoIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-23 16:31:38.505 [main] CartItemsRepoIntegrationTest - Started CartItemsRepoIntegrationTest in 5.629 seconds (JVM running for 7.625)
+[INFO ] 2022-09-23 16:32:13.120 [main] CartItemsRepoIntegrationTest - Starting CartItemsRepoIntegrationTest using Java 15.0.2 on Alexander-PC with PID 11632 (started by Tigerclaw in C:\Users\Tigerclaw\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-23 16:32:13.125 [main] CartItemsRepoIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-23 16:32:13.126 [main] CartItemsRepoIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-23 16:32:19.785 [main] CartItemsRepoIntegrationTest - Started CartItemsRepoIntegrationTest in 7.209 seconds (JVM running for 9.24)
+[INFO ] 2022-09-23 16:39:12.853 [main] CartItemsRepoIntegrationTest - Starting CartItemsRepoIntegrationTest using Java 15.0.2 on Alexander-PC with PID 6032 (started by Tigerclaw in C:\Users\Tigerclaw\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-23 16:39:12.857 [main] CartItemsRepoIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-23 16:39:12.858 [main] CartItemsRepoIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-23 16:39:19.784 [main] CartItemsRepoIntegrationTest - Started CartItemsRepoIntegrationTest in 7.435 seconds (JVM running for 9.342)
+[INFO ] 2022-09-23 16:44:49.923 [main] CartItemsControllerTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-23 16:44:50.402 [main] CartItemsControllerTest - Starting CartItemsControllerTest using Java 15.0.2 on Alexander-PC with PID 6964 (started by Tigerclaw in C:\Users\Tigerclaw\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-23 16:44:50.406 [main] CartItemsControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-23 16:44:50.406 [main] CartItemsControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-23 16:44:59.820 [main] CartItemsControllerTest - Started CartItemsControllerTest in 9.825 seconds (JVM running for 11.915)
+[INFO ] 2022-09-23 16:45:00.336 [main] CartItemsControllerTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/productfrominvent/{upc}
+[INFO ] 2022-09-23 16:45:01.175 [main] CartItemsControllerTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-23 16:45:51.184 [main] CartItemsControllerTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-23 16:45:51.759 [main] CartItemsControllerTest - Starting CartItemsControllerTest using Java 15.0.2 on Alexander-PC with PID 15804 (started by Tigerclaw in C:\Users\Tigerclaw\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-23 16:45:51.763 [main] CartItemsControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-23 16:45:51.764 [main] CartItemsControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-23 16:46:02.802 [main] CartItemsControllerTest - Started CartItemsControllerTest in 11.557 seconds (JVM running for 14.354)
+[INFO ] 2022-09-23 16:46:03.440 [main] CartItemsControllerTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/productfrominvent/{upc}
+[INFO ] 2022-09-23 16:46:04.748 [main] CartItemsControllerTest - Printed Response
+[INFO ] 2022-09-23 16:46:04.749 [main] CartItemsControllerTest - Expected status code 200 OK
+[INFO ] 2022-09-23 16:46:04.749 [main] CartItemsControllerTest - Successfully Fetched Product UPC
+[INFO ] 2022-09-23 16:46:04.767 [main] CartItemsControllerTest - API TEST LOG COMPLETED: CartItemsControllerTest
