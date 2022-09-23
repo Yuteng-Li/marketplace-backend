@@ -8,8 +8,8 @@ RUN mvn -f /home/app/pom.xml clean -DskipTests package
 
 # Package actual jar
 FROM openjdk:11-jre-slim
-ENV ARTIFACT_NAME=marketplace-backend.jar
 COPY --from=build /home/app/target/*.jar /
 EXPOSE 8080
+ENV ARTIFACT_NAME=marketplace-backend.jar
 ENTRYPOINT ["java","-jar","/$ARTIFACT_NAME"]
 
