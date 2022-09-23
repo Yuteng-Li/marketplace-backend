@@ -69,24 +69,33 @@ public class CartItemsControllerTest {
 
     @Test
     public void getCart_success() throws Exception{
-        logger.info("Test GET METHOD WITH ENDPOINT: /api/products/fetchAllItems");
+        logger.info("Test GET METHOD WITH ENDPOINT: /api/cartitems/getcart");
 
         this.mockMvc.perform(get("/api/cartitems/getcart")
                 .accept(MediaType.APPLICATION_JSON))
                 .andDo(print())
                 .andExpect(status().isOk());
+        logger.info("Printed Response");
+        logger.info("Expected status code 200 OK");
+        logger.info("Successfully Fetched Cart");
+
     }
 
     @Test
     public void getCartByID_success() throws Exception{
+        logger.info("Test GET METHOD WITH ENDPOINT: /api/cartitems/getcart/{id}");
         this.mockMvc.perform(get("/api/cartitems/getcart/{id}", 1)
                 .accept(MediaType.APPLICATION_JSON))
                 .andDo(print())
                 .andExpect(status().isOk());
+        logger.info("Printed Response");
+        logger.info("Expected status code 200 OK");
+        logger.info("Successfully Fetched Cart By ID");
     }
 
     @Test
     public void createCart_success() throws Exception{
+        logger.info("Test POST METHOD WITH ENDPOINT: /api/cartitems/createcart");
 
         this.mockMvc.perform(post("/api/cartitems/createcart")
                 .contentType(MediaType.APPLICATION_JSON)
@@ -94,30 +103,46 @@ public class CartItemsControllerTest {
                 .accept(MediaType.APPLICATION_JSON))
                 .andDo(print())
                 .andExpect(status().isOk());
+        logger.info("Printed Response");
+        logger.info("Expected status code 200 OK");
+        logger.info("Successfully Created Cart");
     }
 
     @Test
     public void updateCart_success() throws Exception{
+        logger.info("Test PUT METHOD WITH ENDPOINT: /api/cartitems/updatecart");
+
         this.mockMvc.perform(put("/api/cartitems/updatecart")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(asJsonString(new CartItems(1, 1, "100000000001", 4)))
                 .accept(MediaType.APPLICATION_JSON))
                 .andDo(print())
                 .andExpect(status().isOk());
+        logger.info("Printed Response");
+        logger.info("Expected status code 200 OK");
+        logger.info("Successfully Updated Cart item");
     }
 
     @Test
     public void deleteCart_success() throws Exception{
+        logger.info("Test DELETE METHOD WITH ENDPOINT: /api/cartitems/deletecart/{id}");
         this.mockMvc.perform(delete("/api/cartitems/deletecart/{id}", 2))
                 .andDo(print())
                 .andExpect(status().isOk());
+        logger.info("Printed Response");
+        logger.info("Expected status code 200 OK");
+        logger.info("Successfully Deleted Cart item");
     }
 
     @Test
     public void getProduct_success() throws Exception{
+        logger.info("Test GET METHOD WITH ENDPOINT: /api/cartitems/productfrominvent/{upc}");
         this.mockMvc.perform(get("/api/cartitems/productfrominvent/{upc}", "100000000001")
                 .accept(MediaType.APPLICATION_JSON))
                 .andDo(print())
                 .andExpect(status().isOk());
+        logger.info("Printed Response");
+        logger.info("Expected status code 200 OK");
+        logger.info("Successfully Fetched Product UPC");
     }
 }
