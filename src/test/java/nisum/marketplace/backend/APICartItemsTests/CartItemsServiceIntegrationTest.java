@@ -2,8 +2,13 @@ package nisum.marketplace.backend.APICartItemsTests;
 
 import nisum.marketplace.backend.model.CartItems;
 import nisum.marketplace.backend.service.CartItemsService;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.TestWatcher;
+import org.junit.runner.Description;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -19,8 +24,21 @@ public class CartItemsServiceIntegrationTest {
     @Autowired
     private CartItemsService service;
 
+    private static final Logger logger = LogManager.getLogger(CartItemsControllerTest.class);
+
+    @Rule
+    public TestWatcher watcher = new TestWatcher() {
+        @Override
+        protected void failed(Throwable e, Description description) {
+            logger.error(e.getMessage());
+            logger.error(description.getDisplayName());
+            super.failed(e, description);
+        }
+    };
+
     @Test
     public void updateCart(){
+
         CartItems newCart = new CartItems(1, 1, "100000000001", 1);
         Assert.assertNotNull(service.updateCart(newCart));
     }
