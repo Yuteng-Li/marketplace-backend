@@ -1,12 +1,13 @@
 package nisum.marketplace.backend.APIAddressTests;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import nisum.marketplace.backend.AddressController;
+
 import nisum.marketplace.backend.model.Address;
 import nisum.marketplace.backend.service.UserAddressService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
@@ -17,8 +18,8 @@ import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-
-@WebMvcTest(AddressController.class)
+@SpringBootTest
+@AutoConfigureMockMvc
 public class AddressControllerUnitTest {
     @Autowired
     private MockMvc mock;
@@ -82,13 +83,12 @@ public class AddressControllerUnitTest {
         newAddress.setAddressID(2);
         ObjectMapper mapper = new ObjectMapper();
         String jsonAddress = mapper.writeValueAsString(newAddress);
-
         /*ResponseEntity<Address> res = this.template.postForEntity("http://localhost:"
 		+port+"/address/createAddress", newAddress,Address.class);
 
          */
         //when(service.createAddress(newAddress)).getMock();
-        this.mock.perform(post("/address/createAddress").content(jsonAddress).contentType(MediaType.APPLICATION_JSON))
+        this.mock.perform(post(baseURI+"createAddress").content(jsonAddress).contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isCreated())
                 .andDo(print());
     }
