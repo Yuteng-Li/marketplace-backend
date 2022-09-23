@@ -11,5 +11,5 @@ FROM openjdk:11-jre-slim
 ENV ARTIFACT_NAME=marketplace-backend.jar
 COPY --from=build /home/app/target/*.jar /
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","/marketplace-backend.jar"]
+ENTRYPOINT ["java","-jar","/${ARTIFACT_NAME}"]
 
