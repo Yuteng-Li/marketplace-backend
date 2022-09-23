@@ -2,18 +2,36 @@ package nisum.marketplace.backend.model;
 
 import javax.persistence.*;
 
-@Table(name = "creditcards")
+@Table(name = "credit_cards")
 @Entity
 public class CreditCard {
     @Id @GeneratedValue(strategy= GenerationType.IDENTITY)
+    @Column(name = "credit_card_id")
     private Integer creditCardID;
+
+    @Column(name = "user_id")
     private Integer userID;
-    private String bankName;
+
+    @Column(name = "cardholder_name")
     private String cardholderName;
+
+    @Column(name = "bank_name")
+    private String bankName;
+
+    @Column(name = "card_type")
     private String cardType;
+
+    @Column(name = "card_number")
     private String cardNumber;
+
+    @Column(name = "security_code")
     private String securityNumber;
-    private String expiration;
+
+    @Column(name = "expiration_year")
+    private String expirationYear;
+
+    @Column(name = "expiration_month")
+    private String expirationMonth;
 
     public Integer getCreditCardID() {
         return creditCardID;
@@ -31,20 +49,20 @@ public class CreditCard {
         this.userID = userID;
     }
 
-    public String getBankName() {
-        return bankName;
-    }
-
-    public void setBankName(String bankName) {
-        this.bankName = bankName;
-    }
-
     public String getCardholderName() {
         return cardholderName;
     }
 
     public void setCardholderName(String cardholderName) {
         this.cardholderName = cardholderName;
+    }
+
+    public String getBankName() {
+        return bankName;
+    }
+
+    public void setBankName(String bankName) {
+        this.bankName = bankName;
     }
 
     public String getCardType() {
@@ -71,12 +89,20 @@ public class CreditCard {
         this.securityNumber = securityNumber;
     }
 
-    public String getExpiration() {
-        return expiration;
+    public String getExpirationYear() {
+        return expirationYear;
     }
 
-    public void setExpiration(String expiration) {
-        this.expiration = expiration;
+    public void setExpirationYear(String expirationYear) {
+        this.expirationYear = expirationYear;
+    }
+
+    public String getExpirationMonth() {
+        return expirationMonth;
+    }
+
+    public void setExpirationMonth(String expirationMonth) {
+        this.expirationMonth = expirationMonth;
     }
 
     @Override
@@ -84,12 +110,13 @@ public class CreditCard {
         return "CreditCard{" +
                 "creditCardID=" + creditCardID +
                 ", userID=" + userID +
-                ", bankName='" + bankName + '\'' +
                 ", cardholderName='" + cardholderName + '\'' +
+                ", bankName='" + bankName + '\'' +
                 ", cardType='" + cardType + '\'' +
                 ", cardNumber='" + cardNumber + '\'' +
                 ", securityNumber='" + securityNumber + '\'' +
-                ", expiration='" + expiration + '\'' +
+                ", expirationYear='" + expirationYear + '\'' +
+                ", expirationMonth='" + expirationMonth + '\'' +
                 '}';
     }
 }
