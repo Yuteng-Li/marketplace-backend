@@ -41,14 +41,15 @@ public class CreditCardServiceTest {
         card.setCardType("TEST");
         card.setCardNumber("1234567812345678");
         card.setSecurityNumber("111");
-        card.setExpiration("2022-12-25");
+        card.setExpirationYear("2022");
+        card.setExpirationMonth("12");
 
         Assert.assertEquals(card, service.createCreditCard(card));
     }
 
     @Test
     public void updateCreditCard() throws Exception{
-        Integer id = 12;
+        Integer id = 9;
 
         CreditCard card = new CreditCard();
         card.setCreditCardID(id);
@@ -58,7 +59,8 @@ public class CreditCardServiceTest {
         card.setCardType("TESTUPDATE");
         card.setCardNumber("1234567812345678");
         card.setSecurityNumber("111");
-        card.setExpiration("2022-12-25");
+        card.setExpirationYear("2022");
+        card.setExpirationMonth("12");
 
         Assert.assertNotNull(service.updateCreditCard(id, card));
     }

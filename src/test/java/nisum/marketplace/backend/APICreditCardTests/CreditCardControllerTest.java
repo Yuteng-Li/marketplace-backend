@@ -59,7 +59,8 @@ public class CreditCardControllerTest {
         card.setCardType("TEST");
         card.setCardNumber("1234567812345678");
         card.setSecurityNumber("111");
-        card.setExpiration("2022-12-25");
+        card.setExpirationYear("2022");
+        card.setExpirationMonth("12");
 
         this.mvc.perform(post("/api/creditCard/createCard")
                 .contentType(MediaType.APPLICATION_JSON)
@@ -73,16 +74,17 @@ public class CreditCardControllerTest {
     public void updateCardTest() throws Exception{
         //increment by 1 to update the card that was updated
         CreditCard card = new CreditCard();
-        card.setCreditCardID(11);
+        card.setCreditCardID(7);
         card.setUserID(1);
         card.setBankName("TESTUPDATE");
         card.setCardholderName("Bobby Joe");
         card.setCardType("TESTUPDATE");
         card.setCardNumber("1234567812345678");
         card.setSecurityNumber("111");
-        card.setExpiration("2022-12-25");
+        card.setExpirationYear("2022");
+        card.setExpirationMonth("12");
 
-        this.mvc.perform(put("/api/creditCard/updateCard/{id}", 11)
+        this.mvc.perform(put("/api/creditCard/updateCard/{id}", 7)
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(asJsonString(card)))
                 .andDo(print())
