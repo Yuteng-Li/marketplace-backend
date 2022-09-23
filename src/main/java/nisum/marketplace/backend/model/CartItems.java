@@ -1,44 +1,38 @@
 package nisum.marketplace.backend.model;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Table(name="cartitems")
+@Table(name="cart_items")
 @Entity
 public class CartItems {
 
 	@Id 
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Column(name="cartitemid")
-	Integer cartItemID;
-	@Column(name="userid")
-	Integer userID;
-	@Column(name="upc")
-	String UPC;
-	@Column(name="quantity")
+	Integer cart_item_id;
+	Integer user_id;
+	String upc;
 	Integer quantity;
-	
-	public Integer getCartItemID() {
-		return cartItemID;
+	public Integer getCart_item_id() {
+		return cart_item_id;
 	}
-	public void setCartItemID(Integer cartItemID) {
-		this.cartItemID = cartItemID;
+	public void setCart_item_id(Integer cart_item_id) {
+		this.cart_item_id = cart_item_id;
 	}
-	public Integer getUserID() {
-		return userID;
+	public Integer getUser_id() {
+		return user_id;
 	}
-	public void setUserID(Integer userID) {
-		this.userID = userID;
+	public void setUser_id(Integer user_id) {
+		this.user_id = user_id;
 	}
-	public String getUPC() {
-		return UPC;
+	public String getUpc() {
+		return upc;
 	}
-	public void setUPC(String UPC) {
-		this.UPC = UPC;
+	public void setUpc(String upc) {
+		this.upc = upc;
 	}
 	public Integer getQuantity() {
 		return quantity;
@@ -46,17 +40,21 @@ public class CartItems {
 	public void setQuantity(Integer quantity) {
 		this.quantity = quantity;
 	}
-	public CartItems(Integer cartItemID, Integer userID, String UPC, Integer quantity) {
+	@Override
+	public String toString() {
+		return "CartItems [cart_item_id=" + cart_item_id + ", user_id=" + user_id + ", upc=" + upc + ", quantity="
+				+ quantity + "]";
+	}
+	public CartItems(Integer cart_item_id, Integer user_id, String upc, Integer quantity) {
 		super();
-		this.cartItemID = cartItemID;
-		this.userID = userID;
-		this.UPC = UPC;
+		this.cart_item_id = cart_item_id;
+		this.user_id = user_id;
+		this.upc = upc;
 		this.quantity = quantity;
 	}
+	public CartItems() {
 
-	public CartItems(){};
-	
-	
+	}
 	
 	
 }
