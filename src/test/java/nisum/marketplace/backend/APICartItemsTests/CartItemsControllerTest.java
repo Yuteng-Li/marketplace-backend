@@ -10,6 +10,8 @@ import nisum.marketplace.backend.CartItemsController;
 import nisum.marketplace.backend.model.CartItems;
 import nisum.marketplace.backend.repository.CartItemsRepo;
 import nisum.marketplace.backend.service.CartItemsService;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -21,6 +23,8 @@ import org.springframework.http.MediaType;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 @ContextConfiguration(classes = BackendApplication.class)
 @SpringBootTest
@@ -39,6 +43,8 @@ public class CartItemsControllerTest {
     @Mock
     private CartItemsService cartItemsService;
 
+    private static final Logger logger = LogManager.getLogger(CartItemsControllerTest.class);
+
     //When updating the cart via the API, the webpage should respond with a 200 Status code if the cart exists and a JSON response.
     //Or it responds with an error code(404)) if the cart does not exist
 
@@ -49,6 +55,17 @@ public class CartItemsControllerTest {
             throw new RuntimeException(e);
         }
     }
+
+    @BeforeAll
+    public static void setUp(){
+        logger.info("API TEST LOG BEGIN: CartItemsControllerTest");
+    }
+
+    @AfterAll
+    public static void tearDown() throws Exception {
+        logger.info("API TEST LOG COMPLETED: CartItemsControllerTest");
+    }
+
 
     @Test
     public void getCart_success() throws Exception{
@@ -101,5 +118,4 @@ public class CartItemsControllerTest {
                 .andDo(print())
                 .andExpect(status().isOk());
     }
-
 }
