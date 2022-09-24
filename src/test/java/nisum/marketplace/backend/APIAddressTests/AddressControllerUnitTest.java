@@ -11,7 +11,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
-
+import org.springframework.test.web.servlet.MvcResult;
+import org.springframework.test.web.servlet.ResultHandler;
 import java.util.List;
 
 import static org.mockito.Mockito.*;
@@ -26,6 +27,7 @@ public class AddressControllerUnitTest {
     String baseURI = "/api/address/";
     @MockBean
     private UserAddressService service;
+
     Address mockAddress;
 
     @Test
@@ -33,9 +35,8 @@ public class AddressControllerUnitTest {
         int id=2;
         //Address mockAddress;
         when(mockAddress = service.getAddressById(id)).thenReturn(mockAddress);
-        this.mock.perform(get(baseURI+"getAddress/"+id))
-                .andExpect(status().isOk())
-                .andDo(print());
+        MvcResult res = this.mock.perform(get(baseURI+"getAddress/"+id)).andReturn();
+        String body = res.getResponse().getContentAsString();
     }
 
     @Test
@@ -83,6 +84,7 @@ public class AddressControllerUnitTest {
         newAddress.setAddressID(2);
         ObjectMapper mapper = new ObjectMapper();
         String jsonAddress = mapper.writeValueAsString(newAddress);
+
         /*ResponseEntity<Address> res = this.template.postForEntity("http://localhost:"
 		+port+"/address/createAddress", newAddress,Address.class);
 

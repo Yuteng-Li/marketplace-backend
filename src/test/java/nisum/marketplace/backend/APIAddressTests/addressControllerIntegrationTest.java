@@ -1,12 +1,15 @@
-/*package nisum.marketplace.backend.APIAddressTests;
+package nisum.marketplace.backend.APIAddressTests;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import io.cucumber.spring.CucumberContextConfiguration;
 import nisum.marketplace.backend.BackendApplication;
-import nisum.marketplace.backend.LoggingTests;
+import nisum.marketplace.backend.Logging.LoggingTests;
 import nisum.marketplace.backend.model.Address;
-import org.junit.AfterClass;
-import org.junit.Assert;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.*;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.junit.rules.TestWatcher;
+import org.junit.runner.Description;
+import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,43 +17,57 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.test.web.server.LocalServerPort;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
+import org.springframework.test.context.junit4.SpringRunner;
 
-
-import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
-
+@RunWith(SpringRunner.class)
 @ContextConfiguration(classes= BackendApplication.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
-@AutoConfigureMockMvc
+//@AutoConfigureMockMvc
 
- */
-public class AddressControllerLogging {
-    /*
+public class addressControllerIntegrationTest {
     @LocalServerPort
     private int port = 3305;
     //@Autowired
     //private MockMvc mock;
-    String baseURI = "/address/";
+    static String baseURI;
     //@MockBean
     //private UserAddressService service;
     Address mockAddress;
     @Autowired
-    private static TestRestTemplate template;
+    private TestRestTemplate template;
     public static LoggingTests logger;
+    static ResponseEntity<Address> res;
+
+    @Rule
+    public TestWatcher watcher = new TestWatcher() {
+        @Override
+        protected void failed(Throwable e, Description description) {
+            logger.logFail(description.getDisplayName()+" failed. "+e.getMessage());
+            super.failed(e, description);
+        }
+    };
+
+
 
     //@Autowired
     //AddressController controller;
 
     @BeforeClass
-    public static void setUpLog(){
+    public static void setUpLog() throws Exception {
         System.err.println("I set up stuff.");
-        template = new TestRestTemplate();
+        baseURI = "/api/address/";
         logger = new LoggingTests("Address","Controller Test");
+        //LoggingTests.setup("Address","Controller Test");
+        if(logger!=null){
+            System.err.println(true);
+        }
+
     }
     @AfterClass
     public static void tearDown(){
         logger.tearDown();
     }
-
     @Test
     public void getAddress() throws Exception {
         int id=2;
@@ -58,14 +75,23 @@ public class AddressControllerLogging {
         //Address mockAddress;
         //when(mockAddress = service.getAddressById(id)).thenReturn(mockAddress);
         //logger.logInfo(mockAddress.toString());
-        ResponseEntity<Address> res = this.template.getForEntity("http://localhost:"
-                +port+"/api/address/getAddress/"+id, Address.class);
-        Assert.assertEquals(200,res.getStatusCodeValue());
-        //logger.logPass("Status code: "+res.getStatusCode()+"\n"+res.getBody().toString());
+        res = this.template.getForEntity("http://localhost:"
+                +port+baseURI+"getAddress/"+id, Address.class);
+        //Assert.assertEquals(200,res.getStatusCodeValue());
+        //ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
+        //String convertedJson = ow.writeValueAsString(res.getBody());
+        ObjectMapper map = new ObjectMapper();
+        String jsonString = map.writeValueAsString(res.getBody());
+        logger.logPass("Status code: "+res.getStatusCode()+"\n"+jsonString);
+
         //this.mock.perform(get(baseURI+"getAddress/"+id))
           //      .andExpect(status().isOk())
             //    .andDo(print());
     }
+    public int getStatusCode(){
+        return res.getStatusCodeValue();
+    }
+
 /*
     @Test
     public void getAllAddresses(){
