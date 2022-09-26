@@ -41,27 +41,27 @@ public class Address {
 		this.is_billing = isBilling;
 	}
 
-	public Integer getAddressID() {
+	public Integer getAddress_id() {
 		return address_id;
 	}
 
-	public void setAddressID(Integer addressID) {
+	public void setAddress_id(Integer addressID) {
 		this.address_id = addressID;
 	}
 
-	public Integer getUserID() {
+	public Integer getUser_id() {
 		return user_id;
 	}
 
-	public void setUserID(Integer userID) {
+	public void setUser_id(Integer userID) {
 		this.user_id = userID;
 	}
 
-	public String getRecipientName() {
+	public String getRecipient_name() {
 		return recipient_name;
 	}
 
-	public void setRecipientName(String recipientName) {
+	public void setRecipient_name(String recipientName) {
 		this.recipient_name = recipientName;
 	}
 
@@ -105,19 +105,19 @@ public class Address {
 		this.zip = zip;
 	}
 
-	public Boolean getIsShipping() {
+	public Boolean getIs_shipping() {
 		return is_shipping;
 	}
 
-	public void setIsShipping(Boolean isShipping) {
+	public void setIs_shipping(Boolean isShipping) {
 		this.is_shipping = isShipping;
 	}
 
-	public Boolean getIsBilling() {
+	public Boolean getIs_billing() {
 		return is_billing;
 	}
 
-	public void setIsBilling(Boolean isBilling) {
+	public void setIs_billing(Boolean isBilling) {
 		this.is_billing = isBilling;
 	}
 	
