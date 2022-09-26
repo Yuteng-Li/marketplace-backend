@@ -11,16 +11,16 @@ import javax.persistence.Table;
 public class Address {
 	
 	@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
-	private Integer addressID;
-	private Integer userID;
-	private String recipientName;
+	private Integer address_id;
+	private Integer user_id;
+	private String recipient_name;
 	private String street;
 	private String street2;
 	private String city;
 	private String state;
 	private String zip;
-	private Boolean isShipping;
-	private Boolean isBilling;
+	private Boolean is_shipping;
+	private Boolean is_billing;
 	
 	public Address() {
 		
@@ -29,40 +29,40 @@ public class Address {
 	public Address(Integer addressID, Integer userID, String recipientName, String street, String street2,
 			String city, String state, String zip, Boolean isShipping, Boolean isBilling) {
 		super();
-		this.addressID = addressID;
-		this.userID = userID;
-		this.recipientName = recipientName;
+		this.address_id = addressID;
+		this.user_id = userID;
+		this.recipient_name = recipientName;
 		this.street = street;
 		this.street2 = street2;
 		this.city = city;
 		this.state = state;
 		this.zip = zip;
-		this.isShipping = isShipping;
-		this.isBilling = isBilling;
+		this.is_shipping = isShipping;
+		this.is_billing = isBilling;
 	}
 
 	public Integer getAddressID() {
-		return addressID;
+		return address_id;
 	}
 
 	public void setAddressID(Integer addressID) {
-		this.addressID = addressID;
+		this.address_id = addressID;
 	}
 
 	public Integer getUserID() {
-		return userID;
+		return user_id;
 	}
 
 	public void setUserID(Integer userID) {
-		this.userID = userID;
+		this.user_id = userID;
 	}
 
 	public String getRecipientName() {
-		return recipientName;
+		return recipient_name;
 	}
 
 	public void setRecipientName(String recipientName) {
-		this.recipientName = recipientName;
+		this.recipient_name = recipientName;
 	}
 
 	public String getStreet() {
@@ -106,19 +106,19 @@ public class Address {
 	}
 
 	public Boolean getIsShipping() {
-		return isShipping;
+		return is_shipping;
 	}
 
 	public void setIsShipping(Boolean isShipping) {
-		this.isShipping = isShipping;
+		this.is_shipping = isShipping;
 	}
 
 	public Boolean getIsBilling() {
-		return isBilling;
+		return is_billing;
 	}
 
 	public void setIsBilling(Boolean isBilling) {
-		this.isBilling = isBilling;
+		this.is_billing = isBilling;
 	}
 	
 	
