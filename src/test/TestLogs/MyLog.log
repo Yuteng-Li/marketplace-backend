@@ -246,3 +246,88 @@
 [DEBUG] 2022-09-26 14:46:56.215 [main] AddressServiceIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
 [INFO ] 2022-09-26 14:46:56.215 [main] AddressServiceIntegrationTest - No active profile set, falling back to 1 default profile: "default"
 [INFO ] 2022-09-26 14:46:59.462 [main] AddressServiceIntegrationTest - Started AddressServiceIntegrationTest in 3.462 seconds (JVM running for 4.484)
+[INFO ] 2022-09-26 15:43:32.667 [main] UserControllerTest - API TEST LOG BEGIN: UserControllerTest
+[INFO ] 2022-09-26 15:43:32.988 [main] UserControllerTest - Starting UserControllerTest using Java 18.0.2 on Navi with PID 28140 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-26 15:43:32.992 [main] UserControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 15:43:32.993 [main] UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 15:43:39.658 [main] UserControllerTest - Started UserControllerTest in 6.946 seconds (JVM running for 8.933)
+[INFO ] 2022-09-26 15:43:40.067 [main] UserControllerTest - Test GET METHOD WITH ENDPOINT: /api/user/getUsers
+[INFO ] 2022-09-26 15:43:40.295 [main] UserControllerTest - API TEST LOG COMPLETED: UserControllerTest
+[INFO ] 2022-09-26 15:50:02.863 [main] UserControllerTest - API TEST LOG BEGIN: UserControllerTest
+[INFO ] 2022-09-26 15:50:03.177 [main] UserControllerTest - Starting UserControllerTest using Java 18.0.2 on Navi with PID 15340 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-26 15:50:03.179 [main] UserControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 15:50:03.180 [main] UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 15:50:09.157 [main] UserControllerTest - Started UserControllerTest in 6.253 seconds (JVM running for 8.025)
+[INFO ] 2022-09-26 15:50:09.517 [main] UserControllerTest - Test GET METHOD WITH ENDPOINT: /api/user/getUsers
+[INFO ] 2022-09-26 15:50:09.765 [main] UserControllerTest - Printed Response
+[INFO ] 2022-09-26 15:50:09.766 [main] UserControllerTest - Expected status code 200 OK
+[INFO ] 2022-09-26 15:50:09.766 [main] UserControllerTest - Successfully Fetched All Cards
+[INFO ] 2022-09-26 15:50:09.779 [main] UserControllerTest - API TEST LOG COMPLETED: UserControllerTest
+[INFO ] 2022-09-26 15:50:54.024 [main] UserControllerTest - API TEST LOG BEGIN: UserControllerTest
+[INFO ] 2022-09-26 15:50:54.379 [main] UserControllerTest - Starting UserControllerTest using Java 18.0.2 on Navi with PID 4680 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-26 15:50:54.382 [main] UserControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 15:50:54.383 [main] UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 15:51:01.164 [main] UserControllerTest - Started UserControllerTest in 7.098 seconds (JVM running for 8.923)
+[INFO ] 2022-09-26 15:51:01.548 [main] UserControllerTest - Test GET METHOD WITH ENDPOINT: /api/user/getUserByID/{id}
+[INFO ] 2022-09-26 15:51:01.715 [main] UserControllerTest - Printed Response
+[INFO ] 2022-09-26 15:51:01.715 [main] UserControllerTest - Expected status code 200 OK
+[INFO ] 2022-09-26 15:51:01.715 [main] UserControllerTest - Successfully Fetched User By ID
+[INFO ] 2022-09-26 15:51:01.726 [main] UserControllerTest - API TEST LOG COMPLETED: UserControllerTest
+[INFO ] 2022-09-26 15:51:08.119 [main] UserControllerTest - API TEST LOG BEGIN: UserControllerTest
+[INFO ] 2022-09-26 15:51:08.454 [main] UserControllerTest - Starting UserControllerTest using Java 18.0.2 on Navi with PID 8808 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-26 15:51:08.459 [main] UserControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 15:51:08.460 [main] UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 15:51:15.461 [main] UserControllerTest - Started UserControllerTest in 7.288 seconds (JVM running for 9.158)
+[INFO ] 2022-09-26 15:51:15.870 [main] UserControllerTest - Test POST METHOD WITH ENDPOINT: /api/user/createUser
+[INFO ] 2022-09-26 15:51:16.286 [main] UserControllerTest - API TEST LOG COMPLETED: UserControllerTest
+[INFO ] 2022-09-26 15:53:29.220 [main] UserControllerTest - API TEST LOG BEGIN: UserControllerTest
+[INFO ] 2022-09-26 15:53:29.531 [main] UserControllerTest - Starting UserControllerTest using Java 18.0.2 on Navi with PID 11116 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-26 15:53:29.535 [main] UserControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 15:53:29.536 [main] UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 15:53:35.538 [main] UserControllerTest - Started UserControllerTest in 6.273 seconds (JVM running for 8.176)
+[INFO ] 2022-09-26 15:53:35.906 [main] UserControllerTest - Test DELETE METHOD WITH ENDPOINT: /api/user/deleteUser/{id}
+[INFO ] 2022-09-26 15:53:36.159 [main] UserControllerTest - Printed Response
+[INFO ] 2022-09-26 15:53:36.159 [main] UserControllerTest - Expected status code 200 OK
+[INFO ] 2022-09-26 15:53:36.159 [main] UserControllerTest - Successfully Deleted User item
+[INFO ] 2022-09-26 15:53:36.173 [main] UserControllerTest - API TEST LOG COMPLETED: UserControllerTest
+[INFO ] 2022-09-26 15:53:45.398 [main] UserControllerTest - API TEST LOG BEGIN: UserControllerTest
+[INFO ] 2022-09-26 15:53:45.826 [main] UserControllerTest - Starting UserControllerTest using Java 18.0.2 on Navi with PID 3936 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-26 15:53:45.830 [main] UserControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 15:53:45.831 [main] UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 15:53:53.691 [main] UserControllerTest - Started UserControllerTest in 8.245 seconds (JVM running for 10.364)
+[INFO ] 2022-09-26 15:53:54.197 [main] UserControllerTest - Test POST METHOD WITH ENDPOINT: /api/user/createUser
+[INFO ] 2022-09-26 15:53:54.602 [main] UserControllerTest - Printed Response
+[INFO ] 2022-09-26 15:53:54.602 [main] UserControllerTest - Expected status code 201 Created
+[INFO ] 2022-09-26 15:53:54.602 [main] UserControllerTest - Successfully Created User
+[INFO ] 2022-09-26 15:53:54.615 [main] UserControllerTest - API TEST LOG COMPLETED: UserControllerTest
+[INFO ] 2022-09-26 15:54:06.953 [main] UserControllerTest - API TEST LOG BEGIN: UserControllerTest
+[INFO ] 2022-09-26 15:54:07.347 [main] UserControllerTest - Starting UserControllerTest using Java 18.0.2 on Navi with PID 23152 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-26 15:54:07.351 [main] UserControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 15:54:07.352 [main] UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 15:54:15.201 [main] UserControllerTest - Started UserControllerTest in 8.203 seconds (JVM running for 10.146)
+[INFO ] 2022-09-26 15:54:15.651 [main] UserControllerTest - Test PUT METHOD WITH ENDPOINT: /api/user/updateUser/{id}
+[INFO ] 2022-09-26 15:54:15.677 [main] UserControllerTest - API TEST LOG COMPLETED: UserControllerTest
+[INFO ] 2022-09-26 15:55:13.831 [main] UserControllerTest - API TEST LOG BEGIN: UserControllerTest
+[INFO ] 2022-09-26 15:55:14.149 [main] UserControllerTest - Starting UserControllerTest using Java 18.0.2 on Navi with PID 24700 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-26 15:55:14.154 [main] UserControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 15:55:14.155 [main] UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 15:55:20.599 [main] UserControllerTest - Started UserControllerTest in 6.726 seconds (JVM running for 8.562)
+[INFO ] 2022-09-26 15:55:20.978 [main] UserControllerTest - Test PUT METHOD WITH ENDPOINT: /api/user/updateUser/{id}
+[INFO ] 2022-09-26 15:55:21.264 [main] UserControllerTest - API TEST LOG COMPLETED: UserControllerTest
+[INFO ] 2022-09-26 15:55:53.357 [main] UserControllerTest - API TEST LOG BEGIN: UserControllerTest
+[INFO ] 2022-09-26 15:55:53.685 [main] UserControllerTest - Starting UserControllerTest using Java 18.0.2 on Navi with PID 15312 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-26 15:55:53.689 [main] UserControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 15:55:53.689 [main] UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 15:56:00.215 [main] UserControllerTest - Started UserControllerTest in 6.813 seconds (JVM running for 8.582)
+[INFO ] 2022-09-26 15:56:00.646 [main] UserControllerTest - Test PUT METHOD WITH ENDPOINT: /api/user/updateUser/{id}
+[INFO ] 2022-09-26 15:56:00.985 [main] UserControllerTest - API TEST LOG COMPLETED: UserControllerTest
+[INFO ] 2022-09-26 15:57:58.269 [main] UserControllerTest - API TEST LOG BEGIN: UserControllerTest
+[INFO ] 2022-09-26 15:57:58.574 [main] UserControllerTest - Starting UserControllerTest using Java 18.0.2 on Navi with PID 20308 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-26 15:57:58.578 [main] UserControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 15:57:58.579 [main] UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 15:58:05.262 [main] UserControllerTest - Started UserControllerTest in 6.952 seconds (JVM running for 8.941)
+[INFO ] 2022-09-26 15:58:05.678 [main] UserControllerTest - Test PUT METHOD WITH ENDPOINT: /api/user/updateUser/{id}
+[INFO ] 2022-09-26 15:58:06.014 [main] UserControllerTest - Printed Response
+[INFO ] 2022-09-26 15:58:06.014 [main] UserControllerTest - Expected status code 201 Created
+[INFO ] 2022-09-26 15:58:06.014 [main] UserControllerTest - Successfully Updated User item
+[INFO ] 2022-09-26 15:58:06.026 [main] UserControllerTest - API TEST LOG COMPLETED: UserControllerTest
