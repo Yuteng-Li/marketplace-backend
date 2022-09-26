@@ -23,6 +23,7 @@ import java.util.List;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 //@AutoConfigureMockMvc
 
+//@Test annonations are commented out so this can be extended by the Step Defs class if needed
 public class addressControllerIntegrationTest {
     @LocalServerPort
     private int port = 3305;
@@ -80,15 +81,15 @@ public class addressControllerIntegrationTest {
     public ResponseEntity<?> createAddresses(Address address) throws Exception{
         Address newAddress = new Address();
         newAddress.setCity("San Francisco");
-        newAddress.setIsBilling(true);
-        newAddress.setIsShipping(false);
-        newAddress.setRecipientName("Billy Jane");
+        newAddress.setIs_billing(true);
+        newAddress.setIs_shipping(false);
+        newAddress.setRecipient_name("Billy Jane");
         newAddress.setStreet("1233 Hell St");
         newAddress.setStreet2("Upper Unit");
         newAddress.setState("CA");
         newAddress.setZip("94233");
-        newAddress.setUserID(1);
-        newAddress.setAddressID(6);
+        newAddress.setUser_id(1);
+        newAddress.setAddress_id(6);
         ObjectMapper mapper = new ObjectMapper();
         String jsonAddress = mapper.writeValueAsString(newAddress);
         ResponseEntity<?> createdAddress = addressController.createAddress(address);

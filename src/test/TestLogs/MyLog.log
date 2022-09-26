@@ -230,3 +230,19 @@
 [DEBUG] 2022-09-26 13:42:12.419 [main] AddressRepoIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
 [INFO ] 2022-09-26 13:42:12.419 [main] AddressRepoIntegrationTest - No active profile set, falling back to 1 default profile: "default"
 [INFO ] 2022-09-26 13:42:15.225 [main] AddressRepoIntegrationTest - Started AddressRepoIntegrationTest in 3.088 seconds (JVM running for 4.136)
+[INFO ] 2022-09-26 14:46:00.582 [main] AddressRepoIntegrationTest - Starting AddressRepoIntegrationTest using Java 11.0.16.1 on BigBox with PID 2552 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 14:46:00.584 [main] AddressRepoIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:46:00.585 [main] AddressRepoIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:46:03.419 [main] AddressRepoIntegrationTest - Started AddressRepoIntegrationTest in 3.095 seconds (JVM running for 4.198)
+[INFO ] 2022-09-26 14:46:19.954 [main] AddressControllerUnitTest - Starting AddressControllerUnitTest using Java 11.0.16.1 on BigBox with PID 24012 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 14:46:19.956 [main] AddressControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:46:19.957 [main] AddressControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:46:24.547 [main] AddressControllerUnitTest - Started AddressControllerUnitTest in 4.791 seconds (JVM running for 6.118)
+[INFO ] 2022-09-26 14:46:37.080 [main] AddressServiceIntegrationTest - Starting AddressServiceIntegrationTest using Java 11.0.16.1 on BigBox with PID 17056 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 14:46:37.083 [main] AddressServiceIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:46:37.084 [main] AddressServiceIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:46:40.503 [main] AddressServiceIntegrationTest - Started AddressServiceIntegrationTest in 3.616 seconds (JVM running for 4.688)
+[INFO ] 2022-09-26 14:46:56.211 [main] AddressServiceIntegrationTest - Starting AddressServiceIntegrationTest using Java 11.0.16.1 on BigBox with PID 3392 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 14:46:56.215 [main] AddressServiceIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:46:56.215 [main] AddressServiceIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:46:59.462 [main] AddressServiceIntegrationTest - Started AddressServiceIntegrationTest in 3.462 seconds (JVM running for 4.484)

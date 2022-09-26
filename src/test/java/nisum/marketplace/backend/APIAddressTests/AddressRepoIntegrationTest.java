@@ -26,21 +26,21 @@ public class AddressRepoIntegrationTest {
     @Test
     public void findByIdNum(){
         Integer id = 6;
-        System.err.println(repo.findById(id).get().getAddressID());
-        Assert.assertEquals(id,repo.findById(id).get().getAddressID());
+        System.err.println(repo.findById(id).get().getAddress_id());
+        Assert.assertEquals(id,repo.findById(id).get().getAddress_id());
     }
     @Test
     public void delete(){
         Integer id=63;
         repo.deleteById(id);
         List<Address> list = repo.findAll();
-        list.forEach((e)->System.err.println(e.getRecipientName()+" "+e.getAddressID()));
+        list.forEach((e)->System.err.println(e.getRecipient_name()+" "+e.getAddress_id()));
         Assert.assertTrue(repo.findById(id).isEmpty());
     }
     @Test
     public void getAll(){
         List<Address> list = repo.findAll();
-        list.forEach((e)->System.err.println(e.getRecipientName()+" "+e.getAddressID()));
+        list.forEach((e)->System.err.println(e.getRecipient_name()+" "+e.getAddress_id()));
         Assert.assertNotNull(list);
     }
     @Test
@@ -49,14 +49,14 @@ public class AddressRepoIntegrationTest {
                      "123 Hell street","Upper unit","San Francisco",
                    "CA","94321",false,true);
         Address savedAddress = repo.save(newAddress);
-        System.err.println(savedAddress.getAddressID()+" "+repo.findById(savedAddress.getAddressID()).isPresent());
-        Assert.assertTrue(repo.findById(savedAddress.getAddressID()).isPresent());
+        System.err.println(savedAddress.getAddress_id()+" "+repo.findById(savedAddress.getAddress_id()).isPresent());
+        Assert.assertTrue(repo.findById(savedAddress.getAddress_id()).isPresent());
 
     }
     @Test
     public void existById(){
         Integer id=6;
-        System.err.println(repo.findById(id).get().getAddressID());
+        System.err.println(repo.findById(id).get().getAddress_id());
         Assert.assertTrue(repo.existsById(id));
     }
 }

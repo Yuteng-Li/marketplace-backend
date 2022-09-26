@@ -53,11 +53,11 @@ public class CreditCardControllerTest {
     @Test
     public void createCardTest() throws Exception{
         CreditCard card = new CreditCard();
-        card.setUserID(1);
-        card.setCardholderName("Bobby Joe");
-        card.setCardNumber("1234567812345678");
-        card.setExpirationYear("2022");
-        card.setExpirationMonth("12");
+        card.setUser_id(1);
+        card.setCardholder_name("Bobby Joe");
+        card.setLast_four_card_number("1234567812345678");
+        card.setExpiration_year("2022");
+        card.setExpiration_month("12");
 
         this.mvc.perform(post("/api/creditCard/createCard")
                 .contentType(MediaType.APPLICATION_JSON)
@@ -71,12 +71,12 @@ public class CreditCardControllerTest {
     public void updateCardTest() throws Exception{
         //increment by 1 to update the card that was updated
         CreditCard card = new CreditCard();
-        card.setCreditCardID(7);
-        card.setUserID(1);
-        card.setCardholderName("Bobby Joe");
-        card.setCardNumber("1234567812345678");
-        card.setExpirationYear("2022");
-        card.setExpirationMonth("12");
+        card.setCredit_card_id(7);
+        card.setUser_id(1);
+        card.setCardholder_name("Bobby Joe");
+        card.setLast_four_card_number("1234567812345678");
+        card.setExpiration_year("2022");
+        card.setExpiration_month("12");
 
         this.mvc.perform(put("/api/creditCard/updateCard/{id}", 7)
                 .contentType(MediaType.APPLICATION_JSON)

@@ -86,6 +86,7 @@ public class AddressControllerIntegrationStepDefs{
     @When("I send a PUT request for address id: {int}")
     public void iSendAPUTRequestForAddressId(Integer addressId,List<Address> list) {
         res = RestAssuredWebTestClient.given().body(list.get(0)).contentType("application/json").put("updateAddress/"+(addressId));
+        System.err.println(res.getBody().prettyPrint());
     }
 
     @When("I send a POST request with a new address")

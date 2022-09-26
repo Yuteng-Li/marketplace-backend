@@ -73,15 +73,15 @@ public class AddressControllerUnitTest {
     public void createAddresses() throws Exception{
         Address newAddress = new Address();
         newAddress.setCity("San Francisco");
-        newAddress.setIsBilling(true);
-        newAddress.setIsShipping(false);
-        newAddress.setRecipientName("Billy Jane");
+        newAddress.setIs_billing(true);
+        newAddress.setIs_shipping(false);
+        newAddress.setRecipient_name("Billy Jane");
         newAddress.setStreet("1233 Hell St");
         newAddress.setStreet2("Upper Unit");
         newAddress.setState("California");
         newAddress.setZip("94233");
-        newAddress.setUserID(5);
-        newAddress.setAddressID(2);
+        newAddress.setUser_id(5);
+        newAddress.setAddress_id(2);
         ObjectMapper mapper = new ObjectMapper();
         String jsonAddress = mapper.writeValueAsString(newAddress);
 

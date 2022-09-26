@@ -17,10 +17,13 @@ plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 public class AddressControllerRunner {
     @AfterClass
     public static void combineReport(){
-        List<String> jsonReportPath = Arrays.asList("test-output/JsonReport/Json.json",
-                "test-output/JsonReport/JsonTwo.json");
-        PojoOptions options = PojoOptions.builder().jsonReportPaths(jsonReportPath).mergedReportDirPath("test-output/SparkReport").build();
-        PojoOptionsInputType.builder().options(options).build().generateOptions().getReportType().generateReport();
+        List<String> paths = Arrays.asList("test-output/JsonReport/Json.json",
+                "test-output/JsonReport/JsonTwo.json",
+                "test-output/SparkReport/json.json");
+        PojoOptions options = PojoOptions.builder().jsonReportPaths(paths)
+                .mergedReportDirPath("test-output/SparkReport").configType("xml").build();
+        PojoOptionsInputType.builder().options(options).build().generateOptions()
+                .getReportType().generateReport();
     }
 
 
