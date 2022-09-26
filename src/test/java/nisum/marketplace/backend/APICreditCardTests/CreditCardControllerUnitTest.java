@@ -3,18 +3,14 @@ package nisum.marketplace.backend.APICreditCardTests;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import nisum.marketplace.backend.BackendApplication;
 import nisum.marketplace.backend.model.CreditCard;
-import nisum.marketplace.backend.service.CreditCardService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
-import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.MvcResult;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
@@ -22,11 +18,11 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
 
 
-@ContextConfiguration(classes = BackendApplication.class)
+
 @SpringBootTest
 @AutoConfigureMockMvc
 //@WebMvcTest(CreditCardController.class)
-public class CreditCardControllerTest {
+public class CreditCardControllerUnitTest {
 
 //    @MockBean
 //    private CreditCardService service;
@@ -36,60 +32,66 @@ public class CreditCardControllerTest {
 
     @Test
     public void getAllCardsTest() throws Exception{
-        this.mvc.perform(get("/api/creditCard/getCards"))
+        MvcResult res = mvc.perform(get("/api/creditCard/getCards"))
                 .andDo(print())
-                .andExpect(status().isOk());
+                .andExpect(status().isOk()).andReturn();
     }
 
     @Test
     public void getCardByIDTest() throws Exception{
-        this.mvc.perform(get("/api/creditCard/getCard/{id}", 1))
+        MvcResult res = mvc.perform(get("/api/creditCard/getCard/{id}", 1))
                 .andDo(print())
-                .andExpect(status().isOk());
+                .andExpect(status().isOk()).andReturn();
         //Bobby Joe is return
     }
 
-    //CODE NEEDS TO BE UPDATED FOR IT TO BE TESTED
+
     @Test
     public void createCardTest() throws Exception{
         CreditCard card = new CreditCard();
-        card.setUserID(1);
-        card.setCardholderName("Bobby Joe");
-        card.setCardNumber("1234567812345678");
-        card.setExpirationYear("2022");
-        card.setExpirationMonth("12");
+        card.setUser_id(1);//setUserID(1);
+        card.setCardholder_name("Bobby Joe");//setCardholderName();
+        card.setLast_four_card_number("1234");//setCardNumber();
+        card.setExpiration_year("22");//setExpirationYear();
+        card.setExpiration_month("12");//setExpirationMonth();
 
-        this.mvc.perform(post("/api/creditCard/createCard")
+
+        MvcResult res = mvc.perform(post("/api/creditCard/createCard")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(asJsonString(card)))
                 .andDo(print())
-                .andExpect(status().isCreated());
+                .andExpect(status().isCreated())
+                .andReturn();
 
     }
-
+//
     @Test
     public void updateCardTest() throws Exception{
-        //increment by 1 to update the card that was updated
-        CreditCard card = new CreditCard();
-        card.setCreditCardID(7);
-        card.setUserID(1);
-        card.setCardholderName("Bobby Joe");
-        card.setCardNumber("1234567812345678");
-        card.setExpirationYear("2022");
-        card.setExpirationMonth("12");
+//        //increment by 1 to update the card that was updated
 
-        this.mvc.perform(put("/api/creditCard/updateCard/{id}", 7)
+        CreditCard card = new CreditCard();
+        card.setCredit_card_id(7);//setUserID(1);
+        card.setUser_id(1);
+        card.setCardholder_name("TESTBobby Joe");//setCardholderName();
+        card.setLast_four_card_number("1234");//setCardNumber();
+        card.setExpiration_year("22");//setExpirationYear();
+        card.setExpiration_month("12");//setExpirationMonth();
+
+        MvcResult res = mvc.perform(put("/api/creditCard/updateCard/{id}", 7)
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(asJsonString(card)))
                 .andDo(print())
-                .andExpect(status().isCreated());
+                .andExpect(status().isCreated())
+                .andReturn();
     }
 
     @Test
     public void deleteCardTest() throws Exception{
         //increment by 1 to delete the updated card
-        this.mvc.perform(delete("/api/creditCard/deleteCard/{id}", 11))
-                .andExpect(status().isOk());
+
+        MvcResult res = mvc.perform(delete("/api/creditCard/deleteCard/{id}", 11))
+                .andExpect(status().isOk())
+                .andReturn();
     }
 
 

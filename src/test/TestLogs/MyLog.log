@@ -110,3 +110,183 @@
 [DEBUG] 2022-09-26 09:41:34.140 [main] AddressControllerIntegrationStepDefs - Running with Spring Boot v2.7.3, Spring v5.3.22
 [INFO ] 2022-09-26 09:41:34.140 [main] AddressControllerIntegrationStepDefs - No active profile set, falling back to 1 default profile: "default"
 [INFO ] 2022-09-26 09:41:38.143 [main] AddressControllerIntegrationStepDefs - Started AddressControllerIntegrationStepDefs in 4.186 seconds (JVM running for 5.356)
+[INFO ] 2022-09-26 13:38:53.320 [main] CreditCardServiceTest - Starting CreditCardServiceTest using Java 11.0.8 on DESKTOP-E65T190 with PID 33004 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 13:38:53.322 [main] CreditCardServiceTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 13:38:53.322 [main] CreditCardServiceTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 13:38:56.657 [main] CreditCardServiceTest - Started CreditCardServiceTest in 3.562 seconds (JVM running for 4.848)
+[INFO ] 2022-09-26 13:50:18.693 [main] CreditCardServiceTest - Starting CreditCardServiceTest using Java 11.0.8 on DESKTOP-E65T190 with PID 19108 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 13:50:18.697 [main] CreditCardServiceTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 13:50:18.697 [main] CreditCardServiceTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 13:50:21.955 [main] CreditCardServiceTest - Started CreditCardServiceTest in 3.481 seconds (JVM running for 4.67)
+[INFO ] 2022-09-26 14:34:40.130 [main] CreditCardIntegrationTest - Starting CreditCardIntegrationTest using Java 11.0.8 on DESKTOP-E65T190 with PID 33780 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 14:34:40.133 [main] CreditCardIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:34:40.133 [main] CreditCardIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:34:44.662 [main] CreditCardIntegrationTest - Starting CreditCardIntegrationTest using Java 11.0.8 on DESKTOP-E65T190 with PID 33780 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 14:34:44.662 [main] CreditCardIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:34:44.662 [main] CreditCardIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:35:27.626 [main] CreditCardIntegrationTest - Starting CreditCardIntegrationTest using Java 11.0.8 on DESKTOP-E65T190 with PID 8840 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 14:35:27.628 [main] CreditCardIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:35:27.628 [main] CreditCardIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:35:32.221 [main] CreditCardIntegrationTest - Starting CreditCardIntegrationTest using Java 11.0.8 on DESKTOP-E65T190 with PID 8840 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 14:35:32.222 [main] CreditCardIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:35:32.222 [main] CreditCardIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:35:55.436 [main] CreditCardIntegrationTest - Starting CreditCardIntegrationTest using Java 11.0.8 on DESKTOP-E65T190 with PID 11964 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 14:35:55.439 [main] CreditCardIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:35:55.440 [main] CreditCardIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:36:00.032 [main] CreditCardIntegrationTest - Starting CreditCardIntegrationTest using Java 11.0.8 on DESKTOP-E65T190 with PID 11964 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 14:36:00.032 [main] CreditCardIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:36:00.032 [main] CreditCardIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:37:25.541 [main] CreditCardIntegrationTest - Starting CreditCardIntegrationTest using Java 11.0.8 on DESKTOP-E65T190 with PID 1736 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 14:37:25.544 [main] CreditCardIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:37:25.545 [main] CreditCardIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:37:29.972 [main] CreditCardIntegrationTest - Starting CreditCardIntegrationTest using Java 11.0.8 on DESKTOP-E65T190 with PID 1736 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 14:37:29.973 [main] CreditCardIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:37:29.973 [main] CreditCardIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:37:41.009 [main] CreditCardIntegrationTest - Starting CreditCardIntegrationTest using Java 11.0.8 on DESKTOP-E65T190 with PID 33208 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 14:37:41.012 [main] CreditCardIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:37:41.013 [main] CreditCardIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:37:45.468 [main] CreditCardIntegrationTest - Started CreditCardIntegrationTest in 4.688 seconds (JVM running for 5.795)
+[INFO ] 2022-09-26 14:41:17.023 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.8 on DESKTOP-E65T190 with PID 32780 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 14:41:17.025 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:41:17.026 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:41:21.584 [main] CreditCardControllerIntegrationTest - Started CreditCardControllerIntegrationTest in 4.8 seconds (JVM running for 5.915)
+[INFO ] 2022-09-26 14:45:40.331 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.8 on DESKTOP-E65T190 with PID 29852 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 14:45:40.333 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:45:40.334 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:45:44.834 [main] CreditCardControllerIntegrationTest - Started CreditCardControllerIntegrationTest in 4.74 seconds (JVM running for 5.859)
+[INFO ] 2022-09-26 14:46:34.378 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.8 on DESKTOP-E65T190 with PID 7148 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 14:46:34.380 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:46:34.381 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:46:38.766 [main] CreditCardControllerIntegrationTest - Started CreditCardControllerIntegrationTest in 4.622 seconds (JVM running for 5.733)
+[INFO ] 2022-09-26 14:47:31.380 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.8 on DESKTOP-E65T190 with PID 33604 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 14:47:31.383 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:47:31.383 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:47:35.841 [main] CreditCardControllerIntegrationTest - Started CreditCardControllerIntegrationTest in 4.702 seconds (JVM running for 5.802)
+[INFO ] 2022-09-26 14:48:05.587 [main] CreditCardServiceTest - Starting CreditCardServiceTest using Java 11.0.8 on DESKTOP-E65T190 with PID 32048 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 14:48:05.590 [main] CreditCardServiceTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:48:05.590 [main] CreditCardServiceTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:48:08.765 [main] CreditCardServiceTest - Started CreditCardServiceTest in 3.387 seconds (JVM running for 4.565)
+[INFO ] 2022-09-26 14:50:30.340 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.8 on DESKTOP-E65T190 with PID 8756 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 14:50:30.342 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:50:30.343 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:50:34.957 [main] CreditCardControllerIntegrationTest - Started CreditCardControllerIntegrationTest in 4.853 seconds (JVM running for 6.027)
+[INFO ] 2022-09-26 14:50:44.694 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.8 on DESKTOP-E65T190 with PID 32324 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 14:50:44.698 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:50:44.698 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:50:49.197 [main] CreditCardControllerIntegrationTest - Started CreditCardControllerIntegrationTest in 4.747 seconds (JVM running for 5.927)
+[INFO ] 2022-09-26 14:58:37.015 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.8 on DESKTOP-E65T190 with PID 33372 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 14:58:37.018 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:58:37.019 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:58:41.529 [main] CreditCardControllerIntegrationTest - Started CreditCardControllerIntegrationTest in 4.747 seconds (JVM running for 5.846)
+[INFO ] 2022-09-26 14:59:34.371 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.8 on DESKTOP-E65T190 with PID 32976 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 14:59:34.374 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 14:59:34.375 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 14:59:38.869 [main] CreditCardControllerIntegrationTest - Started CreditCardControllerIntegrationTest in 4.729 seconds (JVM running for 5.853)
+[INFO ] 2022-09-26 15:00:03.177 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.8 on DESKTOP-E65T190 with PID 4440 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 15:00:03.179 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 15:00:03.179 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 15:00:07.709 [main] CreditCardControllerIntegrationTest - Started CreditCardControllerIntegrationTest in 4.771 seconds (JVM running for 5.881)
+[INFO ] 2022-09-26 15:00:17.745 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.8 on DESKTOP-E65T190 with PID 18036 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 15:00:17.748 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 15:00:17.748 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 15:00:22.231 [main] CreditCardControllerIntegrationTest - Started CreditCardControllerIntegrationTest in 4.723 seconds (JVM running for 5.839)
+[INFO ] 2022-09-26 15:01:06.020 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.8 on DESKTOP-E65T190 with PID 28792 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 15:01:06.023 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 15:01:06.023 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 15:01:10.494 [main] CreditCardControllerIntegrationTest - Started CreditCardControllerIntegrationTest in 4.706 seconds (JVM running for 5.836)
+[INFO ] 2022-09-26 16:00:25.795 [main] CreditCardControllerTest - Starting CreditCardControllerTest using Java 11.0.8 on DESKTOP-E65T190 with PID 2104 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:00:25.797 [main] CreditCardControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:00:25.797 [main] CreditCardControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:00:29.990 [main] CreditCardControllerTest - Started CreditCardControllerTest in 4.423 seconds (JVM running for 5.735)
+[INFO ] 2022-09-26 16:01:36.452 [main] CreditCardControllerUnitTest - Starting CreditCardControllerUnitTest using Java 11.0.8 on DESKTOP-E65T190 with PID 32968 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:01:36.454 [main] CreditCardControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:01:36.455 [main] CreditCardControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:01:40.470 [main] CreditCardControllerUnitTest - Started CreditCardControllerUnitTest in 4.234 seconds (JVM running for 5.516)
+[INFO ] 2022-09-26 16:04:53.701 [main] CreditCardControllerUnitTest - Starting CreditCardControllerUnitTest using Java 11.0.8 on DESKTOP-E65T190 with PID 30128 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:04:53.703 [main] CreditCardControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:04:53.703 [main] CreditCardControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:04:57.808 [main] CreditCardControllerUnitTest - Started CreditCardControllerUnitTest in 4.336 seconds (JVM running for 5.634)
+[INFO ] 2022-09-26 16:07:41.675 [main] CreditCardControllerUnitTest - Starting CreditCardControllerUnitTest using Java 11.0.8 on DESKTOP-E65T190 with PID 1168 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:07:41.677 [main] CreditCardControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:07:41.678 [main] CreditCardControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:07:45.806 [main] CreditCardControllerUnitTest - Started CreditCardControllerUnitTest in 4.353 seconds (JVM running for 5.662)
+[INFO ] 2022-09-26 16:13:13.434 [main] CreditCardControllerUnitTest - Starting CreditCardControllerUnitTest using Java 11.0.8 on DESKTOP-E65T190 with PID 32884 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:13:13.437 [main] CreditCardControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:13:13.437 [main] CreditCardControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:13:17.564 [main] CreditCardControllerUnitTest - Started CreditCardControllerUnitTest in 4.346 seconds (JVM running for 5.633)
+[INFO ] 2022-09-26 16:14:11.693 [main] CreditCardControllerUnitTest - Starting CreditCardControllerUnitTest using Java 11.0.8 on DESKTOP-E65T190 with PID 15252 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:14:11.695 [main] CreditCardControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:14:11.696 [main] CreditCardControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:14:15.826 [main] CreditCardControllerUnitTest - Started CreditCardControllerUnitTest in 4.361 seconds (JVM running for 5.684)
+[INFO ] 2022-09-26 16:18:17.538 [main] CreditCardControllerUnitTest - Starting CreditCardControllerUnitTest using Java 11.0.8 on DESKTOP-E65T190 with PID 3508 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:18:17.540 [main] CreditCardControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:18:17.541 [main] CreditCardControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:18:21.801 [main] CreditCardControllerUnitTest - Started CreditCardControllerUnitTest in 4.477 seconds (JVM running for 5.9)
+[INFO ] 2022-09-26 16:18:40.614 [main] CreditCardControllerUnitTest - Starting CreditCardControllerUnitTest using Java 11.0.8 on DESKTOP-E65T190 with PID 1676 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:18:40.616 [main] CreditCardControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:18:40.616 [main] CreditCardControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:18:44.872 [main] CreditCardControllerUnitTest - Started CreditCardControllerUnitTest in 4.493 seconds (JVM running for 5.86)
+[INFO ] 2022-09-26 16:19:18.363 [main] CreditCardControllerUnitTest - Starting CreditCardControllerUnitTest using Java 11.0.8 on DESKTOP-E65T190 with PID 12516 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:19:18.365 [main] CreditCardControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:19:18.365 [main] CreditCardControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:19:22.644 [main] CreditCardControllerUnitTest - Started CreditCardControllerUnitTest in 4.506 seconds (JVM running for 5.816)
+[INFO ] 2022-09-26 16:19:56.463 [main] CreditCardControllerUnitTest - Starting CreditCardControllerUnitTest using Java 11.0.8 on DESKTOP-E65T190 with PID 11220 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:19:56.465 [main] CreditCardControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:19:56.466 [main] CreditCardControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:20:00.720 [main] CreditCardControllerUnitTest - Started CreditCardControllerUnitTest in 4.473 seconds (JVM running for 5.811)
+[INFO ] 2022-09-26 16:21:10.305 [main] CreditCardControllerUnitTest - Starting CreditCardControllerUnitTest using Java 11.0.8 on DESKTOP-E65T190 with PID 32180 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:21:10.306 [main] CreditCardControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:21:10.307 [main] CreditCardControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:21:14.659 [main] CreditCardControllerUnitTest - Started CreditCardControllerUnitTest in 4.579 seconds (JVM running for 5.928)
+[INFO ] 2022-09-26 16:21:43.578 [main] CreditCardControllerUnitTest - Starting CreditCardControllerUnitTest using Java 11.0.8 on DESKTOP-E65T190 with PID 32916 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:21:43.580 [main] CreditCardControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:21:43.580 [main] CreditCardControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:21:47.836 [main] CreditCardControllerUnitTest - Started CreditCardControllerUnitTest in 4.489 seconds (JVM running for 5.849)
+[INFO ] 2022-09-26 16:24:42.164 [main] CreditCardControllerUnitTest - Starting CreditCardControllerUnitTest using Java 11.0.8 on DESKTOP-E65T190 with PID 32288 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:24:42.166 [main] CreditCardControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:24:42.167 [main] CreditCardControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:24:46.435 [main] CreditCardControllerUnitTest - Started CreditCardControllerUnitTest in 4.506 seconds (JVM running for 5.858)
+[INFO ] 2022-09-26 16:26:16.533 [main] CreditCardControllerUnitTest - Starting CreditCardControllerUnitTest using Java 11.0.8 on DESKTOP-E65T190 with PID 22160 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:26:16.535 [main] CreditCardControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:26:16.535 [main] CreditCardControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:26:20.957 [main] CreditCardControllerUnitTest - Started CreditCardControllerUnitTest in 4.652 seconds (JVM running for 6.017)
+[INFO ] 2022-09-26 16:26:51.955 [main] CreditCardControllerUnitTest - Starting CreditCardControllerUnitTest using Java 11.0.8 on DESKTOP-E65T190 with PID 15136 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:26:51.957 [main] CreditCardControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:26:51.958 [main] CreditCardControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:26:56.173 [main] CreditCardControllerUnitTest - Started CreditCardControllerUnitTest in 4.454 seconds (JVM running for 5.804)
+[INFO ] 2022-09-26 16:28:23.160 [main] CreditCardControllerUnitTest - Starting CreditCardControllerUnitTest using Java 11.0.8 on DESKTOP-E65T190 with PID 31896 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:28:23.162 [main] CreditCardControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:28:23.162 [main] CreditCardControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:28:27.366 [main] CreditCardControllerUnitTest - Started CreditCardControllerUnitTest in 4.428 seconds (JVM running for 5.739)
+[INFO ] 2022-09-26 16:46:51.198 [main] CreditCardRepoTest - Starting CreditCardRepoTest using Java 11.0.8 on DESKTOP-E65T190 with PID 32260 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:46:51.200 [main] CreditCardRepoTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:46:51.201 [main] CreditCardRepoTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:46:54.092 [main] CreditCardRepoTest - Started CreditCardRepoTest in 3.187 seconds (JVM running for 4.312)
+[INFO ] 2022-09-26 16:47:20.382 [main] CreditCardRepoTest - Starting CreditCardRepoTest using Java 11.0.8 on DESKTOP-E65T190 with PID 15252 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:47:20.384 [main] CreditCardRepoTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:47:20.385 [main] CreditCardRepoTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:47:23.314 [main] CreditCardRepoTest - Started CreditCardRepoTest in 3.214 seconds (JVM running for 4.348)
+[INFO ] 2022-09-26 16:50:04.937 [main] CreditCardRepoTest - Starting CreditCardRepoTest using Java 11.0.8 on DESKTOP-E65T190 with PID 12148 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:50:04.940 [main] CreditCardRepoTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:50:04.940 [main] CreditCardRepoTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:50:07.857 [main] CreditCardRepoTest - Started CreditCardRepoTest in 3.191 seconds (JVM running for 4.362)
+[INFO ] 2022-09-26 16:51:26.712 [main] CreditCardRepoTest - Starting CreditCardRepoTest using Java 11.0.8 on DESKTOP-E65T190 with PID 13164 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:51:26.714 [main] CreditCardRepoTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:51:26.715 [main] CreditCardRepoTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:51:29.652 [main] CreditCardRepoTest - Started CreditCardRepoTest in 3.214 seconds (JVM running for 4.349)
+[INFO ] 2022-09-26 16:53:29.007 [main] CreditCardRepoTest - Starting CreditCardRepoTest using Java 11.0.8 on DESKTOP-E65T190 with PID 30876 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:53:29.009 [main] CreditCardRepoTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:53:29.010 [main] CreditCardRepoTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:53:31.984 [main] CreditCardRepoTest - Started CreditCardRepoTest in 3.263 seconds (JVM running for 4.397)
+[INFO ] 2022-09-26 16:53:51.834 [main] CreditCardRepoTest - Starting CreditCardRepoTest using Java 11.0.8 on DESKTOP-E65T190 with PID 8688 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:53:51.836 [main] CreditCardRepoTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:53:51.836 [main] CreditCardRepoTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:53:54.755 [main] CreditCardRepoTest - Started CreditCardRepoTest in 3.199 seconds (JVM running for 4.326)
+[INFO ] 2022-09-26 16:54:26.929 [main] CreditCardRepoTest - Starting CreditCardRepoTest using Java 11.0.8 on DESKTOP-E65T190 with PID 23736 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:54:26.932 [main] CreditCardRepoTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:54:26.933 [main] CreditCardRepoTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:54:29.795 [main] CreditCardRepoTest - Started CreditCardRepoTest in 3.15 seconds (JVM running for 4.301)
+[INFO ] 2022-09-26 16:57:22.939 [main] CreditCardRepoTest - Starting CreditCardRepoTest using Java 11.0.8 on DESKTOP-E65T190 with PID 26580 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-26 16:57:22.941 [main] CreditCardRepoTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:57:22.941 [main] CreditCardRepoTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:57:25.858 [main] CreditCardRepoTest - Started CreditCardRepoTest in 3.198 seconds (JVM running for 4.343)

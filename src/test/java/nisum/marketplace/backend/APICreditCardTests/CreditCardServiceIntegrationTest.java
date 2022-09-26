@@ -15,7 +15,7 @@ import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE)
-public class CreditCardServiceTest {
+public class CreditCardServiceIntegrationTest {
 
     @Autowired
     private CreditCardService service;
@@ -35,11 +35,11 @@ public class CreditCardServiceTest {
     @Test
     public void createCreditCard() throws Exception{
         CreditCard card = new CreditCard();
-        card.setUserID(1);
-        card.setCardholderName("Bobby Joe");
-        card.setCardNumber("1234567812345678");
-        card.setExpirationYear("2022");
-        card.setExpirationMonth("12");
+        card.setUser_id(1);
+        card.setCardholder_name("Bobby Joe");
+        card.setLast_four_card_number("1234");
+        card.setExpiration_year("22");
+        card.setExpiration_month("12");
 
         Assert.assertEquals(card, service.createCreditCard(card));
     }
@@ -49,12 +49,12 @@ public class CreditCardServiceTest {
         Integer id = 9;
 
         CreditCard card = new CreditCard();
-        card.setCreditCardID(id);
-        card.setUserID(1);
-        card.setCardholderName("Bobby Joe");
-        card.setCardNumber("1234567812345678");
-        card.setExpirationYear("2022");
-        card.setExpirationMonth("12");
+        card.setCredit_card_id(id);
+        card.setUser_id(1);
+        card.setCardholder_name("Bobby Joe");
+        card.setLast_four_card_number("1234");
+        card.setExpiration_year("22");
+        card.setExpiration_month("12");
 
         Assert.assertNotNull(service.updateCreditCard(id, card));
     }
