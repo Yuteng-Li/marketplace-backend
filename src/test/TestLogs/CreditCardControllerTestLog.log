@@ -1,0 +1,46 @@
+[INFO ] 2022-09-23 15:10:37.694 [main] CreditCardControllerTest - API TEST LOG BEGIN: CreditCardControllerTest
+[INFO ] 2022-09-23 15:10:37.937 [main] CreditCardControllerTest - Starting CreditCardControllerTest using Java 11.0.8 on DESKTOP-E65T190 with PID 16204 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-23 15:10:37.939 [main] CreditCardControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-23 15:10:37.940 [main] CreditCardControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-23 15:10:41.997 [main] CreditCardControllerTest - Started CreditCardControllerTest in 4.275 seconds (JVM running for 5.545)
+[INFO ] 2022-09-23 15:10:42.099 [main] CreditCardControllerTest - Testing endpoint '/api/creditCard/updateCard/{id}' for updating a credit card by id
+[INFO ] 2022-09-23 15:10:42.424 [main] CreditCardControllerTest - Status code is:201
+[INFO ] 2022-09-23 15:10:42.424 [main] CreditCardControllerTest - Response body{"creditCardID":7,"userID":1,"cardholderName":"Bobby Joe","bankName":"TESTUPDATE","cardType":"TESTUPDATE","cardNumber":"1234567812345678","securityNumber":"111","expirationYear":"2022","expirationMonth":"12"}
+[INFO ] 2022-09-23 15:10:42.434 [main] CreditCardControllerTest - API TEST LOG COMPLETED: CreditCardControllerTest
+[INFO ] 2022-09-23 15:21:21.760 [main] CreditCardControllerTest - Starting CreditCardControllerTest using Java 11.0.8 on DESKTOP-E65T190 with PID 26160 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-23 15:21:21.763 [main] CreditCardControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-23 15:21:21.763 [main] CreditCardControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-23 15:21:25.901 [main] CreditCardControllerTest - Started CreditCardControllerTest in 4.362 seconds (JVM running for 5.602)
+[INFO ] 2022-09-23 15:21:26.006 [main] CreditCardControllerTest - API TEST LOG BEGIN: CreditCardControllerTest
+[INFO ] 2022-09-23 15:21:26.006 [main] CreditCardControllerTest - Testing endpoint '/api/creditCard/getCards' for printing all credit card in database
+[INFO ] 2022-09-23 15:21:26.265 [main] CreditCardControllerTest - Status code is:200
+[INFO ] 2022-09-23 15:21:26.265 [main] CreditCardControllerTest - Response body for get all credit cars:[{"creditCardID":1,"userID":1,"cardholderName":"Bobby Joe","bankName":"Capital One","cardType":"Visa","cardNumber":"4443123467891234","securityNumber":"808","expirationYear":"2022","expirationMonth":"09"},{"creditCardID":2,"userID":3,"cardholderName":"Nancy Johnson","bankName":"Bank of America","cardType":"Amex","cardNumber":"3734567891011121","securityNumber":"6290","expirationYear":"2024","expirationMonth":"01"},{"creditCardID":3,"userID":2,"cardholderName":"Andrew Williams","bankName":"HSBC","cardType":"MasterCard","cardNumber":"4264483469273672","securityNumber":"700","expirationYear":"2026","expirationMonth":"09"},{"creditCardID":4,"userID":5,"cardholderName":"George Lee","bankName":"Chase","cardType":"Visa","cardNumber":"4231902528753161","securityNumber":"232","expirationYear":"2025","expirationMonth":"11"},{"creditCardID":5,"userID":4,"cardholderName":"Jenny Jones","bankName":"Wells Fargo","cardType":"Amex","cardNumber":"3484127952481970","securityNumber":"1101","expirationYear":"2028","expirationMonth":"10"},{"creditCardID":6,"userID":3,"cardholderName":"Nancy Johnson","bankName":"Discover","cardType":"Discover","cardNumber":"6091862988814035","securityNumber":"444","expirationYear":"2027","expirationMonth":"07"},{"creditCardID":7,"userID":1,"cardholderName":"Bobby Joe","bankName":"TESTUPDATE","cardType":"TESTUPDATE","cardNumber":"1234567812345678","securityNumber":"111","expirationYear":"2022","expirationMonth":"12"},{"creditCardID":8,"userID":1,"cardholderName":"Bobby Joe","bankName":"TEST","cardType":"TEST","cardNumber":"1234567812345678","securityNumber":"111","expirationYear":"2022","expirationMonth":"12"},{"creditCardID":9,"userID":1,"cardholderName":"Bobby Joe","bankName":"TESTUPDATE","cardType":"TESTUPDATE","cardNumber":"1234567812345678","securityNumber":"111","expirationYear":"2022","expirationMonth":"12"},{"creditCardID":10,"userID":1,"cardholderName":"Bobby Joe","bankName":"TEST","cardType":"TEST","cardNumber":"1234567812345678","securityNumber":"111","expirationYear":"2022","expirationMonth":"12"}]
+[INFO ] 2022-09-23 15:21:33.297 [main] CreditCardControllerTest - Starting CreditCardControllerTest using Java 11.0.8 on DESKTOP-E65T190 with PID 23636 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-23 15:21:33.299 [main] CreditCardControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-23 15:21:33.300 [main] CreditCardControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-23 15:21:37.417 [main] CreditCardControllerTest - Started CreditCardControllerTest in 4.342 seconds (JVM running for 5.551)
+[INFO ] 2022-09-23 15:21:37.522 [main] CreditCardControllerTest - Testing endpoint '/api/creditCard/getCard/{id}' for printing a credit card in database by id
+[INFO ] 2022-09-23 15:21:37.697 [main] CreditCardControllerTest - Status code is:200
+[INFO ] 2022-09-23 15:21:37.698 [main] CreditCardControllerTest - Response body for get by id:{"creditCardID":1,"userID":1,"cardholderName":"Bobby Joe","bankName":"Capital One","cardType":"Visa","cardNumber":"4443123467891234","securityNumber":"808","expirationYear":"2022","expirationMonth":"09"}
+[INFO ] 2022-09-23 15:21:42.510 [main] CreditCardControllerTest - Starting CreditCardControllerTest using Java 11.0.8 on DESKTOP-E65T190 with PID 15884 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-23 15:21:42.513 [main] CreditCardControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-23 15:21:42.513 [main] CreditCardControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-23 15:21:46.549 [main] CreditCardControllerTest - Started CreditCardControllerTest in 4.287 seconds (JVM running for 5.541)
+[INFO ] 2022-09-23 15:21:46.655 [main] CreditCardControllerTest - Testing endpoint '/api/creditCard/createCard' for creating a credit card 
+[INFO ] 2022-09-23 15:21:46.857 [main] CreditCardControllerTest - Status code is:201
+[INFO ] 2022-09-23 15:21:46.857 [main] CreditCardControllerTest - Response body for creating a credit card{"creditCardID":11,"userID":1,"cardholderName":"Bobby Joe","bankName":"TEST","cardType":"TEST","cardNumber":"1234567812345678","securityNumber":"111","expirationYear":"2022","expirationMonth":"12"}
+[INFO ] 2022-09-23 15:21:51.352 [main] CreditCardControllerTest - Starting CreditCardControllerTest using Java 11.0.8 on DESKTOP-E65T190 with PID 20376 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-23 15:21:51.354 [main] CreditCardControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-23 15:21:51.355 [main] CreditCardControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-23 15:21:55.496 [main] CreditCardControllerTest - Started CreditCardControllerTest in 4.375 seconds (JVM running for 5.622)
+[INFO ] 2022-09-23 15:21:55.599 [main] CreditCardControllerTest - Testing endpoint '/api/creditCard/updateCard/{id}' for updating a credit card by id
+[INFO ] 2022-09-23 15:21:55.911 [main] CreditCardControllerTest - Status code is:201
+[INFO ] 2022-09-23 15:21:55.911 [main] CreditCardControllerTest - Response body for updating a credit card by id{"creditCardID":7,"userID":1,"cardholderName":"Bobby Joe","bankName":"TESTUPDATE","cardType":"TESTUPDATE","cardNumber":"1234567812345678","securityNumber":"111","expirationYear":"2022","expirationMonth":"12"}
+[INFO ] 2022-09-23 15:24:34.488 [main] CreditCardControllerTest - Starting CreditCardControllerTest using Java 11.0.8 on DESKTOP-E65T190 with PID 25192 (started by Joshua in C:\Users\Joshua\Desktop\WORK\intelliJ_Workspace\marketplace-backend)
+[DEBUG] 2022-09-23 15:24:34.490 [main] CreditCardControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-23 15:24:34.491 [main] CreditCardControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-23 15:24:38.513 [main] CreditCardControllerTest - Started CreditCardControllerTest in 4.242 seconds (JVM running for 5.436)
+[INFO ] 2022-09-23 15:24:38.615 [main] CreditCardControllerTest - Testing endpoint '/api/creditCard/deleteCard/{id}' for deleting a credit card by id
+[INFO ] 2022-09-23 15:24:38.870 [main] CreditCardControllerTest - Status code is:200
+[INFO ] 2022-09-23 15:24:38.870 [main] CreditCardControllerTest - Response body for deleting a credit card by idtrue
+[INFO ] 2022-09-23 15:24:38.870 [main] CreditCardControllerTest - API TEST LOG COMPLETED: CreditCardControllerTest
