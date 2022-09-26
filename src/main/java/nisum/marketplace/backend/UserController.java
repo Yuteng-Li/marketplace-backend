@@ -33,7 +33,7 @@ public class UserController {
         }
 
     }
-
+    
     @GetMapping("/getUserByEmail/{email}")
     public ResponseEntity<?> getUserByEmail (@PathVariable String email){
         try{
