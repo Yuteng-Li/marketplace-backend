@@ -67,4 +67,10 @@ public class UserAddressServiceImpl implements UserAddressService{
 		return repo.save(address);
 	}
 
+
+//	@Override
+//	public List<Address> getAddressByUserID(Integer userID) {
+//		repo.findAll(userID);
+//	}
+
 }
