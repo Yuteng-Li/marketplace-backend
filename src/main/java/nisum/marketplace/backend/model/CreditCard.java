@@ -15,17 +15,8 @@ public class CreditCard {
     @Column(name = "cardholder_name")
     private String cardholderName;
 
-    @Column(name = "bank_name")
-    private String bankName;
-
-    @Column(name = "card_type")
-    private String cardType;
-
     @Column(name = "card_number")
     private String cardNumber;
-
-    @Column(name = "security_code")
-    private String securityNumber;
 
     @Column(name = "expiration_year")
     private String expirationYear;
@@ -57,36 +48,12 @@ public class CreditCard {
         this.cardholderName = cardholderName;
     }
 
-    public String getBankName() {
-        return bankName;
-    }
-
-    public void setBankName(String bankName) {
-        this.bankName = bankName;
-    }
-
-    public String getCardType() {
-        return cardType;
-    }
-
-    public void setCardType(String cardType) {
-        this.cardType = cardType;
-    }
-
     public String getCardNumber() {
         return cardNumber;
     }
 
     public void setCardNumber(String cardNumber) {
         this.cardNumber = cardNumber;
-    }
-
-    public String getSecurityNumber() {
-        return securityNumber;
-    }
-
-    public void setSecurityNumber(String securityNumber) {
-        this.securityNumber = securityNumber;
     }
 
     public String getExpirationYear() {
@@ -111,10 +78,7 @@ public class CreditCard {
                 "creditCardID=" + creditCardID +
                 ", userID=" + userID +
                 ", cardholderName='" + cardholderName + '\'' +
-                ", bankName='" + bankName + '\'' +
-                ", cardType='" + cardType + '\'' +
                 ", cardNumber='" + cardNumber + '\'' +
-                ", securityNumber='" + securityNumber + '\'' +
                 ", expirationYear='" + expirationYear + '\'' +
                 ", expirationMonth='" + expirationMonth + '\'' +
                 '}';
