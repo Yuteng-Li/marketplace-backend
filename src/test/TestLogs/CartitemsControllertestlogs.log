@@ -1,0 +1,10 @@
+[INFO ] 2022-09-23 15:27:01.619 [main] CartItemsControllerTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-23 15:27:02.257 [main] CartItemsControllerTest - Starting CartItemsControllerTest using Java 15.0.2 on Alexander-PC with PID 13204 (started by Tigerclaw in C:\Users\Tigerclaw\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-23 15:27:02.261 [main] CartItemsControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-23 15:27:02.261 [main] CartItemsControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-23 15:27:12.319 [main] CartItemsControllerTest - Started CartItemsControllerTest in 10.62 seconds (JVM running for 12.836)
+[INFO ] 2022-09-23 15:27:12.758 [main] CartItemsControllerTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/getcart
+[INFO ] 2022-09-23 15:27:13.093 [main] CartItemsControllerTest - Printed Response
+[INFO ] 2022-09-23 15:27:13.093 [main] CartItemsControllerTest - Expected status code 200 OK
+[INFO ] 2022-09-23 15:27:13.093 [main] CartItemsControllerTest - Successfully Fetched Cart
+[INFO ] 2022-09-23 15:27:13.111 [main] CartItemsControllerTest - API TEST LOG COMPLETED: CartItemsControllerTest
