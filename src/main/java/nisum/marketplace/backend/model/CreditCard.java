@@ -7,80 +7,80 @@ import javax.persistence.*;
 public class CreditCard {
     @Id @GeneratedValue(strategy= GenerationType.IDENTITY)
     @Column(name = "credit_card_id")
-    private Integer creditCardID;
+    private Integer credit_card_id;
 
     @Column(name = "user_id")
-    private Integer userID;
+    private Integer user_id;
 
     @Column(name = "cardholder_name")
-    private String cardholderName;
+    private String cardholder_name;
 
-    @Column(name = "card_number")
-    private String cardNumber;
+    @Column(name = "last_four_card_number")
+    private String last_four_card_number;
 
     @Column(name = "expiration_year")
-    private String expirationYear;
+    private String expiration_year;
 
     @Column(name = "expiration_month")
-    private String expirationMonth;
+    private String expiration_month;
 
-    public Integer getCreditCardID() {
-        return creditCardID;
+    public Integer getCredit_card_id() {
+        return credit_card_id;
     }
 
-    public void setCreditCardID(Integer creditCardID) {
-        this.creditCardID = creditCardID;
+    public void setCredit_card_id(Integer credit_card_id) {
+        this.credit_card_id = credit_card_id;
     }
 
-    public Integer getUserID() {
-        return userID;
+    public Integer getUser_id() {
+        return user_id;
     }
 
-    public void setUserID(Integer userID) {
-        this.userID = userID;
+    public void setUser_id(Integer user_id) {
+        this.user_id = user_id;
     }
 
-    public String getCardholderName() {
-        return cardholderName;
+    public String getCardholder_name() {
+        return cardholder_name;
     }
 
-    public void setCardholderName(String cardholderName) {
-        this.cardholderName = cardholderName;
+    public void setCardholder_name(String cardholder_name) {
+        this.cardholder_name = cardholder_name;
     }
 
-    public String getCardNumber() {
-        return cardNumber;
+    public String getLast_four_card_number() {
+        return last_four_card_number;
     }
 
-    public void setCardNumber(String cardNumber) {
-        this.cardNumber = cardNumber;
+    public void setLast_four_card_number(String last_four_card_number) {
+        this.last_four_card_number = last_four_card_number;
     }
 
-    public String getExpirationYear() {
-        return expirationYear;
+    public String getExpiration_year() {
+        return expiration_year;
     }
 
-    public void setExpirationYear(String expirationYear) {
-        this.expirationYear = expirationYear;
+    public void setExpiration_year(String expiration_year) {
+        this.expiration_year = expiration_year;
     }
 
-    public String getExpirationMonth() {
-        return expirationMonth;
+    public String getExpiration_month() {
+        return expiration_month;
     }
 
-    public void setExpirationMonth(String expirationMonth) {
-        this.expirationMonth = expirationMonth;
+    public void setExpiration_month(String expiration_month) {
+        this.expiration_month = expiration_month;
     }
 
     @Override
     public String toString() {
         return "CreditCard{" +
-                "creditCardID=" + creditCardID +
-                ", userID=" + userID +
-                ", cardholderName='" + cardholderName + '\'' +
-                ", cardNumber='" + cardNumber + '\'' +
-                ", expirationYear='" + expirationYear + '\'' +
-                ", expirationMonth='" + expirationMonth + '\'' +
+                "credit_card_id=" + credit_card_id +
+                ", user_id=" + user_id +
+                ", cardholder_name='" + cardholder_name + '\'' +
+                ", last_four_card_number='" + last_four_card_number + '\'' +
+                ", expiration_year='" + expiration_year + '\'' +
+                ", expiration_month='" + expiration_month + '\'' +
                 '}';
     }
 }
