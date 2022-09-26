@@ -54,11 +54,8 @@ public class CreditCardControllerTest {
     public void createCardTest() throws Exception{
         CreditCard card = new CreditCard();
         card.setUserID(1);
-        card.setBankName("TEST");
         card.setCardholderName("Bobby Joe");
-        card.setCardType("TEST");
         card.setCardNumber("1234567812345678");
-        card.setSecurityNumber("111");
         card.setExpirationYear("2022");
         card.setExpirationMonth("12");
 
@@ -76,11 +73,8 @@ public class CreditCardControllerTest {
         CreditCard card = new CreditCard();
         card.setCreditCardID(7);
         card.setUserID(1);
-        card.setBankName("TESTUPDATE");
         card.setCardholderName("Bobby Joe");
-        card.setCardType("TESTUPDATE");
         card.setCardNumber("1234567812345678");
-        card.setSecurityNumber("111");
         card.setExpirationYear("2022");
         card.setExpirationMonth("12");
 
