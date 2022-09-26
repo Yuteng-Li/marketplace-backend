@@ -94,7 +94,7 @@ public class CreditCardControllerTest {
     @Test
     public void deleteCardTest() throws Exception{
         //increment by 1 to delete the updated card
-        this.mvc.perform(delete("/api/creditCard/deleteCard/{id}", 11))
+        this.mvc.perform(delete("/api/creditCard/deleteCard/{id}", 7))
                 .andExpect(status().isOk());
     }
 

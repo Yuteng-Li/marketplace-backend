@@ -56,17 +56,19 @@ public class addressControllerIntegrationTest {
     }
 
  */
-    //@Test
-    public ResponseEntity<?> getAddress(Integer addressId) throws Exception {
+    @Test
+    public void getAddress() throws Exception {
         int id=2;
         System.err.println("get Address.");
         //res = this.template.getForEntity("http://localhost:"
           //      +port+baseURI+"getAddress/"+id, Address.class);
         //Assert.assertEquals(200,res.getStatusCodeValue());
-        ObjectMapper map = new ObjectMapper();
-        String jsonString = map.writeValueAsString(res.getBody());
-        res = addressController.getAddressById(addressId);
-        return res;
+        //ObjectMapper map = new ObjectMapper();
+       // String jsonString = map.writeValueAsString(res.getBody());
+        res = addressController.getAddressById(1);
+        System.err.println(res.getBody());
+        Assert.assertEquals(200,res.getStatusCodeValue());
+        //return res;
         //logger.logPass("Status code: "+res.getStatusCode()+"\n"+jsonString);
 
     }

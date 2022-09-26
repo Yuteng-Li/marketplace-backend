@@ -110,3 +110,123 @@
 [DEBUG] 2022-09-26 09:41:34.140 [main] AddressControllerIntegrationStepDefs - Running with Spring Boot v2.7.3, Spring v5.3.22
 [INFO ] 2022-09-26 09:41:34.140 [main] AddressControllerIntegrationStepDefs - No active profile set, falling back to 1 default profile: "default"
 [INFO ] 2022-09-26 09:41:38.143 [main] AddressControllerIntegrationStepDefs - Started AddressControllerIntegrationStepDefs in 4.186 seconds (JVM running for 5.356)
+[INFO ] 2022-09-26 11:13:28.836 [main] CreditCardControllerTest - Starting CreditCardControllerTest using Java 11.0.16.1 on BigBox with PID 7056 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 11:13:28.838 [main] CreditCardControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 11:13:28.839 [main] CreditCardControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 11:13:32.928 [main] CreditCardControllerTest - Started CreditCardControllerTest in 4.292 seconds (JVM running for 5.295)
+[INFO ] 2022-09-26 11:13:59.996 [main] CreditCardControllerTest - Starting CreditCardControllerTest using Java 11.0.16.1 on BigBox with PID 16228 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 11:13:59.998 [main] CreditCardControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 11:13:59.998 [main] CreditCardControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 11:14:03.973 [main] CreditCardControllerTest - Started CreditCardControllerTest in 4.187 seconds (JVM running for 5.2)
+[INFO ] 2022-09-26 11:17:15.601 [main] AddressControllerUnitTest - Starting AddressControllerUnitTest using Java 11.0.16.1 on BigBox with PID 12816 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 11:17:15.603 [main] AddressControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 11:17:15.603 [main] AddressControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 11:17:19.914 [main] AddressControllerUnitTest - Started AddressControllerUnitTest in 4.482 seconds (JVM running for 5.647)
+[INFO ] 2022-09-26 11:20:43.104 [main] addressControllerIntegrationTest - Starting addressControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 23568 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 11:20:43.106 [main] addressControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 11:20:43.107 [main] addressControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 11:20:47.593 [main] addressControllerIntegrationTest - Starting addressControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 23568 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 11:20:47.593 [main] addressControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 11:20:47.593 [main] addressControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 11:20:58.040 [main] addressControllerIntegrationTest - Starting addressControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 14000 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 11:20:58.042 [main] addressControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 11:20:58.043 [main] addressControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 11:21:02.637 [main] addressControllerIntegrationTest - Started addressControllerIntegrationTest in 4.823 seconds (JVM running for 5.723)
+[INFO ] 2022-09-26 11:21:27.042 [main] addressControllerIntegrationTest - Starting addressControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 22300 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 11:21:27.044 [main] addressControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 11:21:27.044 [main] addressControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 11:21:31.494 [main] addressControllerIntegrationTest - Started addressControllerIntegrationTest in 4.675 seconds (JVM running for 5.588)
+[INFO ] 2022-09-26 11:21:48.568 [main] addressControllerIntegrationTest - Starting addressControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 2552 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 11:21:48.571 [main] addressControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 11:21:48.571 [main] addressControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 11:21:52.958 [main] addressControllerIntegrationTest - Starting addressControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 2552 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 11:21:52.959 [main] addressControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 11:21:52.959 [main] addressControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 11:23:53.001 [main] addressControllerIntegrationTest - Starting addressControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 23384 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 11:23:53.004 [main] addressControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 11:23:53.004 [main] addressControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 11:23:57.768 [main] addressControllerIntegrationTest - Started addressControllerIntegrationTest in 4.996 seconds (JVM running for 6.051)
+[INFO ] 2022-09-26 11:24:30.310 [main] addressControllerIntegrationTest - Starting addressControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 15148 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 11:24:30.312 [main] addressControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 11:24:30.312 [main] addressControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 11:24:34.597 [main] addressControllerIntegrationTest - Started addressControllerIntegrationTest in 4.497 seconds (JVM running for 5.446)
+[INFO ] 2022-09-26 11:25:00.981 [main] addressControllerIntegrationTest - Starting addressControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 2980 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 11:25:00.983 [main] addressControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 11:25:00.984 [main] addressControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 11:25:05.824 [main] addressControllerIntegrationTest - Started addressControllerIntegrationTest in 5.089 seconds (JVM running for 6.166)
+[INFO ] 2022-09-26 11:28:17.956 [main] CreditCardControllerTest - Starting CreditCardControllerTest using Java 11.0.16.1 on BigBox with PID 27204 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 11:28:17.958 [main] CreditCardControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 11:28:17.958 [main] CreditCardControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 11:28:22.076 [main] CreditCardControllerTest - Started CreditCardControllerTest in 4.33 seconds (JVM running for 5.333)
+[INFO ] 2022-09-26 11:28:41.848 [main] CreditCardControllerTest - Starting CreditCardControllerTest using Java 11.0.16.1 on BigBox with PID 26600 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 11:28:41.850 [main] CreditCardControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 11:28:41.850 [main] CreditCardControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 11:28:45.915 [main] CreditCardControllerTest - Started CreditCardControllerTest in 4.273 seconds (JVM running for 5.351)
+[INFO ] 2022-09-26 11:33:14.171 [main] CreditCardControllerTest - Starting CreditCardControllerTest using Java 11.0.16.1 on BigBox with PID 28100 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 11:33:14.173 [main] CreditCardControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 11:33:14.173 [main] CreditCardControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 11:33:18.131 [main] CreditCardControllerTest - Started CreditCardControllerTest in 4.185 seconds (JVM running for 5.188)
+[INFO ] 2022-09-26 11:37:42.171 [main] CartItemsControllerTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-26 11:37:42.393 [main] CartItemsControllerTest - Starting CartItemsControllerTest using Java 11.0.16.1 on BigBox with PID 18948 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 11:37:42.395 [main] CartItemsControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 11:37:42.396 [main] CartItemsControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 11:37:46.340 [main] CartItemsControllerTest - Started CartItemsControllerTest in 4.145 seconds (JVM running for 5.192)
+[INFO ] 2022-09-26 11:37:46.524 [main] CartItemsControllerTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/getcart
+[INFO ] 2022-09-26 11:37:46.663 [main] CartItemsControllerTest - Printed Response
+[INFO ] 2022-09-26 11:37:46.663 [main] CartItemsControllerTest - Expected status code 200 OK
+[INFO ] 2022-09-26 11:37:46.663 [main] CartItemsControllerTest - Successfully Fetched Cart
+[INFO ] 2022-09-26 11:37:46.670 [main] CartItemsControllerTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-26 11:37:54.552 [main] CartItemsControllerTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-26 11:37:54.772 [main] CartItemsControllerTest - Starting CartItemsControllerTest using Java 11.0.16.1 on BigBox with PID 24540 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 11:37:54.776 [main] CartItemsControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 11:37:54.776 [main] CartItemsControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 11:37:58.679 [main] CartItemsControllerTest - Started CartItemsControllerTest in 4.101 seconds (JVM running for 5.122)
+[INFO ] 2022-09-26 11:37:58.846 [main] CartItemsControllerTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/getcart
+[INFO ] 2022-09-26 11:37:58.982 [main] CartItemsControllerTest - Printed Response
+[INFO ] 2022-09-26 11:37:58.982 [main] CartItemsControllerTest - Expected status code 200 OK
+[INFO ] 2022-09-26 11:37:58.982 [main] CartItemsControllerTest - Successfully Fetched Cart
+[INFO ] 2022-09-26 11:37:58.991 [main] CartItemsControllerTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-26 11:38:39.175 [main] CartItemsControllerTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-26 11:38:39.402 [main] CartItemsControllerTest - Starting CartItemsControllerTest using Java 11.0.16.1 on BigBox with PID 3984 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 11:38:39.404 [main] CartItemsControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 11:38:39.404 [main] CartItemsControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 11:38:43.532 [main] CartItemsControllerTest - Started CartItemsControllerTest in 4.332 seconds (JVM running for 5.409)
+[INFO ] 2022-09-26 11:38:43.675 [main] CartItemsControllerTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/getcart
+[INFO ] 2022-09-26 11:38:43.818 [main] CartItemsControllerTest - Printed Response
+[INFO ] 2022-09-26 11:38:43.818 [main] CartItemsControllerTest - Expected status code 200 OK
+[INFO ] 2022-09-26 11:38:43.818 [main] CartItemsControllerTest - Successfully Fetched Cart
+[INFO ] 2022-09-26 11:38:43.826 [main] CartItemsControllerTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-26 13:32:30.385 [main] addressControllerIntegrationTest - Starting addressControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 18248 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 13:32:30.388 [main] addressControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 13:32:30.388 [main] addressControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 13:32:34.835 [main] addressControllerIntegrationTest - Starting addressControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 18248 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 13:32:34.835 [main] addressControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 13:32:34.835 [main] addressControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 13:32:52.057 [main] addressControllerIntegrationTest - Starting addressControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 22220 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 13:32:52.059 [main] addressControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 13:32:52.060 [main] addressControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 13:32:56.262 [main] addressControllerIntegrationTest - Started addressControllerIntegrationTest in 4.419 seconds (JVM running for 5.336)
+[INFO ] 2022-09-26 13:33:14.381 [main] addressControllerIntegrationTest - Starting addressControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 8384 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 13:33:14.383 [main] addressControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 13:33:14.384 [main] addressControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 13:33:18.666 [main] addressControllerIntegrationTest - Started addressControllerIntegrationTest in 4.505 seconds (JVM running for 5.413)
+[INFO ] 2022-09-26 13:36:35.657 [main] addressControllerIntegrationTest - Starting addressControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 1424 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 13:36:35.659 [main] addressControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 13:36:35.660 [main] addressControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 13:36:40.119 [main] addressControllerIntegrationTest - Started addressControllerIntegrationTest in 4.68 seconds (JVM running for 5.57)
+[INFO ] 2022-09-26 13:36:57.506 [main] addressControllerIntegrationTest - Starting addressControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 2508 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 13:36:57.508 [main] addressControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 13:36:57.509 [main] addressControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 13:37:01.973 [main] addressControllerIntegrationTest - Started addressControllerIntegrationTest in 4.692 seconds (JVM running for 5.595)
+[INFO ] 2022-09-26 13:37:28.853 [main] AddressRepoIntegrationTest - Starting AddressRepoIntegrationTest using Java 11.0.16.1 on BigBox with PID 11392 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 13:37:28.856 [main] AddressRepoIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 13:37:28.857 [main] AddressRepoIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 13:37:31.326 [main] AddressRepoIntegrationTest - Started AddressRepoIntegrationTest in 2.744 seconds (JVM running for 3.719)
+[INFO ] 2022-09-26 13:38:06.122 [main] AddressRepoIntegrationTest - Starting AddressRepoIntegrationTest using Java 11.0.16.1 on BigBox with PID 25920 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 13:38:06.125 [main] AddressRepoIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 13:38:06.125 [main] AddressRepoIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 13:38:09.022 [main] AddressRepoIntegrationTest - Started AddressRepoIntegrationTest in 3.148 seconds (JVM running for 4.181)
+[INFO ] 2022-09-26 13:42:12.416 [main] AddressRepoIntegrationTest - Starting AddressRepoIntegrationTest using Java 11.0.16.1 on BigBox with PID 7496 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 13:42:12.419 [main] AddressRepoIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 13:42:12.419 [main] AddressRepoIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 13:42:15.225 [main] AddressRepoIntegrationTest - Started AddressRepoIntegrationTest in 3.088 seconds (JVM running for 4.136)

@@ -15,11 +15,15 @@ import nisum.marketplace.backend.APIAddressTests.AddressRepoIntegrationTest;
 import nisum.marketplace.backend.APIAddressTests.addressControllerIntegrationTest;
 import nisum.marketplace.backend.AddressController;
 import nisum.marketplace.backend.model.Address;
+
+import java.util.Arrays;
 import java.util.Map;
 import org.junit.Assert;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.web.reactive.server.WebTestClient;
+import tech.grasshopper.combiner.options.PojoOptions;
+import tech.grasshopper.combiner.options.PojoOptionsInputType;
 
 import java.util.List;
 
@@ -65,11 +69,12 @@ public class AddressControllerIntegrationStepDefs{
     public void getRequest(int id) throws Exception {
         System.err.println("I am in get request");
         //res = template.getForEntity(String.valueOf(id),Address.class);
-        res = RestAssuredWebTestClient.given().get("getAddress/"+String.valueOf(id));
+        res = RestAssuredWebTestClient.given().get("getAddress/"+ id);
     }
 
     @Then("I should receive a status {int} if it exists.")
     public void checkResults(int statusCode){
+
         Assert.assertEquals(statusCode,res.getStatusCode());
     }
 
@@ -87,7 +92,7 @@ public class AddressControllerIntegrationStepDefs{
     public void iSendAPOSTRequestWithANewAddressInfoWithAddressIdForUserId(List<Address> list) throws Exception {
         ObjectMapper mapper = new ObjectMapper();
         String jsonAddress  = mapper.writeValueAsString(list.get(0));
-        res = RestAssuredWebTestClient.given().body(jsonAddress).contentType(ContentType.JSON).post("createAddress");;
+        res = RestAssuredWebTestClient.given().body(jsonAddress).contentType(ContentType.JSON).post("createAddress");
     }
 
     @When("I send a DELETE request with the address id {int}")
