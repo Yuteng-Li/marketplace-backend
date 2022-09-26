@@ -58,9 +58,9 @@ public class UserAddressServiceImpl implements UserAddressService{
 	@Override
 	public Address createAddress(Address address) throws AddressAlreadyExistsException {
 		//Checking to see if id is null because it's auto incremented in the DB and the user may not provide an id
-		if(address.getAddressID() != null) {
-			if(repo.existsById(address.getAddressID())) {
-				throw AddressAlreadyExistsException.createWith(address.getAddressID());
+		if(address.getAddress_id() != null) {
+			if(repo.existsById(address.getAddress_id())) {
+				throw AddressAlreadyExistsException.createWith(address.getAddress_id());
 			}
 		}
 		

@@ -65,7 +65,7 @@ public class AddressController {
 		try {
 			return new ResponseEntity<Address>(service.createAddress(address), HttpStatus.CREATED);
 		}catch(Exception e) {
-			return new ResponseEntity<String>("Address " + address.getAddressID() + " not created", HttpStatus.BAD_REQUEST);
+			return new ResponseEntity<String>("Address " + address.getAddress_id() + " not created", HttpStatus.BAD_REQUEST);
 		}
 	}
 	
