@@ -8,9 +8,11 @@ import nisum.marketplace.backend.model.Address;
 
 public interface UserAddressService {
 	List<Address> getAll();
+	//List<Address> getAddressByUserID(Integer userID);
 	Address getAddressById(Integer id) throws AddressNotFoundException;
 	Boolean deleteAddressById(Integer id) throws AddressNotFoundException;
 	Address updateAddress(Integer id, Address address) throws AddressNotFoundException;
 	Address createAddress(Address address) throws AddressAlreadyExistsException;
+	
 }
 	
