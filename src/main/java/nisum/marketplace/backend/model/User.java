@@ -18,6 +18,16 @@ public class User {
 
     private String phone;
 
+    public User(Integer user_id, String email, String first_name, String last_name, String user_password, String phone) {
+        super();
+        this.user_id = user_id;
+        this.email = email;
+        this.first_name = first_name;
+        this.last_name = last_name;
+        this.user_password = user_password;
+        this.phone = phone;
+    }
+
     public Integer getUser_id() {
         return user_id;
     }
