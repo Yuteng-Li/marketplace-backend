@@ -7,7 +7,11 @@ pipeline {
             }
             steps {
                 sh 'mvn clean -DskipTests package'
-                archiveArtifacts artifacts: 'target/*.jar', followSymlinks: false
+            }
+        }
+        stage('Post package'){
+            steps{
+                archiveArtifacts artifacts: '**/target/*.jar', followSymlinks: false
             }
         }
     }
