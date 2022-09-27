@@ -90,7 +90,9 @@ public class AddressControllerUnitTest {
 
          */
         //when(service.createAddress(newAddress)).getMock();
-        this.mock.perform(post(baseURI+"createAddress").content(jsonAddress).contentType(MediaType.APPLICATION_JSON))
+        this.mock.perform(post(baseURI+"createAddress")
+                        .content(jsonAddress)
+                        .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isCreated())
                 .andDo(print());
     }

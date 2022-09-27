@@ -331,3 +331,40 @@
 [INFO ] 2022-09-26 15:58:06.014 [main] UserControllerTest - Expected status code 201 Created
 [INFO ] 2022-09-26 15:58:06.014 [main] UserControllerTest - Successfully Updated User item
 [INFO ] 2022-09-26 15:58:06.026 [main] UserControllerTest - API TEST LOG COMPLETED: UserControllerTest
+[INFO ] 2022-09-26 16:07:24.022 [main] CartItemsControllerTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-26 16:07:24.324 [main] CartItemsControllerTest - Starting CartItemsControllerTest using Java 18.0.2 on Navi with PID 10192 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-26 16:07:24.327 [main] CartItemsControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:07:24.328 [main] CartItemsControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:07:30.120 [main] CartItemsControllerTest - Started CartItemsControllerTest in 6.056 seconds (JVM running for 7.845)
+[INFO ] 2022-09-26 16:07:30.450 [main] CartItemsControllerTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/getcart
+[INFO ] 2022-09-26 16:07:30.670 [main] CartItemsControllerTest - Printed Response
+[INFO ] 2022-09-26 16:07:30.670 [main] CartItemsControllerTest - Expected status code 200 OK
+[INFO ] 2022-09-26 16:07:30.670 [main] CartItemsControllerTest - Successfully Fetched Cart
+[INFO ] 2022-09-26 16:07:30.680 [main] CartItemsControllerTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-26 16:56:51.387 [main] UserControllerUnitTest - API TEST LOG BEGIN: UserControllerUnitTest
+[INFO ] 2022-09-26 16:56:51.746 [main] UserControllerUnitTest - Starting UserControllerUnitTest using Java 18.0.2 on Navi with PID 10732 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-26 16:56:51.750 [main] UserControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:56:51.750 [main] UserControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:56:58.690 [main] UserControllerUnitTest - Started UserControllerUnitTest in 7.258 seconds (JVM running for 9.446)
+[INFO ] 2022-09-26 16:56:59.121 [main] UserControllerUnitTest - Test DELETE METHOD WITH ENDPOINT: /api/user/deleteUser/{id}
+[INFO ] 2022-09-26 16:56:59.445 [main] UserControllerUnitTest - Test GET METHOD WITH ENDPOINT: /api/user/getUserByEmail/{email}
+[INFO ] 2022-09-26 16:56:59.572 [main] UserControllerUnitTest - Printed Response
+[INFO ] 2022-09-26 16:56:59.572 [main] UserControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-26 16:56:59.572 [main] UserControllerUnitTest - Successfully Fetched User By Email
+[INFO ] 2022-09-26 16:56:59.584 [main] UserControllerUnitTest - Test PUT METHOD WITH ENDPOINT: /api/user/updateUser/{id}
+[INFO ] 2022-09-26 16:56:59.687 [main] UserControllerUnitTest - Printed Response
+[INFO ] 2022-09-26 16:56:59.688 [main] UserControllerUnitTest - Expected status code 201 Created
+[INFO ] 2022-09-26 16:56:59.688 [main] UserControllerUnitTest - Successfully Updated User item
+[INFO ] 2022-09-26 16:56:59.698 [main] UserControllerUnitTest - Test GET METHOD WITH ENDPOINT: /api/user/getUserByID/{id}
+[INFO ] 2022-09-26 16:56:59.718 [main] UserControllerUnitTest - Printed Response
+[INFO ] 2022-09-26 16:56:59.718 [main] UserControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-26 16:56:59.718 [main] UserControllerUnitTest - Successfully Fetched User By ID
+[INFO ] 2022-09-26 16:56:59.728 [main] UserControllerUnitTest - Test GET METHOD WITH ENDPOINT: /api/user/getUsers
+[INFO ] 2022-09-26 16:56:59.748 [main] UserControllerUnitTest - Printed Response
+[INFO ] 2022-09-26 16:56:59.748 [main] UserControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-26 16:56:59.748 [main] UserControllerUnitTest - Successfully Fetched All Cards
+[INFO ] 2022-09-26 16:56:59.762 [main] UserControllerUnitTest - Test POST METHOD WITH ENDPOINT: /api/user/createUser
+[INFO ] 2022-09-26 16:56:59.803 [main] UserControllerUnitTest - Printed Response
+[INFO ] 2022-09-26 16:56:59.803 [main] UserControllerUnitTest - Expected status code 201 Created
+[INFO ] 2022-09-26 16:56:59.803 [main] UserControllerUnitTest - Successfully Created User
+[INFO ] 2022-09-26 16:56:59.810 [main] UserControllerUnitTest - API TEST LOG COMPLETED: UserControllerUnitTest
