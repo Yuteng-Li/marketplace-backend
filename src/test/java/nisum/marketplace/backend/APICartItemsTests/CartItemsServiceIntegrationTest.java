@@ -24,9 +24,9 @@ public class CartItemsServiceIntegrationTest {
     @Autowired
     private CartItemsService service;
 
-    private static final Logger logger = LogManager.getLogger(CartItemsControllerTest.class);
+    //private static final Logger logger = LogManager.getLogger(CartItemsControllerUnitTest.class);
 
-    @Rule
+    /*@Rule
     public TestWatcher watcher = new TestWatcher() {
         @Override
         protected void failed(Throwable e, Description description) {
@@ -34,13 +34,13 @@ public class CartItemsServiceIntegrationTest {
             logger.error(description.getDisplayName());
             super.failed(e, description);
         }
-    };
+    };*/
 
     @Test
-    public void updateCart(){
-
+    public void updateCart() throws Exception {
+        Integer id = 1;
         CartItems newCart = new CartItems(1, 1, "100000000001", 1);
-        Assert.assertNotNull(service.updateCart(newCart));
+        Assert.assertNotNull(service.updateCart(id, newCart));
     }
 
     @Test
@@ -58,7 +58,7 @@ public class CartItemsServiceIntegrationTest {
 
     @Test
     //Find by CartItemId
-    public void findCartById(){
+    public void findCartById() throws Exception {
         Integer id = 2;
         Assert.assertNotNull(service.findCartById(id));
     }

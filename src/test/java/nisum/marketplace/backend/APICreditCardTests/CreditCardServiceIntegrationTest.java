@@ -15,7 +15,7 @@ import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE)
-public class CreditCardServiceTest {
+public class CreditCardServiceIntegrationTest {
 
     @Autowired
     private CreditCardService service;
@@ -37,8 +37,8 @@ public class CreditCardServiceTest {
         CreditCard card = new CreditCard();
         card.setUser_id(1);
         card.setCardholder_name("Bobby Joe");
-        card.setLast_four_card_number("5678");
-        card.setExpiration_year("2022");
+        card.setLast_four_card_number("1234");
+        card.setExpiration_year("22");
         card.setExpiration_month("12");
 
         Assert.assertEquals(card, service.createCreditCard(card));
@@ -52,8 +52,8 @@ public class CreditCardServiceTest {
         card.setCredit_card_id(id);
         card.setUser_id(1);
         card.setCardholder_name("Bobby Joe");
-        card.setLast_four_card_number("5678");
-        card.setExpiration_year("2022");
+        card.setLast_four_card_number("1234");
+        card.setExpiration_year("22");
         card.setExpiration_month("12");
 
         Assert.assertNotNull(service.updateCreditCard(id, card));
