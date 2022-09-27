@@ -1,5 +1,5 @@
 pipeline {
-    agent none
+agent {label 'built-in'}
     stages {
         stage('Back-end') {
             agent {
