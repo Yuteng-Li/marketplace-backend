@@ -72,8 +72,6 @@ public class UserControllerIntegrationTest {
         res = userController.createUser(newUser);
         Assert.assertEquals(201, res.getStatusCodeValue());
     }
-
-    //Needs editing
     @Test
     public void updateUser(){
         Integer id = 13;

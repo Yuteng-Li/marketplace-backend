@@ -610,3 +610,161 @@
 [DEBUG] 2022-09-27 11:30:32.594 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
 [INFO ] 2022-09-27 11:30:32.595 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
 [INFO ] 2022-09-27 11:30:42.449 [main] UserControllerIntegrationTest - Started UserControllerIntegrationTest in 10.292 seconds (JVM running for 12.61)
+[INFO ] 2022-09-27 11:32:27.983 [main] CartItemsControllerTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-27 11:32:28.470 [main] CartItemsControllerTest - Starting CartItemsControllerTest using Java 18.0.2 on Navi with PID 1376 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 11:32:28.475 [main] CartItemsControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 11:32:28.476 [main] CartItemsControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 11:32:37.804 [main] CartItemsControllerTest - Started CartItemsControllerTest in 9.751 seconds (JVM running for 13.131)
+[INFO ] 2022-09-27 11:32:38.326 [main] CartItemsControllerTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/productfrominvent/{upc}
+[INFO ] 2022-09-27 11:32:39.274 [main] CartItemsControllerTest - Printed Response
+[INFO ] 2022-09-27 11:32:39.274 [main] CartItemsControllerTest - Expected status code 200 OK
+[INFO ] 2022-09-27 11:32:39.274 [main] CartItemsControllerTest - Successfully Fetched Product UPC
+[INFO ] 2022-09-27 11:32:39.299 [main] CartItemsControllerTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-27 15:15:35.677 [main] CartItemsControllerUnitTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-27 15:15:36.007 [main] CartItemsControllerUnitTest - Starting CartItemsControllerUnitTest using Java 18.0.2 on Navi with PID 10840 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:15:36.011 [main] CartItemsControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:15:36.012 [main] CartItemsControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:15:42.226 [main] CartItemsControllerUnitTest - Started CartItemsControllerUnitTest in 6.514 seconds (JVM running for 8.401)
+[INFO ] 2022-09-27 15:15:42.538 [main] CartItemsControllerUnitTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/getcart
+[INFO ] 2022-09-27 15:15:42.781 [main] CartItemsControllerUnitTest - Printed Response
+[INFO ] 2022-09-27 15:15:42.781 [main] CartItemsControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-27 15:15:42.781 [main] CartItemsControllerUnitTest - Successfully Fetched Cart
+[INFO ] 2022-09-27 15:15:42.798 [main] CartItemsControllerUnitTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-27 15:15:49.662 [main] CartItemsControllerUnitTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-27 15:15:49.971 [main] CartItemsControllerUnitTest - Starting CartItemsControllerUnitTest using Java 18.0.2 on Navi with PID 13740 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:15:49.975 [main] CartItemsControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:15:49.975 [main] CartItemsControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:15:57.144 [main] CartItemsControllerUnitTest - Started CartItemsControllerUnitTest in 7.44 seconds (JVM running for 9.3)
+[INFO ] 2022-09-27 15:15:57.561 [main] CartItemsControllerUnitTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/getcart/{id}
+[INFO ] 2022-09-27 15:15:57.797 [main] CartItemsControllerUnitTest - Printed Response
+[INFO ] 2022-09-27 15:15:57.797 [main] CartItemsControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-27 15:15:57.798 [main] CartItemsControllerUnitTest - Successfully Fetched Cart By ID
+[INFO ] 2022-09-27 15:15:57.816 [main] CartItemsControllerUnitTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-27 15:16:07.424 [main] CartItemsControllerUnitTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-27 15:16:07.768 [main] CartItemsControllerUnitTest - Starting CartItemsControllerUnitTest using Java 18.0.2 on Navi with PID 9592 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:16:07.773 [main] CartItemsControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:16:07.774 [main] CartItemsControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:16:15.113 [main] CartItemsControllerUnitTest - Started CartItemsControllerUnitTest in 7.642 seconds (JVM running for 9.667)
+[INFO ] 2022-09-27 15:16:15.445 [main] CartItemsControllerUnitTest - Test POST METHOD WITH ENDPOINT: /api/cartitems/createcart
+[INFO ] 2022-09-27 15:16:15.683 [main] CartItemsControllerUnitTest - Printed Response
+[INFO ] 2022-09-27 15:16:15.684 [main] CartItemsControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-27 15:16:15.684 [main] CartItemsControllerUnitTest - Successfully Created Cart
+[INFO ] 2022-09-27 15:16:15.696 [main] CartItemsControllerUnitTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-27 15:16:23.347 [main] CartItemsControllerUnitTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-27 15:16:23.728 [main] CartItemsControllerUnitTest - Starting CartItemsControllerUnitTest using Java 18.0.2 on Navi with PID 17952 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:16:23.731 [main] CartItemsControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:16:23.732 [main] CartItemsControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:16:30.872 [main] CartItemsControllerUnitTest - Started CartItemsControllerUnitTest in 7.469 seconds (JVM running for 9.76)
+[INFO ] 2022-09-27 15:16:31.268 [main] CartItemsControllerUnitTest - Test PUT METHOD WITH ENDPOINT: /api/cartitems/updatecart
+[INFO ] 2022-09-27 15:16:31.380 [main] CartItemsControllerUnitTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-27 15:17:11.165 [main] CartItemsControllerUnitTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-27 15:17:11.493 [main] CartItemsControllerUnitTest - Starting CartItemsControllerUnitTest using Java 18.0.2 on Navi with PID 5296 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:17:11.496 [main] CartItemsControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:17:11.496 [main] CartItemsControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:17:17.395 [main] CartItemsControllerUnitTest - Started CartItemsControllerUnitTest in 6.191 seconds (JVM running for 8.06)
+[INFO ] 2022-09-27 15:17:17.673 [main] CartItemsControllerUnitTest - Test DELETE METHOD WITH ENDPOINT: /api/cartitems/deletecart/{id}
+[INFO ] 2022-09-27 15:17:17.834 [main] CartItemsControllerUnitTest - Printed Response
+[INFO ] 2022-09-27 15:17:17.834 [main] CartItemsControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-27 15:17:17.834 [main] CartItemsControllerUnitTest - Successfully Deleted Cart item
+[INFO ] 2022-09-27 15:17:17.844 [main] CartItemsControllerUnitTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-27 15:17:34.349 [main] CartItemsControllerUnitTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-27 15:17:34.653 [main] CartItemsControllerUnitTest - Starting CartItemsControllerUnitTest using Java 18.0.2 on Navi with PID 12904 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:17:34.657 [main] CartItemsControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:17:34.658 [main] CartItemsControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:17:41.576 [main] CartItemsControllerUnitTest - Started CartItemsControllerUnitTest in 7.185 seconds (JVM running for 9.14)
+[INFO ] 2022-09-27 15:17:41.946 [main] CartItemsControllerUnitTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/productfrominvent/{upc}
+[INFO ] 2022-09-27 15:17:42.686 [main] CartItemsControllerUnitTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-27 15:21:10.521 [main] CartItemsControllerUnitTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-27 15:21:10.905 [main] CartItemsControllerUnitTest - Starting CartItemsControllerUnitTest using Java 18.0.2 on Navi with PID 25512 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:21:10.909 [main] CartItemsControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:21:10.910 [main] CartItemsControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:21:17.601 [main] CartItemsControllerUnitTest - Started CartItemsControllerUnitTest in 7.041 seconds (JVM running for 9.282)
+[INFO ] 2022-09-27 15:21:17.978 [main] CartItemsControllerUnitTest - Test PUT METHOD WITH ENDPOINT: /api/cartitems/updatecart
+[INFO ] 2022-09-27 15:21:18.109 [main] CartItemsControllerUnitTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-27 15:22:13.136 [main] CartItemsControllerUnitTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-27 15:22:13.485 [main] CartItemsControllerUnitTest - Starting CartItemsControllerUnitTest using Java 18.0.2 on Navi with PID 22672 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:22:13.489 [main] CartItemsControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:22:13.490 [main] CartItemsControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:22:20.100 [main] CartItemsControllerUnitTest - Started CartItemsControllerUnitTest in 6.916 seconds (JVM running for 8.968)
+[INFO ] 2022-09-27 15:22:20.484 [main] CartItemsControllerUnitTest - Test PUT METHOD WITH ENDPOINT: /api/cartitems/updatecart
+[INFO ] 2022-09-27 15:22:20.586 [main] CartItemsControllerUnitTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-27 15:22:29.929 [main] CartItemsControllerUnitTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-27 15:22:30.355 [main] CartItemsControllerUnitTest - Starting CartItemsControllerUnitTest using Java 18.0.2 on Navi with PID 8368 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:22:30.359 [main] CartItemsControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:22:30.359 [main] CartItemsControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:22:37.948 [main] CartItemsControllerUnitTest - Started CartItemsControllerUnitTest in 7.949 seconds (JVM running for 10.959)
+[INFO ] 2022-09-27 15:22:38.347 [main] CartItemsControllerUnitTest - Test PUT METHOD WITH ENDPOINT: /api/cartitems/updatecart
+[INFO ] 2022-09-27 15:22:38.455 [main] CartItemsControllerUnitTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-27 15:23:02.248 [main] CartItemsControllerUnitTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-27 15:23:02.637 [main] CartItemsControllerUnitTest - Starting CartItemsControllerUnitTest using Java 18.0.2 on Navi with PID 10164 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:23:02.641 [main] CartItemsControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:23:02.642 [main] CartItemsControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:23:09.476 [main] CartItemsControllerUnitTest - Started CartItemsControllerUnitTest in 7.171 seconds (JVM running for 9.379)
+[INFO ] 2022-09-27 15:23:09.805 [main] CartItemsControllerUnitTest - Test POST METHOD WITH ENDPOINT: /api/cartitems/createcart
+[INFO ] 2022-09-27 15:23:10.053 [main] CartItemsControllerUnitTest - Printed Response
+[INFO ] 2022-09-27 15:23:10.054 [main] CartItemsControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-27 15:23:10.054 [main] CartItemsControllerUnitTest - Successfully Created Cart
+[INFO ] 2022-09-27 15:23:10.067 [main] CartItemsControllerUnitTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-27 15:23:17.865 [main] CartItemsControllerUnitTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-27 15:23:18.259 [main] CartItemsControllerUnitTest - Starting CartItemsControllerUnitTest using Java 18.0.2 on Navi with PID 12396 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:23:18.263 [main] CartItemsControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:23:18.264 [main] CartItemsControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:23:25.336 [main] CartItemsControllerUnitTest - Started CartItemsControllerUnitTest in 7.417 seconds (JVM running for 9.989)
+[INFO ] 2022-09-27 15:23:25.707 [main] CartItemsControllerUnitTest - Test PUT METHOD WITH ENDPOINT: /api/cartitems/updatecart
+[INFO ] 2022-09-27 15:23:25.811 [main] CartItemsControllerUnitTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-27 15:23:49.795 [main] CartItemsControllerUnitTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-27 15:23:50.121 [main] CartItemsControllerUnitTest - Starting CartItemsControllerUnitTest using Java 18.0.2 on Navi with PID 22396 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:23:50.124 [main] CartItemsControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:23:50.125 [main] CartItemsControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:23:57.076 [main] CartItemsControllerUnitTest - Started CartItemsControllerUnitTest in 7.238 seconds (JVM running for 9.48)
+[INFO ] 2022-09-27 15:23:57.421 [main] CartItemsControllerUnitTest - Test PUT METHOD WITH ENDPOINT: /api/cartitems/updatecart
+[INFO ] 2022-09-27 15:23:57.742 [main] CartItemsControllerUnitTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-27 15:25:01.924 [main] CartItemsControllerUnitTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-27 15:25:02.270 [main] CartItemsControllerUnitTest - Starting CartItemsControllerUnitTest using Java 18.0.2 on Navi with PID 16496 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:25:02.273 [main] CartItemsControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:25:02.273 [main] CartItemsControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:25:08.124 [main] CartItemsControllerUnitTest - Started CartItemsControllerUnitTest in 6.143 seconds (JVM running for 8.186)
+[INFO ] 2022-09-27 15:25:08.436 [main] CartItemsControllerUnitTest - Test PUT METHOD WITH ENDPOINT: /api/cartitems/updatecart
+[INFO ] 2022-09-27 15:25:08.749 [main] CartItemsControllerUnitTest - Printed Response
+[INFO ] 2022-09-27 15:25:08.750 [main] CartItemsControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-27 15:25:08.750 [main] CartItemsControllerUnitTest - Successfully Updated Cart item
+[INFO ] 2022-09-27 15:25:08.767 [main] CartItemsControllerUnitTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-27 15:25:22.689 [main] CartItemsControllerUnitTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-27 15:25:22.999 [main] CartItemsControllerUnitTest - Starting CartItemsControllerUnitTest using Java 18.0.2 on Navi with PID 21172 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:25:23.003 [main] CartItemsControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:25:23.004 [main] CartItemsControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:25:29.497 [main] CartItemsControllerUnitTest - Started CartItemsControllerUnitTest in 6.771 seconds (JVM running for 8.83)
+[INFO ] 2022-09-27 15:25:29.875 [main] CartItemsControllerUnitTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/productfrominvent/{upc}
+[INFO ] 2022-09-27 15:25:30.471 [main] CartItemsControllerUnitTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-27 15:29:38.635 [main] CartItemsControllerUnitTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-27 15:29:38.932 [main] CartItemsControllerUnitTest - Starting CartItemsControllerUnitTest using Java 18.0.2 on Navi with PID 15408 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:29:38.935 [main] CartItemsControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:29:38.936 [main] CartItemsControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:29:44.743 [main] CartItemsControllerUnitTest - Started CartItemsControllerUnitTest in 6.068 seconds (JVM running for 7.942)
+[INFO ] 2022-09-27 15:29:45.012 [main] CartItemsControllerUnitTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/productfrominvent/{upc}
+[INFO ] 2022-09-27 15:29:45.587 [main] CartItemsControllerUnitTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-27 15:37:52.346 [main] CartItemsControllerIntegrationTest - Starting CartItemsControllerIntegrationTest using Java 18.0.2 on Navi with PID 21808 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:37:52.350 [main] CartItemsControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:37:52.351 [main] CartItemsControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:37:58.259 [main] CartItemsControllerIntegrationTest - Started CartItemsControllerIntegrationTest in 6.193 seconds (JVM running for 7.991)
+[INFO ] 2022-09-27 15:38:43.031 [main] CartItemsControllerIntegrationTest - Starting CartItemsControllerIntegrationTest using Java 18.0.2 on Navi with PID 2092 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:38:43.035 [main] CartItemsControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:38:43.036 [main] CartItemsControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:38:49.233 [main] CartItemsControllerIntegrationTest - Started CartItemsControllerIntegrationTest in 6.47 seconds (JVM running for 8.284)
+[INFO ] 2022-09-27 15:40:00.826 [main] CartItemsControllerIntegrationTest - Starting CartItemsControllerIntegrationTest using Java 18.0.2 on Navi with PID 22536 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:40:00.830 [main] CartItemsControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:40:00.831 [main] CartItemsControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:40:06.767 [main] CartItemsControllerIntegrationTest - Started CartItemsControllerIntegrationTest in 6.209 seconds (JVM running for 8.029)
+[INFO ] 2022-09-27 15:40:47.503 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 19204 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:40:47.506 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:40:47.507 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:40:54.804 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 19204 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:40:54.805 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:40:54.805 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:41:16.714 [main] CartItemsControllerUnitTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-27 15:41:17.028 [main] CartItemsControllerUnitTest - Starting CartItemsControllerUnitTest using Java 18.0.2 on Navi with PID 1116 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 15:41:17.030 [main] CartItemsControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:41:17.031 [main] CartItemsControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:41:23.271 [main] CartItemsControllerUnitTest - Started CartItemsControllerUnitTest in 6.522 seconds (JVM running for 8.329)
+[INFO ] 2022-09-27 15:41:23.700 [main] CartItemsControllerUnitTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/productfrominvent/{upc}
+[INFO ] 2022-09-27 15:41:24.518 [main] CartItemsControllerUnitTest - API TEST LOG COMPLETED: CartItemsControllerTest
