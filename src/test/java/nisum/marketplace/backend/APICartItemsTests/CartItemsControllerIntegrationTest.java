@@ -77,10 +77,10 @@ public class CartItemsControllerIntegrationTest {
         Assert.assertEquals(200, res.getStatusCodeValue());
     }
 
-    @Test
+    /*@Test
     public void getProduct_success() throws Exception{
         String upc = "100000000001";
         res = cartItemsController.getProduct(upc);
         Assert.assertEquals(200, res.getStatusCodeValue());
-    }
+    }*/
 }
