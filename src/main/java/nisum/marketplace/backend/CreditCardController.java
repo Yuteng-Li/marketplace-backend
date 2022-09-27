@@ -10,8 +10,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+
 @RestController
 @RequestMapping(path = "/api/creditCard")
+@CrossOrigin
 public class CreditCardController {
 
     @Autowired
