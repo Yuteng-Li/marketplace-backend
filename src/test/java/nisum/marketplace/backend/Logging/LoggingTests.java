@@ -1,9 +1,6 @@
 package nisum.marketplace.backend.Logging;
 
 import com.aventstack.extentreports.*;
-//import com.aventstack.extentreports.convert.TestModelReportBuilder;
-import com.aventstack.extentreports.append.JsonDeserializer;
-import com.aventstack.extentreports.model.Test;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.JsonFormatter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
@@ -13,50 +10,51 @@ import org.junit.BeforeClass;
 import org.junit.Rule;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
+import com.aventstack.extentreports.append.*;
 import org.springframework.test.context.event.annotation.BeforeTestClass;
-import tech.grasshopper.combiner.options.PojoOptions;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.List;
 
 
 public class LoggingTests {
+
     static ExtentReports extentReport;
     static ExtentSparkReporter spark;
     static ExtentTest extentTest;
-    public static ExtentTest extentNode;
-    static JsonFormatter json;
-    static File jsonFile;
-    private PojoOptions options;
-    String className;
-    String testName;
+    static ExtentTest extentNode;
 
-
-    public LoggingTests(){
-    }
+    @Rule
+    public TestWatcher watcher = new TestWatcher() {
+        @Override
+        protected void failed(Throwable e, Description description) {
+            extentTest.log(Status.FAIL,description.getDisplayName()+" failed. "+e.getMessage());
+            super.failed(e, description);
+        }
+    };
     //comment out this if needed when trying to extend this as base
-    public LoggingTests(String className,String test) throws Exception{
+    public LoggingTests(String className,String test){
+        spark= new ExtentSparkReporter("Logs/Spark.html");
+        spark.config().enableOfflineMode(true);
+        spark.config().setTheme(Theme.DARK);
+        try{
+            //JsonFormatter json = new JsonFormatter("Logs/Spark.html");
             extentReport = new ExtentReports();
-            spark= new ExtentSparkReporter("Logs/Spark.html");
-            spark.config().enableOfflineMode(true);
-            spark.config().setTheme(Theme.DARK);
-            spark.config().isTimelineEnabled();
-            JsonFormatter json = new JsonFormatter("extent.json");
-            //extentReport.attachReporter(spark);
-            extentReport.createDomainFromJsonArchive("extent.json");
-            extentReport.attachReporter(json,spark);
-            extentTest = extentReport.createTest(className).createNode(test).info("Setup down.");
-            System.err.println(extentTest);
+            //extentReport.createDomainFromJsonArchive("extent.json");
+            //extentReport.attachReporter(json,spark);
+            extentReport.attachReporter(spark);
+            extentTest = extentReport.createTest(className).createNode(test);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
-    public void setup(String className, String test) throws IOException {
+    @BeforeClass
+    public void setup(){
+        spark= new ExtentSparkReporter("Logs/Spark.html");
+        spark.config();
+        JsonFormatter json = new JsonFormatter("extent.json");
         extentReport = new ExtentReports();
-        spark= new ExtentSparkReporter("Logs/Spark.html");;
-        extentReport.attachReporter(spark);
-        extentTest = extentReport.createTest(className).createNode(test);
-        System.err.println(extentTest);
+        extentReport.attachReporter(json,spark);
     }
-
+    @AfterClass
     public void tearDown(){
         extentReport.flush();
     }

@@ -34,8 +34,9 @@ public class AddressControllerUnitTest {
         int id=2;
         //Address mockAddress;
         when(mockAddress = service.getAddressById(id)).thenReturn(mockAddress);
-        MvcResult res = this.mock.perform(get(baseURI+"getAddress/"+id)).andReturn();
-        String body = res.getResponse().getContentAsString();
+        this.mock.perform(get(baseURI+"getAddress/"+id))
+                .andExpect(status().isOk())
+                .andDo(print());
     }
 
     @Test
