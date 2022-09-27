@@ -46,7 +46,7 @@ public class CreditCardRepoTest {
         card.setUser_id(1);
         card.setCardholder_name("Bobby Joe");
         card.setLast_four_card_number("5678");
-        card.setExpiration_year("2022");
+        card.setExpiration_year("22");
         card.setExpiration_month("12");
 
         CreditCard savedCard = repo.save(card);

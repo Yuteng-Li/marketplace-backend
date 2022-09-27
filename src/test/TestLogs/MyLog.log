@@ -331,3 +331,162 @@
 [INFO ] 2022-09-26 15:58:06.014 [main] UserControllerTest - Expected status code 201 Created
 [INFO ] 2022-09-26 15:58:06.014 [main] UserControllerTest - Successfully Updated User item
 [INFO ] 2022-09-26 15:58:06.026 [main] UserControllerTest - API TEST LOG COMPLETED: UserControllerTest
+[INFO ] 2022-09-26 16:01:41.411 [main] UserControllerTest - API TEST LOG BEGIN: UserControllerTest
+[INFO ] 2022-09-26 16:01:41.645 [main] UserControllerTest - Starting UserControllerTest using Java 11.0.16.1 on BigBox with PID 5276 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 16:01:41.647 [main] UserControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:01:41.648 [main] UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:01:45.742 [main] UserControllerTest - Started UserControllerTest in 4.305 seconds (JVM running for 5.36)
+[INFO ] 2022-09-26 16:01:45.897 [main] UserControllerTest - Test DELETE METHOD WITH ENDPOINT: /api/user/deleteUser/{id}
+[INFO ] 2022-09-26 16:01:46.053 [main] UserControllerTest - Test GET METHOD WITH ENDPOINT: /api/user/getUserByEmail/{email}
+[INFO ] 2022-09-26 16:01:46.131 [main] UserControllerTest - Printed Response
+[INFO ] 2022-09-26 16:01:46.131 [main] UserControllerTest - Expected status code 200 OK
+[INFO ] 2022-09-26 16:01:46.131 [main] UserControllerTest - Successfully Fetched User By Email
+[INFO ] 2022-09-26 16:01:46.137 [main] UserControllerTest - Test PUT METHOD WITH ENDPOINT: /api/user/updateUser/{id}
+[INFO ] 2022-09-26 16:01:46.179 [main] UserControllerTest - Test GET METHOD WITH ENDPOINT: /api/user/getUserByID/{id}
+[INFO ] 2022-09-26 16:01:46.195 [main] UserControllerTest - Printed Response
+[INFO ] 2022-09-26 16:01:46.195 [main] UserControllerTest - Expected status code 200 OK
+[INFO ] 2022-09-26 16:01:46.195 [main] UserControllerTest - Successfully Fetched User By ID
+[INFO ] 2022-09-26 16:01:46.200 [main] UserControllerTest - Test GET METHOD WITH ENDPOINT: /api/user/getUsers
+[INFO ] 2022-09-26 16:01:46.211 [main] UserControllerTest - Printed Response
+[INFO ] 2022-09-26 16:01:46.211 [main] UserControllerTest - Expected status code 200 OK
+[INFO ] 2022-09-26 16:01:46.212 [main] UserControllerTest - Successfully Fetched All Cards
+[INFO ] 2022-09-26 16:01:46.217 [main] UserControllerTest - Test POST METHOD WITH ENDPOINT: /api/user/createUser
+[INFO ] 2022-09-26 16:01:46.256 [main] UserControllerTest - Printed Response
+[INFO ] 2022-09-26 16:01:46.256 [main] UserControllerTest - Expected status code 201 Created
+[INFO ] 2022-09-26 16:01:46.256 [main] UserControllerTest - Successfully Created User
+[INFO ] 2022-09-26 16:01:46.260 [main] UserControllerTest - API TEST LOG COMPLETED: UserControllerTest
+[INFO ] 2022-09-26 16:02:22.385 [main] UserControllerTest - API TEST LOG BEGIN: UserControllerTest
+[INFO ] 2022-09-26 16:02:22.597 [main] UserControllerTest - Starting UserControllerTest using Java 11.0.16.1 on BigBox with PID 25040 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 16:02:22.598 [main] UserControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:02:22.599 [main] UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:02:26.459 [main] UserControllerTest - Started UserControllerTest in 4.053 seconds (JVM running for 5.145)
+[INFO ] 2022-09-26 16:02:26.615 [main] UserControllerTest - Test DELETE METHOD WITH ENDPOINT: /api/user/deleteUser/{id}
+[INFO ] 2022-09-26 16:02:26.815 [main] UserControllerTest - Printed Response
+[INFO ] 2022-09-26 16:02:26.815 [main] UserControllerTest - Expected status code 200 OK
+[INFO ] 2022-09-26 16:02:26.815 [main] UserControllerTest - Successfully Deleted User item
+[INFO ] 2022-09-26 16:02:26.824 [main] UserControllerTest - API TEST LOG COMPLETED: UserControllerTest
+[INFO ] 2022-09-26 16:10:41.885 [main] UserControllerTest - API TEST LOG BEGIN: UserControllerTest
+[INFO ] 2022-09-26 16:10:42.160 [main] UserControllerTest - Starting UserControllerTest using Java 11.0.16.1 on BigBox with PID 10796 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 16:10:42.162 [main] UserControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:10:42.162 [main] UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:10:46.467 [main] UserControllerTest - Started UserControllerTest in 4.551 seconds (JVM running for 5.614)
+[INFO ] 2022-09-26 16:10:46.626 [main] UserControllerTest - Test GET METHOD WITH ENDPOINT: /api/user/getUsers
+[INFO ] 2022-09-26 16:10:46.635 [main] UserControllerTest - Printed Response
+[INFO ] 2022-09-26 16:10:46.636 [main] UserControllerTest - Expected status code 200 OK
+[INFO ] 2022-09-26 16:10:46.636 [main] UserControllerTest - Successfully Fetched All Cards
+[INFO ] 2022-09-26 16:10:46.644 [main] UserControllerTest - API TEST LOG COMPLETED: UserControllerTest
+[INFO ] 2022-09-26 16:12:11.028 [main] AddressControllerUnitTest - Starting AddressControllerUnitTest using Java 11.0.16.1 on BigBox with PID 26948 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 16:12:11.030 [main] AddressControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:12:11.030 [main] AddressControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:12:15.635 [main] AddressControllerUnitTest - Started AddressControllerUnitTest in 4.795 seconds (JVM running for 6.02)
+[INFO ] 2022-09-26 16:13:54.183 [main] UserControllerTest - API TEST LOG BEGIN: UserControllerTest
+[INFO ] 2022-09-26 16:13:54.425 [main] UserControllerTest - Starting UserControllerTest using Java 11.0.16.1 on BigBox with PID 21756 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 16:13:54.427 [main] UserControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 16:13:54.427 [main] UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 16:13:58.692 [main] UserControllerTest - Started UserControllerTest in 4.484 seconds (JVM running for 5.58)
+[INFO ] 2022-09-26 16:13:58.717 [main] UserControllerTest - Test GET METHOD WITH ENDPOINT: /api/user/getUsers
+[INFO ] 2022-09-26 16:13:58.769 [main] UserControllerTest - Printed Response
+[INFO ] 2022-09-26 16:13:58.769 [main] UserControllerTest - Expected status code 200 OK
+[INFO ] 2022-09-26 16:13:58.769 [main] UserControllerTest - Successfully Fetched All Cards
+[INFO ] 2022-09-26 16:13:58.776 [main] UserControllerTest - API TEST LOG COMPLETED: UserControllerTest
+[INFO ] 2022-09-26 19:52:07.059 [main] AddressControllerUnitTest - Starting AddressControllerUnitTest using Java 11.0.16.1 on BigBox with PID 20052 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 19:52:07.085 [main] AddressControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 19:52:07.086 [main] AddressControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 19:52:11.715 [main] AddressControllerUnitTest - Started AddressControllerUnitTest in 4.837 seconds (JVM running for 5.942)
+[INFO ] 2022-09-26 19:52:12.035 [main] CartItemsControllerTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-26 19:52:12.057 [main] CartItemsControllerTest - Starting CartItemsControllerTest using Java 11.0.16.1 on BigBox with PID 20052 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 19:52:12.058 [main] CartItemsControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 19:52:12.058 [main] CartItemsControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 19:52:13.256 [main] CartItemsControllerTest - Started CartItemsControllerTest in 1.22 seconds (JVM running for 7.483)
+[INFO ] 2022-09-26 19:52:13.379 [main] CartItemsControllerTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/getcart
+[INFO ] 2022-09-26 19:52:13.524 [main] CartItemsControllerTest - Printed Response
+[INFO ] 2022-09-26 19:52:13.524 [main] CartItemsControllerTest - Expected status code 200 OK
+[INFO ] 2022-09-26 19:52:13.524 [main] CartItemsControllerTest - Successfully Fetched Cart
+[INFO ] 2022-09-26 19:52:13.530 [main] CartItemsControllerTest - Test POST METHOD WITH ENDPOINT: /api/cartitems/createcart
+[INFO ] 2022-09-26 19:52:13.602 [main] CartItemsControllerTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/productfrominvent/{upc}
+[INFO ] 2022-09-26 19:52:14.365 [main] CartItemsControllerTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/getcart/{id}
+[INFO ] 2022-09-26 19:52:14.380 [main] CartItemsControllerTest - Test DELETE METHOD WITH ENDPOINT: /api/cartitems/deletecart/{id}
+[INFO ] 2022-09-26 19:52:14.398 [main] CartItemsControllerTest - Test PUT METHOD WITH ENDPOINT: /api/cartitems/updatecart
+[INFO ] 2022-09-26 19:52:14.416 [main] CartItemsControllerTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-26 19:52:14.572 [main] UserControllerTest - API TEST LOG BEGIN: UserControllerTest
+[INFO ] 2022-09-26 19:52:14.614 [main] UserControllerTest - Test DELETE METHOD WITH ENDPOINT: /api/user/deleteUser/{id}
+[INFO ] 2022-09-26 19:52:14.632 [main] UserControllerTest - Test GET METHOD WITH ENDPOINT: /api/user/getUserByEmail/{email}
+[INFO ] 2022-09-26 19:52:14.660 [main] UserControllerTest - Printed Response
+[INFO ] 2022-09-26 19:52:14.660 [main] UserControllerTest - Expected status code 200 OK
+[INFO ] 2022-09-26 19:52:14.660 [main] UserControllerTest - Successfully Fetched User By Email
+[INFO ] 2022-09-26 19:52:14.665 [main] UserControllerTest - Test PUT METHOD WITH ENDPOINT: /api/user/updateUser/{id}
+[INFO ] 2022-09-26 19:52:14.679 [main] UserControllerTest - Test GET METHOD WITH ENDPOINT: /api/user/getUserByID/{id}
+[INFO ] 2022-09-26 19:52:14.686 [main] UserControllerTest - Printed Response
+[INFO ] 2022-09-26 19:52:14.686 [main] UserControllerTest - Expected status code 200 OK
+[INFO ] 2022-09-26 19:52:14.686 [main] UserControllerTest - Successfully Fetched User By ID
+[INFO ] 2022-09-26 19:52:14.691 [main] UserControllerTest - Test GET METHOD WITH ENDPOINT: /api/user/getUsers
+[INFO ] 2022-09-26 19:52:14.699 [main] UserControllerTest - Printed Response
+[INFO ] 2022-09-26 19:52:14.699 [main] UserControllerTest - Expected status code 200 OK
+[INFO ] 2022-09-26 19:52:14.699 [main] UserControllerTest - Successfully Fetched All Cards
+[INFO ] 2022-09-26 19:52:14.704 [main] UserControllerTest - Test POST METHOD WITH ENDPOINT: /api/user/createUser
+[INFO ] 2022-09-26 19:52:14.727 [main] UserControllerTest - Printed Response
+[INFO ] 2022-09-26 19:52:14.727 [main] UserControllerTest - Expected status code 201 Created
+[INFO ] 2022-09-26 19:52:14.727 [main] UserControllerTest - Successfully Created User
+[INFO ] 2022-09-26 19:52:14.729 [main] UserControllerTest - API TEST LOG COMPLETED: UserControllerTest
+[INFO ] 2022-09-26 19:52:14.759 [main] BackendApplicationTests - Starting BackendApplicationTests using Java 11.0.16.1 on BigBox with PID 20052 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-26 19:52:14.759 [main] BackendApplicationTests - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-26 19:52:14.759 [main] BackendApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-26 19:52:15.425 [main] BackendApplicationTests - Started BackendApplicationTests in 0.688 seconds (JVM running for 9.651)
+[INFO ] 2022-09-27 15:09:53.043 [main] CreditCardControllerTest - Starting CreditCardControllerTest using Java 11.0.16.1 on BigBox with PID 11008 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-27 15:09:53.056 [main] CreditCardControllerTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:09:53.057 [main] CreditCardControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:09:57.133 [main] CreditCardControllerTest - Started CreditCardControllerTest in 4.279 seconds (JVM running for 5.413)
+[INFO ] 2022-09-27 15:14:40.544 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 6948 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-27 15:14:40.547 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:14:40.547 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:14:44.976 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 6948 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-27 15:14:44.977 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:14:44.977 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:14:56.940 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 28380 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-27 15:14:56.946 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:14:56.947 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:15:01.195 [main] CreditCardControllerIntegrationTest - Started CreditCardControllerIntegrationTest in 4.474 seconds (JVM running for 5.416)
+[INFO ] 2022-09-27 15:15:29.732 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 19132 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-27 15:15:29.735 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:15:29.736 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:15:34.838 [main] CreditCardControllerIntegrationTest - Started CreditCardControllerIntegrationTest in 5.351 seconds (JVM running for 6.377)
+[INFO ] 2022-09-27 15:16:43.942 [main] CreditCardRepoTest - Starting CreditCardRepoTest using Java 11.0.16.1 on BigBox with PID 10936 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-27 15:16:43.944 [main] CreditCardRepoTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:16:43.945 [main] CreditCardRepoTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:16:46.439 [main] CreditCardRepoTest - Started CreditCardRepoTest in 2.736 seconds (JVM running for 3.714)
+[INFO ] 2022-09-27 15:17:43.545 [main] CreditCardRepoTest - Starting CreditCardRepoTest using Java 11.0.16.1 on BigBox with PID 21472 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-27 15:17:43.548 [main] CreditCardRepoTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:17:43.548 [main] CreditCardRepoTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:17:46.023 [main] CreditCardRepoTest - Started CreditCardRepoTest in 2.712 seconds (JVM running for 3.606)
+[INFO ] 2022-09-27 15:28:00.127 [main] AddressServiceIntegrationTest - Starting AddressServiceIntegrationTest using Java 11.0.16.1 on BigBox with PID 21908 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-27 15:28:00.131 [main] AddressServiceIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:28:00.131 [main] AddressServiceIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:28:03.006 [main] AddressServiceIntegrationTest - Started AddressServiceIntegrationTest in 3.082 seconds (JVM running for 4.056)
+[INFO ] 2022-09-27 15:30:57.429 [main] AddressServiceIntegrationTest - Starting AddressServiceIntegrationTest using Java 11.0.16.1 on BigBox with PID 3564 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-27 15:30:57.432 [main] AddressServiceIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:30:57.432 [main] AddressServiceIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:31:00.376 [main] AddressServiceIntegrationTest - Started AddressServiceIntegrationTest in 3.135 seconds (JVM running for 4.125)
+[INFO ] 2022-09-27 15:35:47.542 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 21664 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-27 15:35:47.544 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:35:47.587 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:35:52.067 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 21664 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-27 15:35:52.068 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:35:52.068 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:35:53.089 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 21664 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-27 15:35:53.090 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:35:53.090 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:35:53.890 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 21664 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-27 15:35:53.890 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:35:53.891 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:36:01.217 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 24204 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-27 15:36:01.219 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:36:01.219 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:36:05.568 [main] CreditCardControllerIntegrationTest - Started CreditCardControllerIntegrationTest in 4.564 seconds (JVM running for 5.484)
+[INFO ] 2022-09-27 15:40:46.341 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 10204 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-27 15:40:46.343 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:40:46.344 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:40:50.669 [main] CreditCardControllerIntegrationTest - Started CreditCardControllerIntegrationTest in 4.55 seconds (JVM running for 5.452)
+[INFO ] 2022-09-27 15:41:49.517 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 20344 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-27 15:41:49.519 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 15:41:49.519 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 15:41:53.820 [main] CreditCardControllerIntegrationTest - Started CreditCardControllerIntegrationTest in 4.519 seconds (JVM running for 5.432)

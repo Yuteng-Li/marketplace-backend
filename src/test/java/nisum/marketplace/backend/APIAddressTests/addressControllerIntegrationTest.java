@@ -23,7 +23,7 @@ import java.util.List;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 //@AutoConfigureMockMvc
 
-//@Test annonations are commented out so this can be extended by the Step Defs class if needed
+//@Test annotations are commented out so this can be extended by the Step Defs class if needed
 public class addressControllerIntegrationTest {
     @LocalServerPort
     private int port = 3305;
