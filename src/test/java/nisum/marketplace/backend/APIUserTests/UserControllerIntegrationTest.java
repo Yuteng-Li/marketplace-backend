@@ -81,6 +81,7 @@ public class UserControllerIntegrationTest {
         Assert.assertEquals(200, res.getStatusCodeValue());
     }
 
+    //Needs editing
     public ResponseEntity<?> createUser(User user) throws Exception{
         User newUser = new User(6, "test@nisum.com", "Jane", "Doe", "pass123", "1234567890");
 
@@ -89,6 +90,7 @@ public class UserControllerIntegrationTest {
         return createdUser;
     }
 
+    //Needs editing
     public ResponseEntity<?> updateUser(Integer userId, User user){
         return null;
     }
