@@ -14,12 +14,13 @@ import nisum.marketplace.backend.service.UserAddressService;
 @SpringBootApplication(scanBasePackages = "nisum.*")
 @EnableJpaRepositories(basePackages = "nisum.*")
 @EntityScan(basePackages = "nisum.*")
-public class BackendApplication implements CommandLineRunner{
+public class BackendApplication{ // implements CommandLineRunner{
 
 	public static void main(String[] args) {
 		SpringApplication.run(BackendApplication.class, args);
 	}
 
+	/*
 	@Autowired
 	OrdersService service2;
 	
@@ -28,6 +29,6 @@ public class BackendApplication implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 		System.out.println(service2.getOrders());
 	}
-
+	*/
 
 }
