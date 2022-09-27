@@ -1,5 +1,6 @@
 package nisum.marketplace.backend;
 
+import java.io.Console;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -36,6 +37,7 @@ public class OrdersController {
     @GetMapping("/getOrders")
     public ResponseEntity<List<orders>> getOrders(){
         List<orders> orders = orderService.getOrders();
+        for (orders k: orders){System.out.println(k);}
         if (orders.size() > 0){
             return new ResponseEntity<>(orders, HttpStatus.OK);
         }
