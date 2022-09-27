@@ -17,7 +17,7 @@ public class User {
     private String user_password;
 
     private String phone;
-
+public User(){}
     public User(Integer user_id, String email, String first_name, String last_name, String user_password, String phone) {
         super();
         this.user_id = user_id;
