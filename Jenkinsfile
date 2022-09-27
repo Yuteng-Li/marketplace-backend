@@ -1,18 +1,18 @@
 pipeline {
-agent {label 'built-in'}
+    agent { dockerfile true }
     stages {
-        stage('Back-end') {
-            agent {
-                docker { image 'maven:3.8.1-adoptopenjdk-11' }
-            }
+        stage('Clean up') {
             steps {
-                sh 'mvn clean -DskipTests package'
+                echo 'Built and packed into docker image!'
+                // echo 'Cleaning workspace...'
+                // cleanWs()
             }
         }
-        stage('Post package'){
-            steps{
-                archiveArtifacts artifacts: '**/target/*.jar', followSymlinks: false
-            }
-        }
+        //         stage('Build Docker Image') {
+        //     steps {
+        //         echo 'Building image...'
+        //         sh 'docker build -t marketplace-backend'
+        //     }
+        // }
     }
 }
