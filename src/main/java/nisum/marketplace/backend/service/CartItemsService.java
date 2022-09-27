@@ -8,9 +8,9 @@ import nisum.marketplace.backend.model.CartItems;
 
 public interface CartItemsService {
 	public List<CartItems> getCart();
-	public CartItems updateCart(CartItems cartItems);
+	public CartItems updateCart(Integer id,CartItems cartItems)throws Exception;
 	public Boolean deleteById(Integer id);
-	public Optional<CartItems> findCartById(Integer id);
+	public CartItems findCartById(Integer id) throws Exception;
 	public CartItems createSale(CartItems cartItems);
 	
 }

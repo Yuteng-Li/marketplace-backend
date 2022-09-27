@@ -20,8 +20,13 @@ public class CartItemsServiceImpl implements CartItemsService {
 	 * 
 	 * */
 	@Override
-	public CartItems updateCart(CartItems cartItems) {
-		return cartRepo.save(cartItems);
+	public CartItems updateCart(Integer cartID,CartItems cartItems) throws Exception {
+        if (!cartRepo.existsById(cartItems.getCart_item_id())) {
+            System.out.println("Cart could not be updated. Cart does not exists.");
+            throw new Exception();
+        } else {
+            return cartRepo.save(cartItems);
+        }
 	}
 	
 	/*
@@ -53,8 +58,14 @@ public class CartItemsServiceImpl implements CartItemsService {
 	 * if id do not exist, handle it from the controller
 	 * */
 	@Override
-	public Optional<CartItems> findCartById(Integer id) {
-		return cartRepo.findById(id);
+	public CartItems findCartById(Integer id) throws Exception{
+		if (cartRepo.findById(id).isEmpty()) {
+			System.out.println("cart with id:" + id + "could not be found");
+			throw new Exception();
+		}
+		else {
+			return cartRepo.findById(id).get();
+		}
 	}
 	
 	/*

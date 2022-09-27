@@ -50,19 +50,11 @@ public class CartItemsController {
 	 * pass in an Id from the url path.
 	 * */
 	@GetMapping("/getcart/{id}")
-	public ResponseEntity<Object> getCartById(@PathVariable Integer id){
+	public ResponseEntity<?> getCartById(@PathVariable Integer id){
 		try {
-			
-			Optional<CartItems> result = cartService.findCartById(id);
-			//when we have a cart by ID
-			if(result.isPresent()) {
-				return ResponseEntity.status(HttpStatus.OK).body(result);
-			}
-			//When we do not have a cart by ID
-			return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("ID do not exist");
-		}
-		catch(Exception e) {
-			return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("ID do not exist");
+			return new ResponseEntity<CartItems>(cartService.findCartById(id),HttpStatus.OK);
+		}catch(Exception e) {
+			return new ResponseEntity<String>("cart not found",HttpStatus.BAD_REQUEST);
 		}
 	}
 	
@@ -82,16 +74,14 @@ public class CartItemsController {
 	}
 	
 	
-	@PutMapping("/updatecart")
-	public ResponseEntity<Object> updateCart(@RequestBody CartItems cartItems){
+	@PutMapping("/updatecart/{id}")
+	public ResponseEntity<?> updateCart(@PathVariable Integer id,@RequestBody CartItems cartItems){
 		try {
-			//this is basically the same as createCart method
-			CartItems result = cartService.updateCart(cartItems);
-			return ResponseEntity.status(HttpStatus.OK).body(result);
+			return new ResponseEntity<CartItems>(cartService.updateCart(id, cartItems),HttpStatus.OK);
 		}
 		catch(Exception e) {
 			//when updateCart fail
-			return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("update fail");
+			return new ResponseEntity<String>("Cart cannot be updated",HttpStatus.BAD_REQUEST);
 		}
 	}
 	
@@ -106,13 +96,13 @@ public class CartItemsController {
 		try {
 			//if delete is success
 			Boolean flag = cartService.deleteById(id);
-			String deleteStatus = "detele id: " + id+ " is" +flag;
+			String deleteStatus = "detele id: " + id+ " is " +flag;
 			return ResponseEntity.status(HttpStatus.OK).body(deleteStatus);
 		}
 		//when we fail to delete
 		catch(Exception e) {
 			Boolean flag = false;
-			String deleteStatus = "detele id: " + id+ " is" +flag;
+			String deleteStatus = "detele id: " + id+ " is " +flag;
 			return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(deleteStatus);
 		}
 	}
@@ -130,7 +120,7 @@ public class CartItemsController {
 	@GetMapping("/productfrominvent/{upc}")
 	public ResponseEntity<Object> getProduct(@PathVariable String upc){
 		//temp url for now, will be replace by a hosted url 
-		String tempUrl = "localhost:8081/api/products/get/" + upc;
+		String tempUrl = "localhost:8080/api/products/get/" + upc;
 		try {
 			//create a client 
 			WebClient webClient = WebClient.create();  
