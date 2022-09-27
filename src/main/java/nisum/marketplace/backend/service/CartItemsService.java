@@ -2,7 +2,6 @@ package nisum.marketplace.backend.service;
 
 
 import java.util.List;
-import java.util.Optional;
 
 import nisum.marketplace.backend.model.CartItems;
 
