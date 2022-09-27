@@ -27,6 +27,10 @@ public class User {
         this.user_password = user_password;
         this.phone = phone;
     }
+    
+    public User(){
+    	super();
+    }
 
     public Integer getUser_id() {
         return user_id;
