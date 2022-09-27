@@ -141,7 +141,7 @@ public class UserControllerUnitTest {
     @Test
     public void deleteUser_success() throws Exception{
         logger.info("Test DELETE METHOD WITH ENDPOINT: /api/user/deleteUser/{id}");
-        int id = 6;
+        int id = 7;
         try{
             when(userService.deleteUserByID(id)).thenReturn(true);
             this.mockMvc.perform(delete(baseURI + "deleteUser/" + id))

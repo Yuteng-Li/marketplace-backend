@@ -368,3 +368,245 @@
 [INFO ] 2022-09-26 16:56:59.803 [main] UserControllerUnitTest - Expected status code 201 Created
 [INFO ] 2022-09-26 16:56:59.803 [main] UserControllerUnitTest - Successfully Created User
 [INFO ] 2022-09-26 16:56:59.810 [main] UserControllerUnitTest - API TEST LOG COMPLETED: UserControllerUnitTest
+[INFO ] 2022-09-27 09:37:39.745 [main] UserControllerUnitTest - API TEST LOG BEGIN: UserControllerUnitTest
+[INFO ] 2022-09-27 09:37:40.055 [main] UserControllerUnitTest - Starting UserControllerUnitTest using Java 18.0.2 on Navi with PID 4492 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:37:40.059 [main] UserControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:37:40.060 [main] UserControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:37:45.901 [main] UserControllerUnitTest - Started UserControllerUnitTest in 6.114 seconds (JVM running for 7.944)
+[INFO ] 2022-09-27 09:37:46.182 [main] UserControllerUnitTest - Test GET METHOD WITH ENDPOINT: /api/user/getUsers
+[INFO ] 2022-09-27 09:37:46.435 [main] UserControllerUnitTest - Printed Response
+[INFO ] 2022-09-27 09:37:46.435 [main] UserControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-27 09:37:46.435 [main] UserControllerUnitTest - Successfully Fetched All Cards
+[INFO ] 2022-09-27 09:37:46.451 [main] UserControllerUnitTest - API TEST LOG COMPLETED: UserControllerUnitTest
+[INFO ] 2022-09-27 09:47:17.656 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 15388 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:47:17.661 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:47:17.662 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:47:24.796 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 15388 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:47:24.797 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:47:24.798 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:47:27.031 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 15388 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:47:27.032 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:47:27.032 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:47:28.517 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 15388 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:47:28.518 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:47:28.518 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:49:21.247 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 25152 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:49:21.253 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:49:21.253 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:49:28.056 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 25152 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:49:28.058 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:49:28.058 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:53:53.339 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 25540 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:53:53.345 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:53:53.346 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:54:00.731 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 25540 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:54:00.732 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:54:00.732 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:58:22.070 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 14984 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:58:22.074 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:58:22.075 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:58:30.174 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 14984 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:58:30.181 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:58:30.181 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:58:34.086 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 14984 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:58:34.087 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:58:34.087 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:58:35.899 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 14984 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:58:35.900 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:58:35.901 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:58:37.377 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 14984 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:58:37.378 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:58:37.378 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:58:38.620 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 14984 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:58:38.621 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:58:38.621 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:58:40.179 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 14984 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:58:40.180 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:58:40.180 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:58:41.609 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 14984 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:58:41.611 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:58:41.611 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:58:42.803 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 14984 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:58:42.804 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:58:42.804 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:58:43.835 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 14984 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:58:43.836 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:58:43.836 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:58:44.781 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 14984 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:58:44.781 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:58:44.781 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:58:45.776 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 14984 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:58:45.776 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:58:45.776 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 09:59:58.108 [main] UserControllerUnitTest - API TEST LOG BEGIN: UserControllerUnitTest
+[INFO ] 2022-09-27 09:59:58.512 [main] UserControllerUnitTest - Starting UserControllerUnitTest using Java 18.0.2 on Navi with PID 10716 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 09:59:58.529 [main] UserControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 09:59:58.531 [main] UserControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:00:08.494 [main] UserControllerUnitTest - Started UserControllerUnitTest in 10.316 seconds (JVM running for 13.28)
+[INFO ] 2022-09-27 10:00:08.969 [main] UserControllerUnitTest - Test DELETE METHOD WITH ENDPOINT: /api/user/deleteUser/{id}
+[INFO ] 2022-09-27 10:00:09.301 [main] UserControllerUnitTest - API TEST LOG COMPLETED: UserControllerUnitTest
+[INFO ] 2022-09-27 10:00:26.956 [main] UserControllerUnitTest - API TEST LOG BEGIN: UserControllerUnitTest
+[INFO ] 2022-09-27 10:00:27.304 [main] UserControllerUnitTest - Starting UserControllerUnitTest using Java 18.0.2 on Navi with PID 23068 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:00:27.308 [main] UserControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:00:27.308 [main] UserControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:00:35.240 [main] UserControllerUnitTest - Started UserControllerUnitTest in 8.235 seconds (JVM running for 10.678)
+[INFO ] 2022-09-27 10:00:35.632 [main] UserControllerUnitTest - Test DELETE METHOD WITH ENDPOINT: /api/user/deleteUser/{id}
+[INFO ] 2022-09-27 10:00:35.976 [main] UserControllerUnitTest - Printed Response
+[INFO ] 2022-09-27 10:00:35.976 [main] UserControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-27 10:00:35.976 [main] UserControllerUnitTest - Successfully Deleted User item
+[INFO ] 2022-09-27 10:00:35.992 [main] UserControllerUnitTest - API TEST LOG COMPLETED: UserControllerUnitTest
+[INFO ] 2022-09-27 10:00:54.431 [main] UserControllerUnitTest - API TEST LOG BEGIN: UserControllerUnitTest
+[INFO ] 2022-09-27 10:00:54.839 [main] UserControllerUnitTest - Starting UserControllerUnitTest using Java 18.0.2 on Navi with PID 28104 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:00:54.843 [main] UserControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:00:54.844 [main] UserControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:01:03.996 [main] UserControllerUnitTest - Started UserControllerUnitTest in 9.506 seconds (JVM running for 12.193)
+[INFO ] 2022-09-27 10:01:04.517 [main] UserControllerUnitTest - Test DELETE METHOD WITH ENDPOINT: /api/user/deleteUser/{id}
+[INFO ] 2022-09-27 10:01:04.919 [main] UserControllerUnitTest - Printed Response
+[INFO ] 2022-09-27 10:01:04.919 [main] UserControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-27 10:01:04.919 [main] UserControllerUnitTest - Successfully Deleted User item
+[INFO ] 2022-09-27 10:01:04.932 [main] UserControllerUnitTest - API TEST LOG COMPLETED: UserControllerUnitTest
+[INFO ] 2022-09-27 10:01:40.773 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 21552 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:01:40.777 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:01:40.778 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:01:49.224 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 21552 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:01:49.225 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:01:49.225 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:02:20.971 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 18.0.2 on Navi with PID 19916 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:02:20.974 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:02:20.975 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:02:29.658 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 18.0.2 on Navi with PID 19916 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:02:29.659 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:02:29.659 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:02:55.303 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 12016 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:02:55.307 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:02:55.308 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:03:03.793 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 12016 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:03:03.794 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:03:03.794 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:07:03.238 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 28528 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:07:03.243 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:07:03.244 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:07:12.094 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 28528 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:07:12.096 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:07:12.096 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:07:14.006 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 28528 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:07:14.007 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:07:14.007 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:07:15.579 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 28528 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:07:15.580 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:07:15.580 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:07:16.910 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 28528 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:07:16.911 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:07:16.912 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:07:18.020 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 28528 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:07:18.020 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:07:18.020 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:07:19.192 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 28528 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:07:19.193 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:07:19.193 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:07:20.240 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 28528 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:07:20.241 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:07:20.241 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:07:21.416 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 28528 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:07:21.417 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:07:21.418 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:07:22.549 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 28528 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:07:22.550 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:07:22.550 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:07:23.451 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 28528 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:07:23.452 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:07:23.452 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:07:24.275 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 28528 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:07:24.275 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:07:24.275 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:07:39.911 [main] BackendApplicationTests - Starting BackendApplicationTests using Java 18.0.2 on Navi with PID 17860 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:07:39.916 [main] BackendApplicationTests - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:07:39.916 [main] BackendApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:07:46.877 [main] BackendApplicationTests - Started BackendApplicationTests in 7.222 seconds (JVM running for 9.201)
+[INFO ] 2022-09-27 10:07:54.895 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 24156 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:07:54.900 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:07:54.901 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:08:04.152 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 24156 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:08:04.154 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:08:04.154 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:37:13.925 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 25460 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:37:13.931 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:37:13.932 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:37:25.794 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 25460 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:37:25.796 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:37:25.796 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:38:03.569 [main] UserControllerUnitTest - API TEST LOG BEGIN: UserControllerUnitTest
+[INFO ] 2022-09-27 10:38:04.095 [main] UserControllerUnitTest - Starting UserControllerUnitTest using Java 18.0.2 on Navi with PID 19848 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:38:04.106 [main] UserControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:38:04.107 [main] UserControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:38:14.185 [main] UserControllerUnitTest - Started UserControllerUnitTest in 10.535 seconds (JVM running for 13.557)
+[INFO ] 2022-09-27 10:38:14.694 [main] UserControllerUnitTest - Test DELETE METHOD WITH ENDPOINT: /api/user/deleteUser/{id}
+[INFO ] 2022-09-27 10:38:15.143 [main] UserControllerUnitTest - API TEST LOG COMPLETED: UserControllerUnitTest
+[INFO ] 2022-09-27 10:38:46.723 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 21472 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:38:46.728 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:38:46.729 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:38:57.582 [main] UserControllerIntegrationTest - Started UserControllerIntegrationTest in 11.288 seconds (JVM running for 13.287)
+[INFO ] 2022-09-27 10:40:06.881 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 18.0.2 on Navi with PID 27104 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:40:06.886 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:40:06.887 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:40:16.281 [main] CreditCardControllerIntegrationTest - Started CreditCardControllerIntegrationTest in 9.768 seconds (JVM running for 11.698)
+[INFO ] 2022-09-27 10:43:36.856 [main] addressControllerIntegrationTest - Starting addressControllerIntegrationTest using Java 18.0.2 on Navi with PID 25180 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:43:36.862 [main] addressControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:43:36.863 [main] addressControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:43:45.688 [main] addressControllerIntegrationTest - Started addressControllerIntegrationTest in 9.189 seconds (JVM running for 11.194)
+[INFO ] 2022-09-27 10:43:58.051 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 19952 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:43:58.057 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:43:58.059 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:44:08.603 [main] UserControllerIntegrationTest - Started UserControllerIntegrationTest in 10.998 seconds (JVM running for 13.546)
+[INFO ] 2022-09-27 10:45:07.987 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 8664 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:45:07.993 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:45:07.994 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:45:18.562 [main] UserControllerIntegrationTest - Started UserControllerIntegrationTest in 10.986 seconds (JVM running for 12.976)
+[INFO ] 2022-09-27 10:45:38.256 [main] CreditCardControllerIntegrationTest - Starting CreditCardControllerIntegrationTest using Java 18.0.2 on Navi with PID 25624 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:45:38.262 [main] CreditCardControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:45:38.263 [main] CreditCardControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:45:48.254 [main] CreditCardControllerIntegrationTest - Started CreditCardControllerIntegrationTest in 10.447 seconds (JVM running for 12.616)
+[INFO ] 2022-09-27 10:47:20.396 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 23580 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:47:20.399 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:47:20.400 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:47:30.746 [main] UserControllerIntegrationTest - Started UserControllerIntegrationTest in 10.764 seconds (JVM running for 12.877)
+[INFO ] 2022-09-27 10:49:16.948 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 5200 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:49:16.954 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:49:16.955 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:49:27.491 [main] UserControllerIntegrationTest - Started UserControllerIntegrationTest in 11.022 seconds (JVM running for 13.799)
+[INFO ] 2022-09-27 10:49:37.213 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 25096 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 10:49:37.218 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 10:49:37.219 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 10:49:48.030 [main] UserControllerIntegrationTest - Started UserControllerIntegrationTest in 11.207 seconds (JVM running for 13.668)
+[INFO ] 2022-09-27 11:23:46.480 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 18364 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 11:23:46.484 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 11:23:46.485 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 11:23:57.267 [main] UserControllerIntegrationTest - Started UserControllerIntegrationTest in 11.248 seconds (JVM running for 13.829)
+[INFO ] 2022-09-27 11:24:04.935 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 11648 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 11:24:04.939 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 11:24:04.940 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 11:24:15.409 [main] UserControllerIntegrationTest - Started UserControllerIntegrationTest in 10.878 seconds (JVM running for 13.394)
+[INFO ] 2022-09-27 11:24:46.467 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 13172 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 11:24:46.471 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 11:24:46.472 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 11:24:58.484 [main] UserControllerIntegrationTest - Started UserControllerIntegrationTest in 12.396 seconds (JVM running for 14.26)
+[INFO ] 2022-09-27 11:26:02.143 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 10788 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 11:26:02.149 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 11:26:02.150 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 11:26:13.612 [main] UserControllerIntegrationTest - Started UserControllerIntegrationTest in 12.194 seconds (JVM running for 16.675)
+[INFO ] 2022-09-27 11:27:35.313 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 24888 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 11:27:35.317 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 11:27:35.318 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 11:27:45.375 [main] UserControllerIntegrationTest - Started UserControllerIntegrationTest in 10.398 seconds (JVM running for 12.258)
+[INFO ] 2022-09-27 11:27:55.577 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 7928 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 11:27:55.582 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 11:27:55.583 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 11:28:05.706 [main] UserControllerIntegrationTest - Started UserControllerIntegrationTest in 10.53 seconds (JVM running for 13.048)
+[INFO ] 2022-09-27 11:30:02.364 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 13852 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 11:30:02.370 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 11:30:02.371 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 11:30:14.109 [main] UserControllerIntegrationTest - Started UserControllerIntegrationTest in 12.443 seconds (JVM running for 15.4)
+[INFO ] 2022-09-27 11:30:32.588 [main] UserControllerIntegrationTest - Starting UserControllerIntegrationTest using Java 18.0.2 on Navi with PID 15440 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-27 11:30:32.594 [main] UserControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 11:30:32.595 [main] UserControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 11:30:42.449 [main] UserControllerIntegrationTest - Started UserControllerIntegrationTest in 10.292 seconds (JVM running for 12.61)
