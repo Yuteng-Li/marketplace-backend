@@ -1,29 +1,23 @@
 package nisum.marketplace.backend.APIAddressTests.StepDefs;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.cucumber.datatable.DataTable;
 import io.cucumber.java.*;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.cucumber.spring.CucumberContextConfiguration;
 import io.restassured.http.ContentType;
-import io.restassured.http.Method;
 import io.restassured.module.webtestclient.RestAssuredWebTestClient;
 import io.restassured.module.webtestclient.response.WebTestClientResponse;
-import nisum.marketplace.backend.APIAddressTests.AddressRepoIntegrationTest;
-import nisum.marketplace.backend.APIAddressTests.addressControllerIntegrationTest;
 import nisum.marketplace.backend.AddressController;
 import nisum.marketplace.backend.model.Address;
 
-import java.util.Arrays;
 import java.util.Map;
 import org.junit.Assert;
-import org.springframework.http.MediaType;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.web.reactive.server.WebTestClient;
-import tech.grasshopper.combiner.options.PojoOptions;
-import tech.grasshopper.combiner.options.PojoOptionsInputType;
+
 
 import java.util.List;
 
@@ -35,7 +29,8 @@ public class AddressControllerIntegrationStepDefs{
     ObjectMapper mapper;
     Boolean a = Boolean.valueOf("true");
     String uri;
-    AddressController controller;
+    //@Autowired
+    //AddressController controller;
     @ParameterType(value = "true|TRUE|True|false|False|FALSE|")
     public Boolean booleanValue(String value){
         return Boolean.valueOf(value);
@@ -63,6 +58,7 @@ public class AddressControllerIntegrationStepDefs{
         client = WebTestClient.bindToServer().baseUrl(uri).build();
         RestAssuredWebTestClient.webTestClient(client);
         System.err.println("I finished setting up.");
+        //controller = new AddressController();
     }
 
     @When("I send a GET request for address id {int}")
@@ -70,11 +66,11 @@ public class AddressControllerIntegrationStepDefs{
         System.err.println("I am in get request");
         //res = template.getForEntity(String.valueOf(id),Address.class);
         res = RestAssuredWebTestClient.given().get("getAddress/"+ id);
+        //res = controller.getAddressById(id);
     }
 
     @Then("I should receive a status {int} if it exists.")
     public void checkResults(int statusCode){
-
         Assert.assertEquals(statusCode,res.getStatusCode());
     }
 
@@ -86,7 +82,7 @@ public class AddressControllerIntegrationStepDefs{
     @When("I send a PUT request for address id: {int}")
     public void iSendAPUTRequestForAddressId(Integer addressId,List<Address> list) {
         res = RestAssuredWebTestClient.given().body(list.get(0)).contentType("application/json").put("updateAddress/"+(addressId));
-        System.err.println(res.getBody().prettyPrint());
+        //System.err.println(res.getBody().prettyPrint());
     }
 
     @When("I send a POST request with a new address")

@@ -28,7 +28,7 @@ public class CreditCardRepoTest {
     @Test
     public void getAll(){
         List<CreditCard> list = repo.findAll();
-        list.forEach((e)->System.err.println(e.getCardholder_name() + " " + e.getCredit_card_id()));
+        list.forEach((e)->System.err.println(e.getCardholder_name() + " " + e.getLast_four_card_number()));
         Assert.assertNotNull(list);
     }
 
@@ -45,7 +45,7 @@ public class CreditCardRepoTest {
         CreditCard card = new CreditCard();
         card.setUser_id(1);
         card.setCardholder_name("Bobby Joe");
-        card.setLast_four_card_number("1234");
+        card.setLast_four_card_number("5678");
         card.setExpiration_year("22");
         card.setExpiration_month("12");
 
@@ -56,24 +56,8 @@ public class CreditCardRepoTest {
     }
 
     @Test
-    public void updateCreditCard(){
-        CreditCard card = new CreditCard();
-        card.setCredit_card_id(7);
-        card.setUser_id(1);
-        card.setCardholder_name("TESTBobby Joe");//setCardholderName();
-        card.setLast_four_card_number("1234");//setCardNumber();
-        card.setExpiration_year("22");//setExpirationYear();
-        card.setExpiration_month("12");//setExpirationMonth();
-
-        CreditCard saveCard = repo.save(card);
-
-        Assert.assertTrue(repo.findById(saveCard.getCredit_card_id()).isPresent());
-
-    }
-
-    @Test
     public void deleteCreditCardByID(){
-        Integer id = 18;
+        Integer id = 7;
 
         repo.deleteById(id);
         List<CreditCard> list = repo.findAll();
