@@ -19,7 +19,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.ContextConfiguration;
 
 @ContextConfiguration(classes = BackendApplication.class)
-@SpringBootTest
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 @AutoConfigureMockMvc
 
 public class CartItemsControllerIntegrationTest {
@@ -50,7 +50,7 @@ public class CartItemsControllerIntegrationTest {
 
     @Test
     public void getCartByID_success() throws Exception{
-        int id = 1;
+        int id = 4;
         res = cartItemsController.getCartById(id);
         Assert.assertEquals(200, res.getStatusCodeValue());
     }
@@ -64,7 +64,7 @@ public class CartItemsControllerIntegrationTest {
 
     @Test
     public void updateCart_success() throws Exception{
-        Integer id = 2;
+        Integer id = 3;
         CartItems newCartItems = new CartItems(id, 1, "100000000001", 1);
         res = cartItemsController.updateCart(id, newCartItems);
         Assert.assertEquals(200, res.getStatusCodeValue());
@@ -72,7 +72,7 @@ public class CartItemsControllerIntegrationTest {
 
     @Test
     public void deleteCart_success() throws Exception{
-        int id=2;
+        int id=3;
         res = cartItemsController.deleteCart(id);
         Assert.assertEquals(200, res.getStatusCodeValue());
     }
