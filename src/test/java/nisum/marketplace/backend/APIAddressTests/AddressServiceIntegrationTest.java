@@ -45,7 +45,7 @@ public class AddressServiceIntegrationTest {
     }
     @Test
     public void createAddress() throws Exception{
-        Address newAddress = new Address(null,1,"Mary Jane",
+        Address newAddress = new Address(null,2,"Mary Jane",
                 "194 The Good Place","Upper unit","San Francisco",
                 "CA","94321",false,true);
         //Assert.assertNotNull(service.createAddress(newAddress));

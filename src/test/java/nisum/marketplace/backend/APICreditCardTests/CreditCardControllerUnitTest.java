@@ -67,7 +67,7 @@ public class CreditCardControllerUnitTest {
 //
     @Test
     public void updateCardTest() throws Exception{
-//        //increment by 1 to update the card that was updated
+
 
         CreditCard card = new CreditCard();
         card.setCredit_card_id(7);//setUserID(1);

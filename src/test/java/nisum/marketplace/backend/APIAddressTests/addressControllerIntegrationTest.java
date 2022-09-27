@@ -23,6 +23,7 @@ import java.util.List;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 //@AutoConfigureMockMvc
 
+//@Test annonations are commented out so this can be extended by the Step Defs class if needed
 public class addressControllerIntegrationTest {
     @LocalServerPort
     private int port = 3305;
@@ -56,17 +57,19 @@ public class addressControllerIntegrationTest {
     }
 
  */
-    //@Test
-    public ResponseEntity<?> getAddress(Integer addressId) throws Exception {
+    @Test
+    public void getAddress() throws Exception {
         int id=2;
         System.err.println("get Address.");
         //res = this.template.getForEntity("http://localhost:"
           //      +port+baseURI+"getAddress/"+id, Address.class);
         //Assert.assertEquals(200,res.getStatusCodeValue());
-        ObjectMapper map = new ObjectMapper();
-        String jsonString = map.writeValueAsString(res.getBody());
-        res = addressController.getAddressById(addressId);
-        return res;
+        //ObjectMapper map = new ObjectMapper();
+       // String jsonString = map.writeValueAsString(res.getBody());
+        res = addressController.getAddressById(1);
+        System.err.println(res.getBody());
+        Assert.assertEquals(200,res.getStatusCodeValue());
+        //return res;
         //logger.logPass("Status code: "+res.getStatusCode()+"\n"+jsonString);
 
     }
@@ -78,15 +81,15 @@ public class addressControllerIntegrationTest {
     public ResponseEntity<?> createAddresses(Address address) throws Exception{
         Address newAddress = new Address();
         newAddress.setCity("San Francisco");
-        newAddress.setIsBilling(true);
-        newAddress.setIsShipping(false);
-        newAddress.setRecipientName("Billy Jane");
+        newAddress.setIs_billing(true);
+        newAddress.setIs_shipping(false);
+        newAddress.setRecipient_name("Billy Jane");
         newAddress.setStreet("1233 Hell St");
         newAddress.setStreet2("Upper Unit");
         newAddress.setState("CA");
         newAddress.setZip("94233");
-        newAddress.setUserID(1);
-        newAddress.setAddressID(6);
+        newAddress.setUser_id(1);
+        newAddress.setAddress_id(6);
         ObjectMapper mapper = new ObjectMapper();
         String jsonAddress = mapper.writeValueAsString(newAddress);
         ResponseEntity<?> createdAddress = addressController.createAddress(address);

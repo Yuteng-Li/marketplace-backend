@@ -39,5 +39,5 @@ Feature: Address endpoints
     Then I should receive a status <code> if it exists.
       Examples:
         |port|id|code|
-        |3305|1|200|
+        |3305|2|200|
 
