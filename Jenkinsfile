@@ -8,6 +8,7 @@ pipeline {
                 // cleanWs()
             }
         }
+        
         // stage('Build Docker Image') {
         //     steps {
         //         echo 'Building image...'
