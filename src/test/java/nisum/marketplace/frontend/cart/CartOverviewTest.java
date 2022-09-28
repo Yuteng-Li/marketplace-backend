@@ -35,7 +35,7 @@ public class CartOverviewTest {
     @Test
     public void signInTest() throws Exception{
         Thread.sleep(200);
-        driver.findElement(By.xpath("//*[@id=\"container\"]/div")).click(); //Click Sign In
+        driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[1]")).click(); //Click Sign In
         Thread.sleep(2000);
 
         String parentWindow = driver.getWindowHandle();
