@@ -1,16 +1,12 @@
 package nisum.marketplace.frontend.cart;
 
-import org.junit.After;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.chrome.ChromeOptions;
 
@@ -29,8 +25,8 @@ public class CartOverviewTest {
     public void setUp() throws Exception{
         System.setProperty("webdriver.chrome.driver", "src/test/resources/Drivers/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("user-data-dir=C:\\Users\\Vuong\\AppData\\Local\\Google\\Chrome\\User Data");
-        options.addArguments("--profile-directory=Default");
+        options.addArguments("user-data-dir=C:\\Users\\Vuong\\AppData\\Local\\Google\\Chrome\\User Data"); //This path needs to be edited for every user
+        options.addArguments("--profile-directory=Default"); //If multiple accounts on your chrome, select profile
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.get("http://localhost:4200/");
@@ -41,7 +37,6 @@ public class CartOverviewTest {
         Thread.sleep(2000);
         driver.quit();
     }
-
      */
 
     @Test
