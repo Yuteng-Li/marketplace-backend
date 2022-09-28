@@ -9,9 +9,5 @@ import java.util.List;
 
 @Repository
 public interface OrdersRepository extends JpaRepository<orders, Integer> {
-    //@Query(value = "SELECT * FROM orders",
-    //@Query(value = "SELECT DISTINCT o.user_id, o.order_id, a.street, o.price, cc.card_number,o.date_ordered, o.date_shipped, o.order_status FROM orders o JOIN Addresses a ON o.address_id = a.address_id JOIN credit_cards cc WHERE o.credit_card_id = cc.credit_card_id",
-    @Query(value = "SELECT DISTINCT * FROM orders o JOIN Addresses a ON o.address_id = a.address_id JOIN credit_cards cc WHERE o.credit_card_id = cc.credit_card_id",
-    nativeQuery = true)
-    List<orders> findAllOrders();
+
 }
