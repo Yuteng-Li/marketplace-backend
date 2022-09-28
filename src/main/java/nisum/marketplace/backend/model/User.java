@@ -17,9 +17,16 @@ public class User {
     private String user_password;
 
     private String phone;
+<<<<<<< HEAD
     //public User(){}
 
     public User(Integer user_id, String email, String first_name, String last_name, String user_password, String phone) {
+=======
+    
+    public User(){}
+    
+	public User(Integer user_id, String email, String first_name, String last_name, String user_password, String phone) {
+>>>>>>> 99ed0f1e8866ac6c3049e5b9aa141d8b27d92c27
         super();
         this.user_id = user_id;
         this.email = email;
@@ -28,10 +35,7 @@ public class User {
         this.user_password = user_password;
         this.phone = phone;
     }
-    
-    public User(){
-    	super();
-    }
+   
 
     public Integer getUser_id() {
         return user_id;

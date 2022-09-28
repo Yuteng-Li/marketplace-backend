@@ -1,7 +1,7 @@
 package nisum.marketplace.backend;
 
 import java.util.List;
-import java.util.Optional;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -50,19 +50,11 @@ public class CartItemsController {
 	 * pass in an Id from the url path.
 	 * */
 	@GetMapping("/getcart/{id}")
-	public ResponseEntity<Object> getCartById(@PathVariable Integer id){
+	public ResponseEntity<?> getCartById(@PathVariable Integer id){
 		try {
-			
-			Optional<CartItems> result = cartService.findCartById(id);
-			//when we have a cart by ID
-			if(result.isPresent()) {
-				return ResponseEntity.status(HttpStatus.OK).body(result);
-			}
-			//When we do not have a cart by ID
-			return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("ID do not exist");
-		}
-		catch(Exception e) {
-			return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("ID do not exist");
+			return new ResponseEntity<CartItems>(cartService.findCartById(id),HttpStatus.OK);
+		}catch(Exception e) {
+			return new ResponseEntity<String>("cart not found",HttpStatus.BAD_REQUEST);
 		}
 	}
 	
@@ -82,16 +74,14 @@ public class CartItemsController {
 	}
 	
 	
-	@PutMapping("/updatecart")
-	public ResponseEntity<Object> updateCart(@RequestBody CartItems cartItems){
+	@PutMapping("/updatecart/{id}")
+	public ResponseEntity<?> updateCart(@PathVariable Integer id,@RequestBody CartItems cartItems){
 		try {
-			//this is basically the same as createCart method
-			CartItems result = cartService.updateCart(cartItems);
-			return ResponseEntity.status(HttpStatus.OK).body(result);
+			return new ResponseEntity<CartItems>(cartService.updateCart(id, cartItems),HttpStatus.OK);
 		}
 		catch(Exception e) {
 			//when updateCart fail
-			return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("update fail");
+			return new ResponseEntity<String>("Cart cannot be updated",HttpStatus.BAD_REQUEST);
 		}
 	}
 	
