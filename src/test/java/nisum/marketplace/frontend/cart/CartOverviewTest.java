@@ -47,14 +47,18 @@ public class CartOverviewTest {
         //driver.findElement(By.xpath("//*[@id=\"container\"]/div")).click(); //Click Sign In
         Thread.sleep(2000);
 
+        //iframe for when you don't have chrome profile set
         //WebDriver google_sso = new WebDriverWait(driver, Duration.ofSeconds(5))
           //      .until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.xpath("//*[starts-with(@id,'gsi')]")));
+
+        //iframe for when you have profile set
         WebDriver google_sso = new WebDriverWait(driver, Duration.ofSeconds(5))
                 .until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.xpath("//div[@id='credential_picker_container']/iframe")));
 
-
+        //continue as btn
         WebElement signin_btn = new WebDriverWait(google_sso, Duration.ofSeconds(3))
                                 .until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='continue-as']")));
+        //sign in button when you enter email
         //WebElement signin_btn = new WebDriverWait(driver,Duration.ofSeconds(5))
           //      .until(ExpectedConditions.elementToBeClickable(By.partialLinkText("https://accounts.google.com/gsi/button?type")));
         signin_btn.click();
@@ -62,7 +66,6 @@ public class CartOverviewTest {
 
         String parentWindow = driver.getWindowHandle();
         System.out.println("Parent Window ID is : " + parentWindow);
-        String subWindow = "";
         for(String winHandle : driver.getWindowHandles())
         {
             driver.switchTo().window(winHandle);

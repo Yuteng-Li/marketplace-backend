@@ -846,3 +846,35 @@
 [DEBUG] 2022-09-27 16:17:56.150 [main] CartItemsControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
 [INFO ] 2022-09-27 16:17:56.150 [main] CartItemsControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
 [INFO ] 2022-09-27 16:18:00.833 [main] CartItemsControllerIntegrationTest - Started CartItemsControllerIntegrationTest in 4.916 seconds (JVM running for 5.936)
+[INFO ] 2022-09-28 11:40:14.027 [main] CartItemsControllerIntegrationTest - Starting CartItemsControllerIntegrationTest using Java 18.0.2 on Navi with PID 17324 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-28 11:40:14.030 [main] CartItemsControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-28 11:40:14.030 [main] CartItemsControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-28 11:40:22.005 [main] CartItemsControllerIntegrationTest - Started CartItemsControllerIntegrationTest in 8.277 seconds (JVM running for 10.386)
+[INFO ] 2022-09-28 11:41:16.908 [main] CartItemsControllerIntegrationTest - Starting CartItemsControllerIntegrationTest using Java 18.0.2 on Navi with PID 8368 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-28 11:41:16.914 [main] CartItemsControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-28 11:41:16.915 [main] CartItemsControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-28 11:41:24.359 [main] CartItemsControllerIntegrationTest - Started CartItemsControllerIntegrationTest in 7.768 seconds (JVM running for 9.872)
+[INFO ] 2022-09-28 11:44:35.447 [main] CartItemsControllerIntegrationTest - Starting CartItemsControllerIntegrationTest using Java 18.0.2 on Navi with PID 5580 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-28 11:44:35.450 [main] CartItemsControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-28 11:44:35.451 [main] CartItemsControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-28 11:44:43.379 [main] CartItemsControllerIntegrationTest - Started CartItemsControllerIntegrationTest in 8.23 seconds (JVM running for 10.119)
+[INFO ] 2022-09-28 11:45:14.404 [main] CartItemsControllerIntegrationTest - Starting CartItemsControllerIntegrationTest using Java 18.0.2 on Navi with PID 22964 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-28 11:45:14.407 [main] CartItemsControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-28 11:45:14.408 [main] CartItemsControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-28 11:45:23.200 [main] CartItemsControllerIntegrationTest - Starting CartItemsControllerIntegrationTest using Java 18.0.2 on Navi with PID 22964 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-28 11:45:23.201 [main] CartItemsControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-28 11:45:23.201 [main] CartItemsControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-28 11:50:26.424 [main] CartItemsControllerIntegrationTest - Starting CartItemsControllerIntegrationTest using Java 18.0.2 on Navi with PID 28272 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-28 11:50:26.427 [main] CartItemsControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-28 11:50:26.428 [main] CartItemsControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-28 11:50:33.775 [main] CartItemsControllerIntegrationTest - Starting CartItemsControllerIntegrationTest using Java 18.0.2 on Navi with PID 28272 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-28 11:50:33.777 [main] CartItemsControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-28 11:50:33.777 [main] CartItemsControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-28 11:51:04.737 [main] CartItemsControllerIntegrationTest - Starting CartItemsControllerIntegrationTest using Java 18.0.2 on Navi with PID 7692 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-28 11:51:04.741 [main] CartItemsControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-28 11:51:04.742 [main] CartItemsControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-28 11:51:12.544 [main] CartItemsControllerIntegrationTest - Started CartItemsControllerIntegrationTest in 8.121 seconds (JVM running for 10.02)
+[INFO ] 2022-09-28 11:51:46.104 [main] CartItemsControllerIntegrationTest - Starting CartItemsControllerIntegrationTest using Java 18.0.2 on Navi with PID 17084 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-28 11:51:46.106 [main] CartItemsControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-28 11:51:46.107 [main] CartItemsControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-28 11:51:54.670 [main] CartItemsControllerIntegrationTest - Started CartItemsControllerIntegrationTest in 8.88 seconds (JVM running for 10.787)
