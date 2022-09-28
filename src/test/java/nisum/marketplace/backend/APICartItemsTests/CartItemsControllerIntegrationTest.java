@@ -50,7 +50,7 @@ public class CartItemsControllerIntegrationTest {
 
     @Test
     public void getCartByID_success() throws Exception{
-        int id = 4;
+        int id = 1;
         res = cartItemsController.getCartById(id);
         Assert.assertEquals(200, res.getStatusCodeValue());
     }

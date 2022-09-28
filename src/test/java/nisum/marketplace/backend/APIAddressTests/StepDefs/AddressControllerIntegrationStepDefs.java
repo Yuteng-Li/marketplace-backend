@@ -72,6 +72,7 @@ public class AddressControllerIntegrationStepDefs{
     @Then("I should receive a status {int} if it exists.")
     public void checkResults(int statusCode){
         Assert.assertEquals(statusCode,res.getStatusCode());
+        //Assert.assertEquals(statusCode,res.getStatusCodeValue());
     }
 
     @When("I send a GET request for all addresses")

@@ -814,3 +814,11 @@
 [DEBUG] 2022-09-27 16:04:43.646 [main] CartItemsControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
 [INFO ] 2022-09-27 16:04:43.647 [main] CartItemsControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
 [INFO ] 2022-09-27 16:04:52.055 [main] CartItemsControllerIntegrationTest - Started CartItemsControllerIntegrationTest in 8.688 seconds (JVM running for 10.427)
+[INFO ] 2022-09-27 16:16:39.817 [main] CartItemsControllerIntegrationTest - Starting CartItemsControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 12900 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-27 16:16:39.819 [main] CartItemsControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 16:16:39.820 [main] CartItemsControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 16:16:44.923 [main] CartItemsControllerIntegrationTest - Started CartItemsControllerIntegrationTest in 5.326 seconds (JVM running for 6.406)
+[INFO ] 2022-09-27 16:17:56.148 [main] CartItemsControllerIntegrationTest - Starting CartItemsControllerIntegrationTest using Java 11.0.16.1 on BigBox with PID 13876 (started by Ace46 in G:\Documents\Nisum\Assignments\marketplace-backend)
+[DEBUG] 2022-09-27 16:17:56.150 [main] CartItemsControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-27 16:17:56.150 [main] CartItemsControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-27 16:18:00.833 [main] CartItemsControllerIntegrationTest - Started CartItemsControllerIntegrationTest in 4.916 seconds (JVM running for 5.936)
