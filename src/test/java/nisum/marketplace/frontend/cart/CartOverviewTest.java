@@ -29,22 +29,23 @@ public class CartOverviewTest {
     public void setUp() throws Exception{
         System.setProperty("webdriver.chrome.driver", "src/test/resources/Drivers/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("user-data-dir=C:/Users/Ace46/AppData/Local/Google/Chrome/User Data");
+        options.addArguments("user-data-dir=C:\\Users\\Vuong\\AppData\\Local\\Google\\Chrome\\User Data");
+        options.addArguments("--profile-directory=Default");
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.get("http://localhost:4200/");
     }
 
-    @After
+    /*@After
     public void tearDown() throws Exception {
         Thread.sleep(2000);
         driver.quit();
     }
 
+     */
+
     @Test
     public void signInTest() throws Exception{
-        //Thread.sleep(200);
-        //driver.findElement(By.xpath("//*[@id=\"container\"]/div")).click(); //Click Sign In
         Thread.sleep(2000);
 
         //iframe for when you don't have chrome profile set
@@ -54,46 +55,58 @@ public class CartOverviewTest {
         //iframe for when you have profile set
         WebDriver google_sso = new WebDriverWait(driver, Duration.ofSeconds(5))
                 .until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.xpath("//div[@id='credential_picker_container']/iframe")));
+        Thread.sleep(2000);
 
         //continue as btn
         WebElement signin_btn = new WebDriverWait(google_sso, Duration.ofSeconds(3))
                                 .until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='continue-as']")));
-        //sign in button when you enter email
-        //WebElement signin_btn = new WebDriverWait(driver,Duration.ofSeconds(5))
-          //      .until(ExpectedConditions.elementToBeClickable(By.partialLinkText("https://accounts.google.com/gsi/button?type")));
+        ////WebElement signin_btn = new WebDriverWait(google_sso, Duration.ofSeconds(3))
+        //        //        .until(ExpectedConditions.elementToBeClickable(By.xpath("//*")));
+
+        Thread.sleep(2000);
+
         signin_btn.click();
 
+        Thread.sleep(5000);
 
-        String parentWindow = driver.getWindowHandle();
-        System.out.println("Parent Window ID is : " + parentWindow);
-        for(String winHandle : driver.getWindowHandles())
-        {
+        /*
+        // Store the current window handle
+        String winHandleBefore = driver.getWindowHandle();
+
+        // Perform the click operation that opens new window
+        signin_btn.click();
+        // Switch to new window opened
+        Thread.sleep(2000);
+        for(String winHandle : driver.getWindowHandles()){
             driver.switchTo().window(winHandle);
-            System.out.println(driver.getTitle());
-            driver.manage().window().maximize();
         }
+        // Perform the actions on new window
+        driver.findElement(By.xpath("//*[@id=\"credentials-picker\"]/div[1]/div[1]")).click();
 
-        //WebElement username = new WebDriverWait(driver,Duration.ofSeconds(5))
-         //       .until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='identifierId']")));
-        //username.sendKeys("hi");
+        // Close the new window, if that window no more required
+        driver.close();
+         */
 
-        //driver.findElement(By.xpath("/html/body/div/div[1]/div/div/main/div/div/div[1]/div[1]/div[1]")).click();
         driver.findElement(By.xpath("/html/body/app-root/app-home-page/div/nav/ul/li[3]/input")).click(); //Click Display
-        Thread.sleep(200);
+        Thread.sleep(1000);
         driver.findElement(By.xpath("/html/body/app-root/app-item-gird/div/div/div[2]/div[1]/div/div[1]/div/div[3]/button")).click(); //Add to Cart Shark Bites
-        Thread.sleep(200);
+        Thread.sleep(1000);
         driver.findElement(By.xpath("/html/body/app-root/app-item-gird/div/div/div[2]/div[1]/div/div[3]/div/div[3]/button")).click(); //Add to Cart Frosted Flakes
-        Thread.sleep(200);
+        Thread.sleep(1000);
         driver.findElement(By.xpath("/html/body/app-root/app-item-gird/div/div/div[2]/div[2]/button")).click(); //Click Go to Cart
-        Thread.sleep(200);
+        Thread.sleep(10000);
+        driver.findElement(By.xpath("/html/body/app-root/app-cart/html/body/div[1]/table/thead/tr[2]/td[4]/input")).clear(); //Change quantity to 0 for Shark Bites
+        Thread.sleep(1000);
         driver.findElement(By.xpath("/html/body/app-root/app-cart/html/body/div[1]/table/thead/tr[2]/td[4]/input")).sendKeys("5"); //Change quantity to 5 for Shark Bites
-        Thread.sleep(200);
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("/html/body/app-root/app-cart/html/body/div[1]/table/thead/tr[3]/td[4]/input")).clear(); // Change quantity to 0 for Frosted Flakes
+        Thread.sleep(1000);
         driver.findElement(By.xpath("/html/body/app-root/app-cart/html/body/div[1]/table/thead/tr[3]/td[4]/input")).sendKeys("10"); //Change quantity to 10 for Frosted Flakes
-        Thread.sleep(200);
+        Thread.sleep(1000);
         driver.findElement(By.xpath("/html/body/app-root/app-cart/html/body/div[1]/table/thead/tr[2]/td[4]/button")).click(); //Remove Shark Bites from cart
-        Thread.sleep(200);
+        Thread.sleep(10000);
         driver.findElement(By.xpath("/html/body/app-root/app-cart/html/body/button[2]")).click(); //Click Proceed to Checkout
-        Thread.sleep(200);
+        Thread.sleep(1000);
     }
 
 }
