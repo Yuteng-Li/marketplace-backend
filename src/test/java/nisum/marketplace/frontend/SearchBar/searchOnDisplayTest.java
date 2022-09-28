@@ -27,7 +27,7 @@ public class searchOnDisplayTest {
     }
 
     @Test
-    public void displaySearchBarTest() throws Exception{
+    public void displaySearchBarSharkBitesTest() throws Exception{
         driver.get("http://localhost:4200/item-gird");
 
         driver.findElement(By.xpath("/html/body/app-root/app-item-gird/div[1]/div/div/div/input")).sendKeys("shark");
@@ -37,4 +37,17 @@ public class searchOnDisplayTest {
 
         Assert.assertEquals("Shark Bites", item);
     }
+
+    @Test
+    public void displaySearchBarSrirachaTest() throws Exception{
+        driver.get("http://localhost:4200/item-gird");
+
+        driver.findElement(By.xpath("/html/body/app-root/app-item-gird/div[1]/div/div/div/input")).sendKeys("sriracha");
+        Thread.sleep(200);
+
+        String item = driver.findElement(By.xpath("//*[@id=\"main\"]/div/div/div/div/div[1]/h4")).getText();
+
+        Assert.assertEquals("Sriracha", item);
+    }
+
 }
