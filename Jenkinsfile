@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'built-in' }
+    agent { dockerfile true }
     stages {
         stage('Clean up') {
             steps {
