@@ -4,8 +4,8 @@ pipeline {
         stage('Clean up') {
             steps {
                 echo 'Built and packed into docker image!'
-                // echo 'Cleaning workspace...'
-                // cleanWs()
+                echo 'Cleaning workspace...'
+                cleanWs()
             }
         }
         //         stage('Build Docker Image') {
