@@ -39,6 +39,7 @@ public class orders {
     @Column(name = "order_status")    
     private String order_status;
 
+    /*
     @Column(name = "street")    
     private String street;
 
@@ -75,6 +76,7 @@ public class orders {
     public void setStreet(String street) {
         this.street = street;
     }
+     */
 
     public String getDateOrdered() {
         return date_ordered;
@@ -134,6 +136,6 @@ public class orders {
 	public String toString() {
 		return "Order [order_id=" + order_id + ", user_id=" + user_id + ", address_id=" + address_id + ", price="
 				+ price + ", credit_card_id=" + credit_card_id + ", date_ordered=" + date_ordered + ", date_shipped="
-				+ date_shipped + ", order_status=" + order_status + ", street=" + street+ ", card_number="+ card_number+"]";
+				+ date_shipped + ", order_status=" + order_status + "]"; /*", street=" + street+ ", card_number="+ card_number+"]"; */
 	}
 }

@@ -1,5 +1,6 @@
 package nisum.marketplace.backend.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -11,15 +12,21 @@ import javax.persistence.Table;
 public class Address {
 	
 	@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
+
+    @Column(name = "address_id")  
 	private Integer addressID;
+	@Column(name = "user_id")    
 	private Integer userID;
+	@Column(name = "recipient_name")    
 	private String recipientName;
 	private String street;
 	private String street2;
 	private String city;
 	private String state;
 	private String zip;
+	@Column(name = "is_shipping")    
 	private Boolean isShipping;
+	@Column(name = "is_billing")    
 	private Boolean isBilling;
 	
 	public Address() {
@@ -119,6 +126,14 @@ public class Address {
 
 	public void setIsBilling(Boolean isBilling) {
 		this.isBilling = isBilling;
+	}
+
+
+	@Override
+	public String toString() {
+		return "address [add-id=" + addressID + ", user_id=" + userID + ", rec_name=" + recipientName + ", street="
+				+ street + ", street2=" + street2 + ", city=" + city + ", state="
+				+ state + ", zip=" + zip + ", isShipping=" + isShipping+ ", isBilling="+ isBilling+"]"; 
 	}
 	
 	

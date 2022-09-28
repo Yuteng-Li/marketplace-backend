@@ -17,14 +17,15 @@ public class OrdersServiceImpl implements OrdersService {
 
     @Override
     public List<orders> getOrders() {
-        //return repo.findAll();
-        return repo.findAllOrders();
+        return repo.findAll();
+        //return repo.findAllOrders();
     }
 
     @Override
     public List<orders> getOrdersUserId(int id) {
         List<orders> orders = new ArrayList<orders>();
-        List<orders> exist = repo.findAllOrders();
+        //List<orders> exist = repo.findAllOrders();
+        List<orders> exist = repo.findAll();
         if(exist.isEmpty()){
             return exist;
         }else{
