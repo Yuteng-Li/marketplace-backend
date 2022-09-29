@@ -11,6 +11,7 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import nisum.marketplace.backend.service.CreditCardService;
+import nisum.marketplace.backend.service.OrdersService;
 
 @SpringBootApplication(scanBasePackages = "nisum.*")
 @EnableJpaRepositories(basePackages = "nisum.*")
@@ -23,11 +24,11 @@ public class BackendApplication implements CommandLineRunner{
 	}
 
 	@Autowired
-	CreditCardService service;
+	OrdersService service;
     
     @Override
     public void run(String... args) throws Exception{
-        System.out.println(service.getCreditCardByID(1));
+        System.out.println(service.updateOrder(1, "Cancelled"));
     }
 
 	@Bean 	

@@ -10,4 +10,5 @@ import org.springframework.ui.Model;
 public interface OrdersService {
     List<orders> getOrdersUserId(int id);
     List<orders> getOrders();
+    public boolean updateOrder(int id, String status);
 }
