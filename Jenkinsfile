@@ -9,10 +9,14 @@ pipeline {
             }
         }
         stage('Maven Build') {
-            steps{
-                //Build Application (Maven application in this case).
-                sh './mvnw -DskipTests clean package'
-            }
+            agent { docker { image 'maven:3.8.1-adoptopenjdk-11' } }
+            stages {
+                stage('log version info') {
+                    steps {
+                        sh 'mvn --version'
+                        sh 'mvn clean -DskipTests package'
+                    }
+                }
         }
         stage('Docker Build Image and Push') {
             steps {
