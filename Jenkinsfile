@@ -32,25 +32,26 @@ pipeline {
                     echo '========== Continuous Integration ends here =========='
                 }
             }
-            // stage('Deploy to Kubernetes') {
-            //     steps {
-            //         echo '========== Continuous Deployment begins here =========='
-            //         withCredentials([usernamePassword(credentialsId: 'mebad-demo-dockerhub-creds', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
-            //             //Create namespace (if it doesn't exist), generate kubernetes manifest through helm, and deploy to kubernetes.
-            //             sh """
-            //             kubectl create namespace demo-ascend-namespace --dry-run=client -o yaml | kubectl apply -f -
-            //             helm template ./petclinic-helm -f petclinic-helm/values.yaml --set image.repository=$USERNAME/springboot-demo-app --set image.tag=${env.BUILD_NUMBER} | kubectl apply --namespace demo-ascend-namespace -f -  &&\
-            //             sleep 30
-            //             kubectl get all --namespace demo-ascend-namespace
-            //             """
-            //         }
-            //         echo '========== Continuous Deployment ends here =========='
-            //     }
-            // }
-            stage('Clean Workspace') {
-                steps {
-                    cleanWs()
-                }
-            }
+    // stage('Deploy to Kubernetes') {
+    //     steps {
+    //         echo '========== Continuous Deployment begins here =========='
+    //         withCredentials([usernamePassword(credentialsId: 'mebad-demo-dockerhub-creds', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
+    //             //Create namespace (if it doesn't exist), generate kubernetes manifest through helm, and deploy to kubernetes.
+    //             sh """
+    //             kubectl create namespace demo-ascend-namespace --dry-run=client -o yaml | kubectl apply -f -
+    //             helm template ./petclinic-helm -f petclinic-helm/values.yaml --set image.repository=$USERNAME/springboot-demo-app --set image.tag=${env.BUILD_NUMBER} | kubectl apply --namespace demo-ascend-namespace -f -  &&\
+    //             sleep 30
+    //             kubectl get all --namespace demo-ascend-namespace
+    //             """
+    //         }
+    //         echo '========== Continuous Deployment ends here =========='
+    //     }
+    // }
+    }
+    post {
+        always {
+            echo 'Cleaning ws'
+            cleanWs()
         }
     }
+}
