@@ -1,15 +1,13 @@
 pipeline {
-    agent { dockerfile true }
+    agent {label 'built-in'}
     stages {
-        stage('Build') {
-            agent {
-                docker {
-                    // Run the container on the node specified at the
-                    // top-level of the Pipeline, in the same workspace,
-                    // rather than on a new node entirely:
-                reuseNode true
-                }
+        stage('Checkout') {
+            steps {
+                sh "docker image prune -f"
             }
+        }
+        stage('Build') {
+            agent { dockerfile true }
             steps {
                     //Using DockerHub as Container Image repo. Log in, build image, and then push it to DockerHub using credentials.
                     withCredentials([usernamePassword(credentialsId: 'yuteng-dockerhub-cred', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
