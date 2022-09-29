@@ -17,11 +17,12 @@ pipeline {
                     }
                 }
             }
+        }
             stage('Docker Build Image and Push') {
-            steps {
+                steps {
                 //Using DockerHub as Container Image repo. Log in, build image, and then push it to DockerHub using credentials.
                 withCredentials([usernamePassword(credentialsId: 'yuteng-dockerhub-cred', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
-                    sh """
+                        sh """
                     docker login --username $USERNAME --password $PASSWORD
                     docker build -t $USERNAME/marketplace-backend:${env.BUILD_NUMBER} .
                     docker push $USERNAME/marketplace-backend:${env.BUILD_NUMBER}
@@ -29,7 +30,7 @@ pipeline {
                     """
                 }
                     echo '========== Continuous Integration ends here =========='
-            }
+                }
             }
             // stage('Deploy to Kubernetes') {
             //     steps {
@@ -46,11 +47,10 @@ pipeline {
             //         echo '========== Continuous Deployment ends here =========='
             //     }
             // }
-            stage('Clean Workspace'){
-            steps{
-                cleanWs()
-            }
+            stage('Clean Workspace') {
+                steps {
+                    cleanWs()
+                }
             }
         }
     }
-}
