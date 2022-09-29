@@ -1,11 +1,18 @@
 pipeline {
     agent { dockerfile true }
     stages {
-                stage('Build') {
-            agent {label 'built-in'}
+        stage('Build') {
+            agent {
+                docker {
+                    // Run the container on the node specified at the
+                    // top-level of the Pipeline, in the same workspace,
+                    // rather than on a new node entirely:
+                reuseNode true
+                }
+            }
             steps {
-                //Using DockerHub as Container Image repo. Log in, build image, and then push it to DockerHub using credentials.
-                withCredentials([usernamePassword(credentialsId: 'yuteng-dockerhub-cred', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
+                    //Using DockerHub as Container Image repo. Log in, build image, and then push it to DockerHub using credentials.
+                    withCredentials([usernamePassword(credentialsId: 'yuteng-dockerhub-cred', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
                     sh """
                     docker login --username $USERNAME --password $PASSWORD
                     docker build -t $USERNAME/marketplace-backend:${env.BUILD_NUMBER} .
