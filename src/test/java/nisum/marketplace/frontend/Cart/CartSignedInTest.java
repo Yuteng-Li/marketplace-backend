@@ -1,4 +1,4 @@
-package nisum.marketplace.frontend.cart;
+package nisum.marketplace.frontend.Cart;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -18,7 +18,7 @@ import java.time.Duration;
 
 //Checkout button is displayed
 
-public class CartOverviewTest {
+public class CartSignedInTest {
     private WebDriver driver;
 
     @Before
@@ -40,27 +40,27 @@ public class CartOverviewTest {
      */
 
     @Test
-    public void signInTest() throws Exception{
+    public void signedInTest() throws Exception{
         Thread.sleep(2000);
 
         //iframe for when you don't have chrome profile set
         //WebDriver google_sso = new WebDriverWait(driver, Duration.ofSeconds(5))
-          //      .until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.xpath("//*[starts-with(@id,'gsi')]")));
+        //        .until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.xpath("//*[starts-with(@id,'gsi')]")));
 
         //iframe for when you have profile set
-        WebDriver google_sso = new WebDriverWait(driver, Duration.ofSeconds(5))
-                .until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.xpath("//div[@id='credential_picker_container']/iframe")));
+        //WebDriver google_sso = new WebDriverWait(driver, Duration.ofSeconds(5))
+        //        .until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.xpath("//div[@id='credential_picker_container']/iframe")));
         Thread.sleep(2000);
 
         //continue as btn
-        WebElement signin_btn = new WebDriverWait(google_sso, Duration.ofSeconds(3))
-                                .until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='continue-as']")));
-        ////WebElement signin_btn = new WebDriverWait(google_sso, Duration.ofSeconds(3))
-        //        //        .until(ExpectedConditions.elementToBeClickable(By.xpath("//*")));
+        //WebElement signin_btn = new WebDriverWait(google_sso, Duration.ofSeconds(3))
+        //                        .until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='continue-as']")));
+        //WebElement signin_btn = new WebDriverWait(google_sso, Duration.ofSeconds(3))
+        //        .until(ExpectedConditions.elementToBeClickable(By.xpath("//*")));
 
         Thread.sleep(2000);
 
-        signin_btn.click();
+        //signin_btn.click();
 
         Thread.sleep(5000);
 
