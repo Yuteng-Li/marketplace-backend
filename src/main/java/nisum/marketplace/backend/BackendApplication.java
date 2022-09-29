@@ -16,13 +16,15 @@ import nisum.marketplace.backend.service.OrdersService;
 @SpringBootApplication(scanBasePackages = "nisum.*")
 @EnableJpaRepositories(basePackages = "nisum.*")
 @EntityScan(basePackages = "nisum.*")
-public class BackendApplication implements CommandLineRunner{
+public class BackendApplication{//  implements CommandLineRunner{
 
 
 	public static void main(String[] args)  {
 		SpringApplication.run(BackendApplication.class, args);
 	}
 
+	/*
+	
 	@Autowired
 	OrdersService service;
     
@@ -30,6 +32,7 @@ public class BackendApplication implements CommandLineRunner{
     public void run(String... args) throws Exception{
         System.out.println(service.updateOrder(1, "Cancelled"));
     }
+	*/
 
 	@Bean 	
 	public WebMvcConfigurer corsConfigurer() {
