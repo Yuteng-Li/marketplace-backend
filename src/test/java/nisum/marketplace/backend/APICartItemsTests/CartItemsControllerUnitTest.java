@@ -96,10 +96,10 @@ public class CartItemsControllerUnitTest {
     @Test
     public void createCart_success() throws Exception{
         logger.info("Test POST METHOD WITH ENDPOINT: /api/cartitems/createcart");
-        int id = 1;
+        int id = 500;
         this.mockMvc.perform(post(baseURI + "/createcart")
                 .contentType(MediaType.APPLICATION_JSON)
-                .content(asJsonString(new CartItems(id, 1, "100000000001", 1)))
+                .content(asJsonString(new CartItems(id, 48, "960113408", 10)))
                 .accept(MediaType.APPLICATION_JSON))
                 .andDo(print())
                 .andExpect(status().isOk());
@@ -111,10 +111,10 @@ public class CartItemsControllerUnitTest {
     @Test
     public void updateCart_success() throws Exception{
         logger.info("Test PUT METHOD WITH ENDPOINT: /api/cartitems/updatecart");
-        int id=4;
+        int id=500;
         try{
             this.mockMvc.perform(put(baseURI + "/updatecart/" + id)
-                            .content(asJsonString(new CartItems(id, 1, "100000000001", 4)))
+                            .content(asJsonString(new CartItems(id, 22, "960113408", 25)))
                             .contentType(MediaType.APPLICATION_JSON)
                             .accept(MediaType.APPLICATION_JSON))
                     .andDo(print())
@@ -131,7 +131,7 @@ public class CartItemsControllerUnitTest {
     @Test
     public void deleteCart_success() throws Exception{
         logger.info("Test DELETE METHOD WITH ENDPOINT: /api/cartitems/deletecart/{id}");
-        int id = 1;
+        int id = 500;
         try{
             when(cartItemsService.deleteById(id)).thenReturn(true);
             this.mockMvc.perform(delete(baseURI + "deletecart/" + id))
