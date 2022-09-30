@@ -1,28 +1,27 @@
 pipeline {
     agent {label 'built-in'}
-
     stages {
-        stage('Clean up docker image') {
-            steps {
-                sh 'docker image prune -f'
-            }
-        }
-        stage('Maven Build') {
-            agent { docker { image 'maven:3.8.1-adoptopenjdk-11' } }
-            stages {
-                stage('log version info') {
-                    steps {
-                        sh 'mvn --version'
-                        sh 'mvn clean -DskipTests package'
-                    }
-                }
-            }
-        }
+        // stage('Maven Build') {
+        //     agent {
+        //         docker {
+        //             image 'maven:3.8.1-adoptopenjdk-11'
+        //             args '-v $HOME/.m2:/root/.m2'
+        //         }
+        //     }
+        //     stages {
+        //         stage('log version info') {
+        //             steps {
+        //                 sh 'mvn --version'
+        //                 sh 'mvn clean -DskipTests package'
+        //             }
+        //         }
+        //     }
+        // }
             stage('Docker Build Image and Push') {
                 steps {
                 //Using DockerHub as Container Image repo. Log in, build image, and then push it to DockerHub using credentials.
                 withCredentials([usernamePassword(credentialsId: 'yuteng-dockerhub-cred', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
-                        sh """
+                    sh """
                     docker login --username $USERNAME --password $PASSWORD
                     docker build -t $USERNAME/marketplace-backend:${env.BUILD_NUMBER} .
                     docker push $USERNAME/marketplace-backend:${env.BUILD_NUMBER}
