@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: marketplace-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: marketplace-backend
+  template:
+    metadata:
+      labels:
+        app: marketplace-backend
+    spec:
+      containers:
+      - name: marketplace-backend
+        image: <Image>
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
