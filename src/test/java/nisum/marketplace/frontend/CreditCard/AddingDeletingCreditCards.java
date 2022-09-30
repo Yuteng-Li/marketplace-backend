@@ -69,7 +69,9 @@ public class AddingDeletingCreditCards {
 
         driver.findElement(By.xpath("/html/body/app-root/app-payment-form/div/div[2]/form/body/div/input")).click();
         Thread.sleep(200);
-        driver.navigate().refresh();
+
+        driver.findElement(By.xpath("/html/body/app-root/app-payment-form-success/div/div[2]/a")).click();
+        Thread.sleep(200);
 
        String newCard = driver.findElement(By.xpath("/html/body/app-root/app-credit-card/html/div/div/table/tbody/tr[3]/td[3]")).getText();
        Assert.assertEquals("Card ending in ****4444", newCard);
