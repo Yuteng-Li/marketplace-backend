@@ -18,3 +18,22 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
+        env:
+        -name: PORT
+        value:"8080"
+      imagePullSecrets:
+        -name:registry-creds
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: marketplace-backend
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 8080
+    targetPort: 8080
+  selector:
+    app:marketplace-backend
+
