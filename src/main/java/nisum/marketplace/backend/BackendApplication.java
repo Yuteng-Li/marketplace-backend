@@ -11,28 +11,29 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import nisum.marketplace.backend.service.CreditCardService;
+import nisum.marketplace.backend.service.OrderItemsService;
 import nisum.marketplace.backend.service.OrdersService;
+import nisum.marketplace.backend.service.ProductsService;
 
 @SpringBootApplication(scanBasePackages = "nisum.*")
 @EnableJpaRepositories(basePackages = "nisum.*")
 @EntityScan(basePackages = "nisum.*")
-public class BackendApplication{//  implements CommandLineRunner{
+public class BackendApplication implements CommandLineRunner{
 
 
 	public static void main(String[] args)  {
 		SpringApplication.run(BackendApplication.class, args);
 	}
 
-	/*
 	
 	@Autowired
-	OrdersService service;
+	OrderItemsService service;
     
     @Override
     public void run(String... args) throws Exception{
-        System.out.println(service.updateOrder(1, "Cancelled"));
+        System.out.println(service.getOrderItemsUser(4));
     }
-	*/
+	
 
 	@Bean 	
 	public WebMvcConfigurer corsConfigurer() {

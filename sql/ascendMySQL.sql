@@ -260,7 +260,7 @@ INSERT INTO order_items (order_id, quantity, upc)
 INSERT INTO order_items (order_id, quantity, upc)
 	VALUES(10, 86, '100000001111');
 
-SELECT * FROM orders;
+SELECT * FROM products;
 
 
 
