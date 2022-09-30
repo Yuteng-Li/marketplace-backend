@@ -23,13 +23,13 @@ public class CartItemsRepoIntegrationTest {
 
     @Test
     public void findCartById(){
-        Integer id = 1;
+        Integer id = 500;
         System.err.println(repo.findById(id).get().getCart_item_id());
         Assert.assertEquals(id,repo.findById(id).get().getCart_item_id());
     }
     @Test
     public void deleteById(){
-        Integer id=2;
+        Integer id=500;
         repo.deleteById(id);
         List<CartItems> list = repo.findAll();
         list.forEach((e)->System.err.println(e.getUser_id()+" "+e.getCart_item_id()));
@@ -43,7 +43,7 @@ public class CartItemsRepoIntegrationTest {
     }
     @Test
     public void saveCheck(){
-        CartItems newCart = new CartItems(1,1,"100000000001", 1);
+        CartItems newCart = new CartItems(500,22,"960113408", 1);
         CartItems savedCart = repo.save(newCart);
         System.err.println(savedCart.getCart_item_id()+" "+repo.findById(savedCart.getCart_item_id()).isPresent());
         Assert.assertTrue(repo.findById(savedCart.getCart_item_id()).isPresent());
@@ -51,7 +51,7 @@ public class CartItemsRepoIntegrationTest {
     }
     @Test
     public void existById(){
-        Integer id=1;
+        Integer id=500;
         System.err.println(repo.findById(id).get().getCart_item_id());
         Assert.assertTrue(repo.existsById(id));
     }

@@ -878,3 +878,80 @@
 [DEBUG] 2022-09-28 11:51:46.106 [main] CartItemsControllerIntegrationTest - Running with Spring Boot v2.7.3, Spring v5.3.22
 [INFO ] 2022-09-28 11:51:46.107 [main] CartItemsControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
 [INFO ] 2022-09-28 11:51:54.670 [main] CartItemsControllerIntegrationTest - Started CartItemsControllerIntegrationTest in 8.88 seconds (JVM running for 10.787)
+[INFO ] 2022-09-30 14:58:57.059 [main] CartItemsControllerUnitTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-30 14:58:57.471 [main] CartItemsControllerUnitTest - Starting CartItemsControllerUnitTest using Java 18.0.2 on Navi with PID 15440 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-30 14:58:57.475 [main] CartItemsControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-30 14:58:57.476 [main] CartItemsControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-30 14:59:05.942 [main] CartItemsControllerUnitTest - Started CartItemsControllerUnitTest in 8.802 seconds (JVM running for 11.102)
+[INFO ] 2022-09-30 14:59:06.376 [main] CartItemsControllerUnitTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/getcart
+[INFO ] 2022-09-30 14:59:07.036 [main] CartItemsControllerUnitTest - Printed Response
+[INFO ] 2022-09-30 14:59:07.037 [main] CartItemsControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-30 14:59:07.037 [main] CartItemsControllerUnitTest - Successfully Fetched Cart
+[INFO ] 2022-09-30 14:59:07.066 [main] CartItemsControllerUnitTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/getcart/{id}
+[INFO ] 2022-09-30 14:59:07.126 [main] CartItemsControllerUnitTest - Printed Response
+[INFO ] 2022-09-30 14:59:07.126 [main] CartItemsControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-30 14:59:07.126 [main] CartItemsControllerUnitTest - Successfully Fetched Cart By ID
+[INFO ] 2022-09-30 14:59:07.141 [main] CartItemsControllerUnitTest - Test POST METHOD WITH ENDPOINT: /api/cartitems/createcart
+[INFO ] 2022-09-30 14:59:07.314 [main] CartItemsControllerUnitTest - Test DELETE METHOD WITH ENDPOINT: /api/cartitems/deletecart/{id}
+[INFO ] 2022-09-30 14:59:07.345 [main] CartItemsControllerUnitTest - Printed Response
+[INFO ] 2022-09-30 14:59:07.345 [main] CartItemsControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-30 14:59:07.345 [main] CartItemsControllerUnitTest - Successfully Deleted Cart item
+[INFO ] 2022-09-30 14:59:07.357 [main] CartItemsControllerUnitTest - Test PUT METHOD WITH ENDPOINT: /api/cartitems/updatecart
+[INFO ] 2022-09-30 14:59:07.434 [main] CartItemsControllerUnitTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-30 15:01:19.242 [main] CartItemsControllerUnitTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-30 15:01:19.624 [main] CartItemsControllerUnitTest - Starting CartItemsControllerUnitTest using Java 18.0.2 on Navi with PID 22328 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-30 15:01:19.628 [main] CartItemsControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-30 15:01:19.628 [main] CartItemsControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-30 15:01:27.860 [main] CartItemsControllerUnitTest - Started CartItemsControllerUnitTest in 8.582 seconds (JVM running for 10.747)
+[INFO ] 2022-09-30 15:01:28.254 [main] CartItemsControllerUnitTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/getcart
+[INFO ] 2022-09-30 15:01:28.829 [main] CartItemsControllerUnitTest - Printed Response
+[INFO ] 2022-09-30 15:01:28.829 [main] CartItemsControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-30 15:01:28.829 [main] CartItemsControllerUnitTest - Successfully Fetched Cart
+[INFO ] 2022-09-30 15:01:28.853 [main] CartItemsControllerUnitTest - Test GET METHOD WITH ENDPOINT: /api/cartitems/getcart/{id}
+[INFO ] 2022-09-30 15:01:28.900 [main] CartItemsControllerUnitTest - Printed Response
+[INFO ] 2022-09-30 15:01:28.901 [main] CartItemsControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-30 15:01:28.901 [main] CartItemsControllerUnitTest - Successfully Fetched Cart By ID
+[INFO ] 2022-09-30 15:01:28.913 [main] CartItemsControllerUnitTest - Test POST METHOD WITH ENDPOINT: /api/cartitems/createcart
+[INFO ] 2022-09-30 15:01:29.024 [main] CartItemsControllerUnitTest - Printed Response
+[INFO ] 2022-09-30 15:01:29.024 [main] CartItemsControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-30 15:01:29.024 [main] CartItemsControllerUnitTest - Successfully Created Cart
+[INFO ] 2022-09-30 15:01:29.035 [main] CartItemsControllerUnitTest - Test DELETE METHOD WITH ENDPOINT: /api/cartitems/deletecart/{id}
+[INFO ] 2022-09-30 15:01:29.071 [main] CartItemsControllerUnitTest - Test PUT METHOD WITH ENDPOINT: /api/cartitems/updatecart
+[INFO ] 2022-09-30 15:01:29.121 [main] CartItemsControllerUnitTest - Printed Response
+[INFO ] 2022-09-30 15:01:29.121 [main] CartItemsControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-30 15:01:29.121 [main] CartItemsControllerUnitTest - Successfully Updated Cart item
+[INFO ] 2022-09-30 15:01:29.126 [main] CartItemsControllerUnitTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-30 15:01:47.669 [main] CartItemsControllerUnitTest - API TEST LOG BEGIN: CartItemsControllerTest
+[INFO ] 2022-09-30 15:01:48.063 [main] CartItemsControllerUnitTest - Starting CartItemsControllerUnitTest using Java 18.0.2 on Navi with PID 14232 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-30 15:01:48.066 [main] CartItemsControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-30 15:01:48.067 [main] CartItemsControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-30 15:01:56.214 [main] CartItemsControllerUnitTest - Started CartItemsControllerUnitTest in 8.492 seconds (JVM running for 11.281)
+[INFO ] 2022-09-30 15:01:56.665 [main] CartItemsControllerUnitTest - Test DELETE METHOD WITH ENDPOINT: /api/cartitems/deletecart/{id}
+[INFO ] 2022-09-30 15:01:56.927 [main] CartItemsControllerUnitTest - Printed Response
+[INFO ] 2022-09-30 15:01:56.927 [main] CartItemsControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-30 15:01:56.927 [main] CartItemsControllerUnitTest - Successfully Deleted Cart item
+[INFO ] 2022-09-30 15:01:56.947 [main] CartItemsControllerUnitTest - API TEST LOG COMPLETED: CartItemsControllerTest
+[INFO ] 2022-09-30 15:05:24.072 [main] UserControllerUnitTest - API TEST LOG BEGIN: UserControllerUnitTest
+[INFO ] 2022-09-30 15:05:24.437 [main] UserControllerUnitTest - Starting UserControllerUnitTest using Java 18.0.2 on Navi with PID 17912 (started by Vuong in C:\Users\Vuong\IdeaProjects\marketplace-backend)
+[DEBUG] 2022-09-30 15:05:24.442 [main] UserControllerUnitTest - Running with Spring Boot v2.7.3, Spring v5.3.22
+[INFO ] 2022-09-30 15:05:24.442 [main] UserControllerUnitTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-09-30 15:05:32.585 [main] UserControllerUnitTest - Started UserControllerUnitTest in 8.466 seconds (JVM running for 11.285)
+[INFO ] 2022-09-30 15:05:33.011 [main] UserControllerUnitTest - Test DELETE METHOD WITH ENDPOINT: /api/user/deleteUser/{id}
+[INFO ] 2022-09-30 15:05:33.512 [main] UserControllerUnitTest - Test GET METHOD WITH ENDPOINT: /api/user/getUserByEmail/{email}
+[INFO ] 2022-09-30 15:05:33.623 [main] UserControllerUnitTest - Printed Response
+[INFO ] 2022-09-30 15:05:33.623 [main] UserControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-30 15:05:33.623 [main] UserControllerUnitTest - Successfully Fetched User By Email
+[INFO ] 2022-09-30 15:05:33.635 [main] UserControllerUnitTest - Test PUT METHOD WITH ENDPOINT: /api/user/updateUser/{id}
+[INFO ] 2022-09-30 15:05:33.792 [main] UserControllerUnitTest - Printed Response
+[INFO ] 2022-09-30 15:05:33.792 [main] UserControllerUnitTest - Expected status code 201 Created
+[INFO ] 2022-09-30 15:05:33.792 [main] UserControllerUnitTest - Successfully Updated User item
+[INFO ] 2022-09-30 15:05:33.805 [main] UserControllerUnitTest - Test GET METHOD WITH ENDPOINT: /api/user/getUserByID/{id}
+[INFO ] 2022-09-30 15:05:33.823 [main] UserControllerUnitTest - Printed Response
+[INFO ] 2022-09-30 15:05:33.823 [main] UserControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-30 15:05:33.823 [main] UserControllerUnitTest - Successfully Fetched User By ID
+[INFO ] 2022-09-30 15:05:33.836 [main] UserControllerUnitTest - Test GET METHOD WITH ENDPOINT: /api/user/getUsers
+[INFO ] 2022-09-30 15:05:33.918 [main] UserControllerUnitTest - Printed Response
+[INFO ] 2022-09-30 15:05:33.918 [main] UserControllerUnitTest - Expected status code 200 OK
+[INFO ] 2022-09-30 15:05:33.918 [main] UserControllerUnitTest - Successfully Fetched All Cards
+[INFO ] 2022-09-30 15:05:33.931 [main] UserControllerUnitTest - Test POST METHOD WITH ENDPOINT: /api/user/createUser
+[INFO ] 2022-09-30 15:05:33.959 [main] UserControllerUnitTest - API TEST LOG COMPLETED: UserControllerUnitTest

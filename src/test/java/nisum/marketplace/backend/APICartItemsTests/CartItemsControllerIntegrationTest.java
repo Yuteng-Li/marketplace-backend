@@ -50,29 +50,29 @@ public class CartItemsControllerIntegrationTest {
 
     @Test
     public void getCartByID_success() throws Exception{
-        int id = 1;
+        int id = 500;
         res = cartItemsController.getCartById(id);
         Assert.assertEquals(200, res.getStatusCodeValue());
     }
 
     @Test
     public void createCart_success() throws Exception{
-        CartItems cartItems = new CartItems(2, 1, "100000000001", 1);
+        CartItems cartItems = new CartItems(500, 48, "960113408", 1);
         res = cartItemsController.createCart(cartItems);
         Assert.assertEquals(200, res.getStatusCodeValue());
     }
 
     @Test
     public void updateCart_success() throws Exception{
-        Integer id = 3;
-        CartItems newCartItems = new CartItems(id, 1, "100000000001", 1);
+        Integer id = 500;
+        CartItems newCartItems = new CartItems(id, 22, "960113408", 1);
         res = cartItemsController.updateCart(id, newCartItems);
         Assert.assertEquals(200, res.getStatusCodeValue());
     }
 
     @Test
     public void deleteCart_success() throws Exception{
-        int id=3;
+        int id=500;
         res = cartItemsController.deleteCart(id);
         Assert.assertEquals(200, res.getStatusCodeValue());
     }
@@ -81,7 +81,7 @@ public class CartItemsControllerIntegrationTest {
     @Test
     public void getProductByUPC_success() throws Exception{
         //String tempUrl = "localhost:8081/api/products/get/";
-        String upc = "100000000001";
+        String upc = "960113408";
         res = cartItemsController.getProduct(upc);
         Assert.assertEquals(200, res.getStatusCodeValue());
     }

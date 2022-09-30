@@ -17,12 +17,24 @@ public class CartNotSignedInTest {
         driver.get("http://localhost:4200/");
     }
 
+    /*@After
+    public void tearDown() throws Exception {
+        Thread.sleep(2000);
+        driver.quit();
+    }
+     */
+
     @Test
     public void notSignedInTest() throws Exception{
+        Thread.sleep(3000);
+        driver.findElement(By.xpath("/html/body/app-root/app-home-page/html/div/app-nav-bar/nav/div/div[2]/ul/li[2]/a")).click(); //Shop Dropdown
+        Thread.sleep(3000);
+        driver.findElement(By.xpath("/html/body/app-root/app-home-page/html/div/app-nav-bar/nav/div/div[2]/ul/li[2]/div/a")).click(); //Categories
+        Thread.sleep(3000);
+        driver.findElement(By.xpath("/html/body/app-root/app-categories/div/div/div[2]")).click();
+        Thread.sleep(3000);
+        driver.findElement(By.xpath("/html/body/app-root/app-item-gird/div[2]/div/div[2]/div[1]/div/div[1]/div/div[3]/button")).click();
         Thread.sleep(5000);
-        driver.findElement(By.xpath("/html/body/app-root/app-home-page/div/nav/ul/li[3]/input")).click(); //Click Display
-        Thread.sleep(5000);
-        driver.findElement(By.xpath("/html/body/app-root/app-item-gird/div/div/div[2]/div[1]/div/div[1]/div/div[3]/button")).click(); //Add to Cart Shark Bites
-        Thread.sleep(5000);
+
     }
 }

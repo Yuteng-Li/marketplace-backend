@@ -38,8 +38,8 @@ public class CartItemsServiceIntegrationTest {
 
     @Test
     public void updateCart() throws Exception {
-        Integer id = 1;
-        CartItems newCart = new CartItems(1, 1, "100000000001", 1);
+        Integer id = 500;
+        CartItems newCart = new CartItems(500, 22, "960113408", 23);
         Assert.assertNotNull(service.updateCart(id, newCart));
     }
 
@@ -52,20 +52,20 @@ public class CartItemsServiceIntegrationTest {
     @Test
     //Delete by CartItemId
     public void deleteById(){
-        Integer id = 3;
+        Integer id = 500;
         Assert.assertTrue(service.deleteById(id));
     }
 
     @Test
     //Find by CartItemId
     public void findCartById() throws Exception {
-        Integer id = 2;
+        Integer id = 500;
         Assert.assertNotNull(service.findCartById(id));
     }
 
     @Test
     public void createSale(){
-        CartItems newCart = new CartItems(1, 1, "100000000001", 1);
+        CartItems newCart = new CartItems(500, 22, "960113408", 32);
         Assert.assertNotNull(service.createSale(newCart));
     }
 }

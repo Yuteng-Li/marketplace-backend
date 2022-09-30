@@ -106,7 +106,7 @@ public class UserControllerUnitTest {
     @Test
     public void createUser_success() throws Exception{
         logger.info("Test POST METHOD WITH ENDPOINT: /api/user/createUser");
-        Integer id = 6;
+        Integer id = 7;
         this.mockMvc.perform(post(baseURI + "createUser")
                         .content(asJsonString(new User(id, "test@nisum.com", "Jane", "Doe", "pass123", "1234567890")))
                         .contentType(MediaType.APPLICATION_JSON)
