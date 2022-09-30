@@ -17,10 +17,13 @@ import nisum.marketplace.backend.model.orders;
 import nisum.marketplace.backend.service.OrdersService;
 
 
-@RequestMapping("api/orders")
+// Get this from OMS backend
+
+@RequestMapping("api/order")
 @RestController
 @CrossOrigin
 public class OrdersController {
+    
     
     @Autowired
     OrdersService orderService;
@@ -29,11 +32,7 @@ public class OrdersController {
     @ResponseBody
     public String hello(){return "Hello from Controller; orders";}
 
-    /**
-     * This method gets all orders in the database and displays it
-     * @return a list with all orders in our database. If there is nothing
-     * in the database, it returns no content as the http status
-     */
+
     @GetMapping("/getOrders")
     public ResponseEntity<List<orders>> getOrders(){
         List<orders> orders = orderService.getOrders();
@@ -44,11 +43,7 @@ public class OrdersController {
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
-    /**
-     * This method gets list of order from a particular user
-     * @param id the id of the user
-     * @return a list of orders that the user has made
-     */
+
     @GetMapping("/getOrders/user/{id}")
     public ResponseEntity<List<orders>> getOrderInfo(@PathVariable("id") int id) {
         List<orders> orders=orderService.getOrdersUserId(id);
@@ -68,4 +63,5 @@ public class OrdersController {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(null);
         }
     }
+    
 }

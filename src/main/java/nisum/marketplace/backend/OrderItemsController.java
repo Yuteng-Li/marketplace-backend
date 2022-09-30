@@ -17,11 +17,14 @@ import nisum.marketplace.backend.model.OrderItems;
 import nisum.marketplace.backend.service.OrderItemsService;
 import nisum.marketplace.backend.service.OrdersService;
 
+// Get this from OMS backend
 
-@RequestMapping("api/orderItems")
+
+@RequestMapping("api/order/items")
 @RestController
 @CrossOrigin
 public class OrderItemsController {
+    
     
     @Autowired
     OrderItemsService orderService;
@@ -30,11 +33,7 @@ public class OrderItemsController {
     @ResponseBody
     public String hello(){return "Hello from Controller; orders";}
 
-    /**
-     * This method gets all orders in the database and displays it
-     * @return a list with all orders in our database. If there is nothing
-     * in the database, it returns no content as the http status
-     */
+
     @GetMapping("/getOrderItems")
     public ResponseEntity<List<OrderItems>> getOrderItems(){
         List<OrderItems> orders = orderService.getOrderItems();
@@ -45,12 +44,7 @@ public class OrderItemsController {
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
-    /**
-     * This method gets list of order from a particular user
-     * @param id the id of the user
-     * @return a list of orders that the user has made
-     */
-    @GetMapping("/getOrderItems/order/{id}")
+    @GetMapping("/getOrderInfo/{id}")
     public ResponseEntity<List<OrderItems>> getOrderItemsInfo(@PathVariable("id") int id) {
         List<OrderItems> orders=orderService.getOrderItemsUser(id);
         if(orders.isEmpty()){
@@ -58,4 +52,5 @@ public class OrderItemsController {
         }
         return ResponseEntity.status(HttpStatus.OK).body(orders);
     }
+    
 }

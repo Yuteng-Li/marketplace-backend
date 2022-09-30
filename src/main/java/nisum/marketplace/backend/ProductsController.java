@@ -19,11 +19,13 @@ import nisum.marketplace.backend.service.OrderItemsService;
 import nisum.marketplace.backend.service.OrdersService;
 import nisum.marketplace.backend.service.ProductsService;
 
+// get this from Inventory backend
 
 @RequestMapping("api/products")
 @RestController
 @CrossOrigin
 public class ProductsController {
+    
     
     @Autowired
     ProductsService orderService;
@@ -32,11 +34,7 @@ public class ProductsController {
     @ResponseBody
     public String hello(){return "Hello from Controller; orders";}
 
-    /**
-     * This method gets all orders in the database and displays it
-     * @return a list with all orders in our database. If there is nothing
-     * in the database, it returns no content as the http status
-     */
+
     @GetMapping("/getProducts")
     public ResponseEntity<List<products>> getProducts(){
         List<products> orders = orderService.getProducts();
@@ -47,17 +45,14 @@ public class ProductsController {
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
-    /**
-     * This method gets list of order from a particular user
-     * @param id the id of the user
-     * @return a list of orders that the user has made
-     */
-    @GetMapping("/getProducts/{id}")
-    public ResponseEntity<List<products>> getProductsId(@PathVariable("id") String id) {
-        List<products> orders=orderService.getProductsId(id);
+
+    @GetMapping("get/{upc}")
+    public ResponseEntity<List<products>> getProductsId(@PathVariable("upc") String upc) {
+        List<products> orders=orderService.getProductsId(upc);
         if(orders.isEmpty()){
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
         }
         return ResponseEntity.status(HttpStatus.OK).body(orders);
     }
+    
 }

@@ -266,4 +266,4 @@ SELECT * FROM products;
 
 /* SELECT DISTINCT o.order_id, a.street, o.price, cc.last_four_card_number, o.date_ordered, o.date_shipped, o.order_status FROM orders o JOIN Addresses a ON o.address_id = a.address_id JOIN credit_cards cc WHERE o.credit_card_id = cc.credit_card_id; */
 
-SELECT * FROM orders;
+SELECT * FROM order_items;
