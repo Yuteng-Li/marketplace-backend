@@ -20,9 +20,7 @@ spec:
         - containerPort: 8080
         env:
         -name: PORT
-        value:"8080"
-      imagePullSecrets:
-        -name:registry-creds
+         value:"8080"
 
 ---
 apiVersion: v1
