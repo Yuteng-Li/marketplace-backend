@@ -20,10 +20,10 @@ pipeline {
                 echo '========== Continuous Deployment begins here =========='
                     //Create namespace (if it doesn't exist), generate kubernetes manifest through helm, and deploy to kubernetes.
                     sh """
-                    kubectl create namespace demo-ascend-marketplace-backend --dry-run=client -o yaml | kubectl apply -f -
+                    kubectl create namespace demo-ascend-marketplace-backend --dry-run=client -o yaml
                     kubectl apply --namespace demo-ascend-marketplace-backend -f 'deployment.yaml'
                     sleep 30
-                    kubectl get all --namespace demo-ascend-namespace
+                    kubectl get all --namespace demo-ascend-marketplace-backend
                     """
                 echo '========== Continuous Deployment ends here =========='
             }
