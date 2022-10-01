@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   name: marketplace-backend
 spec:
-  replicas: 1
   selector:
     matchLabels:
       app: marketplace-backend
@@ -15,24 +14,5 @@ spec:
       containers:
       - name: marketplace-backend
         image: salileoss/marketplace-backend
-        imagePullPolicy: Always
         ports:
         - containerPort: 8080
-        
-
-
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: marketplace-backend
-  labels:
-    app: marketplace-backend
-spec:
-  type: LoadBalancer
-  ports:
-  - port: 8080
-    targetPort: 8080
-  selector:
-      app:marketplace-backend
-
