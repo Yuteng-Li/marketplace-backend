@@ -21,18 +21,18 @@ spec:
         
 
 
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: marketplace-backend
-  labels:
-    app: marketplace-backend
-spec:
-  type: LoadBalancer
-  ports:
-  - port: 8080
-    targetPort: 8080
-  selector:
-      app:marketplace-backend
+# ---
+# apiVersion: v1
+# kind: Service
+# metadata:
+#   name: marketplace-backend
+#   labels:
+#     app: marketplace-backend
+# spec:
+#   type: LoadBalancer
+#   ports:
+#   - port: 8080
+#     targetPort: 8080
+#   selector:
+#     app:marketplace-backend
 
