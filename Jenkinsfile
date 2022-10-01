@@ -21,7 +21,7 @@ pipeline {
                     //Create namespace (if it doesn't exist), generate kubernetes manifest through helm, and deploy to kubernetes.
                     sh """
                     kubectl create namespace demo-ascend-marketplace-backend --dry-run=client -o yaml
-                    kubectl apply --namespace demo-ascend-marketplace-backend -f 'deployment.yaml'
+                    kubectl apply --namespace demo-ascend-marketplace-backend -f 'deployment.yaml' --validate=false
                     sleep 30
                     kubectl get all --namespace demo-ascend-marketplace-backend
                     """
