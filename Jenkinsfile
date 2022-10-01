@@ -9,6 +9,7 @@ pipeline {
                     docker login --username $USERNAME --password $PASSWORD
                     docker build -t $USERNAME/marketplace-backend:${env.BUILD_NUMBER} .
                     docker push $USERNAME/marketplace-backend:${env.BUILD_NUMBER}
+                    docker tag $USERNAME/marketplace-backend:${env.BUILD_NUMBER} latest
                     docker image prune -f
                     """
                 }
