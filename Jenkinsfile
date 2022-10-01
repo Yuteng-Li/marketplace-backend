@@ -18,7 +18,6 @@ pipeline {
         stage('Deploy to Kubernetes') {
             steps {
                 echo '========== Continuous Deployment begins here =========='
-                    //Create namespace (if it doesn't exist), generate kubernetes manifest through helm, and deploy to kubernetes.
                     sh """
                     kubectl create namespace demo-ascend-marketplace-backend --dry-run=client -o yaml
                     kubectl apply --namespace demo-ascend-marketplace-backend -f 'deployment.yaml' --validate=false
@@ -31,7 +30,7 @@ pipeline {
     }
     post {
         always {
-            echo 'Cleaning ws'
+            echo 'Cleaning workspace'
             cleanWs()
         }
     }
