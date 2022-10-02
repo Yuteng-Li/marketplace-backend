@@ -8,7 +8,7 @@ pipeline {
                     sh """
                     docker login --username $USERNAME --password $PASSWORD
                     docker build -t $USERNAME/marketplace-backend:${env.BUILD_NUMBER} -t latest .
-                    docker push $USERNAME/marketplace-backend:${env.BUILD_NUMBER}
+                    docker push $USERNAME/marketplace-backend:${env.BUILD_NUMBER} latest
                     docker image prune -f
                     """
                 }
