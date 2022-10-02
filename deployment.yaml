@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: marketplace-backend
-        image: salileoss/marketplace-frontend:latest
+        image: salileoss/marketplace-backend
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
