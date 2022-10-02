@@ -23,7 +23,6 @@ pipeline {
 
                     sh """
                     sleep 5
-                    sleep 10
                     kubectl apply --namespace demo-ascend-namespace -f 'deployment.yaml' --validate=false
                     sleep 30
                     kubectl get all --namespace demo-ascend-namespace
