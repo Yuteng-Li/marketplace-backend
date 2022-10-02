@@ -21,6 +21,7 @@ pipeline {
                 echo '========== Continuous Deployment begins here =========='
                     sh """
                     kubectl create namespace demo-ascend-marketplace-backend --dry-run=client -o yaml
+                    sleep 10
                     kubectl apply --namespace demo-ascend-marketplace-backend -f 'deployment.yaml' --validate=false
                     sleep 30
                     kubectl get all --namespace demo-ascend-marketplace-backend
